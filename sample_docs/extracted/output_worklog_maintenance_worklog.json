@@ -1,0 +1,2375 @@
+[
+  {
+    "chunk_id": "f398cbb3ceba",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "PUMP-04B",
+        "normalized_value": "PUMP-04B",
+        "chunk_id": "f398cbb3ceba",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Permit",
+        "value": "HW-2201",
+        "normalized_value": "HW-2201",
+        "chunk_id": "f398cbb3ceba",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Person",
+        "value": "T. Rahangdale",
+        "normalized_value": "T. RAHANGDALE",
+        "chunk_id": "f398cbb3ceba",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-04-02",
+        "normalized_value": "2026-04-02",
+        "chunk_id": "f398cbb3ceba",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-06-21",
+        "normalized_value": "2026-06-21",
+        "chunk_id": "f398cbb3ceba",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "1.6",
+        "normalized_value": "1.6",
+        "chunk_id": "f398cbb3ceba",
+        "confidence": 0.9
+      }
+    ],
+    "relationships": [
+      {
+        "from": "PUMP-04B",
+        "to": "HW-2201",
+        "type": "MAINTAINED_BY"
+      },
+      {
+        "from": "PUMP-04B",
+        "to": "T. RAHANGDALE",
+        "type": "MAINTAINED_BY"
+      }
+    ]
+  },
+  {
+    "chunk_id": "ae8f41513c71",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "TK-103",
+        "normalized_value": "TK-103",
+        "chunk_id": "ae8f41513c71",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Permit",
+        "value": "CS-3102",
+        "normalized_value": "CS-3102",
+        "chunk_id": "ae8f41513c71",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Person",
+        "value": "J. Rao",
+        "normalized_value": "J. RAO",
+        "chunk_id": "ae8f41513c71",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-02-20",
+        "normalized_value": "2026-02-20",
+        "chunk_id": "ae8f41513c71",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-07-04",
+        "normalized_value": "2026-07-04",
+        "chunk_id": "ae8f41513c71",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "6.2",
+        "normalized_value": "6.2",
+        "chunk_id": "ae8f41513c71",
+        "confidence": 0.9
+      }
+    ],
+    "relationships": [
+      {
+        "from": "TK-103",
+        "to": "CS-3102",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "TK-103",
+        "to": "J. Rao",
+        "type": "MAINTAINED_BY"
+      }
+    ]
+  },
+  {
+    "chunk_id": "2216770bb0db",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "COMPRESSOR-C1",
+        "normalized_value": "COMPRESSOR-C1",
+        "chunk_id": "2216770bb0db",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Permit",
+        "value": "HW-2203",
+        "normalized_value": "HW-2203",
+        "chunk_id": "2216770bb0db",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Person",
+        "value": "S. Chavan",
+        "normalized_value": "S. CHAVAN",
+        "chunk_id": "2216770bb0db",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Date",
+        "value": "2025-11-30",
+        "normalized_value": "2025-11-30",
+        "chunk_id": "2216770bb0db",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "29.2",
+        "normalized_value": "29.2",
+        "chunk_id": "2216770bb0db",
+        "confidence": 0.8
+      }
+    ],
+    "relationships": [
+      {
+        "from": "COMPRESSOR-C1",
+        "to": "HW-2203",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "COMPRESSOR-C1",
+        "to": "S. CHAVAN",
+        "type": "MAINTAINED_BY"
+      }
+    ]
+  },
+  {
+    "chunk_id": "46ba68eecd33",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "TANK-FRW-01",
+        "normalized_value": "TANK-FRW-01",
+        "chunk_id": "46ba68eecd33",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Permit",
+        "value": "HW-2204",
+        "normalized_value": "HW-2204",
+        "chunk_id": "46ba68eecd33",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Person",
+        "value": "M. Iyer",
+        "normalized_value": "M. IYER",
+        "chunk_id": "46ba68eecd33",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Date",
+        "value": "2025-07-26",
+        "normalized_value": "2025-07-26",
+        "chunk_id": "46ba68eecd33",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-06-15",
+        "normalized_value": "2026-06-15",
+        "chunk_id": "46ba68eecd33",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "25.5",
+        "normalized_value": "25.5",
+        "chunk_id": "46ba68eecd33",
+        "confidence": 0.9
+      }
+    ],
+    "relationships": [
+      {
+        "from": "TANK-FRW-01",
+        "to": "HW-2204",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "TANK-FRW-01",
+        "to": "M. IYER",
+        "type": "MAINTAINED_BY"
+      }
+    ]
+  },
+  {
+    "chunk_id": "f31dbbaec9ea",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "TK-103",
+        "normalized_value": "TK-103",
+        "chunk_id": "f31dbbaec9ea",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Incident",
+        "value": "Seal leakage detected",
+        "normalized_value": "Seal leakage detected",
+        "chunk_id": "f31dbbaec9ea",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Person",
+        "value": "J. Rao",
+        "normalized_value": "J. RAO",
+        "chunk_id": "f31dbbaec9ea",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-01-21",
+        "normalized_value": "2026-01-21",
+        "chunk_id": "f31dbbaec9ea",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-06-16",
+        "normalized_value": "2026-06-16",
+        "chunk_id": "f31dbbaec9ea",
+        "confidence": 0.95
+      }
+    ],
+    "relationships": [
+      {
+        "from": "TK-103",
+        "to": "Seal leakage detected",
+        "type": "FAILED_ON"
+      },
+      {
+        "from": "TK-103",
+        "to": "J. RAO",
+        "type": "MAINTAINED_BY"
+      }
+    ]
+  },
+  {
+    "chunk_id": "49b2acdb3dcc",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "COMPRESSOR-C1",
+        "normalized_value": "COMPRESSOR-C1",
+        "chunk_id": "49b2acdb3dcc",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Person",
+        "value": "A. Sahay",
+        "normalized_value": "A. SAHAY",
+        "chunk_id": "49b2acdb3dcc",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Date",
+        "value": "2025-09-12",
+        "normalized_value": "2025-09-12",
+        "chunk_id": "49b2acdb3dcc",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-07-07",
+        "normalized_value": "2026-07-07",
+        "chunk_id": "49b2acdb3dcc",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "35.6",
+        "normalized_value": "35.6",
+        "chunk_id": "49b2acdb3dcc",
+        "confidence": 0.9
+      }
+    ],
+    "relationships": [
+      {
+        "from": "COMPRESSOR-C1",
+        "to": "A. SAHAY",
+        "type": "MAINTAINED_BY"
+      }
+    ]
+  },
+  {
+    "chunk_id": "1e318b6e53fc",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "TANK-FRW-01",
+        "normalized_value": "TANK-FRW-01",
+        "chunk_id": "1e318b6e53fc",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Permit",
+        "value": "HW-2207",
+        "normalized_value": "HW-2207",
+        "chunk_id": "1e318b6e53fc",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Person",
+        "value": "T. Rahangdale",
+        "normalized_value": "T. RAHANGDALE",
+        "chunk_id": "1e318b6e53fc",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-05-27",
+        "normalized_value": "2026-05-27",
+        "chunk_id": "1e318b6e53fc",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-06-30",
+        "normalized_value": "2026-06-30",
+        "chunk_id": "1e318b6e53fc",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "0.0",
+        "normalized_value": "0.0",
+        "chunk_id": "1e318b6e53fc",
+        "confidence": 0.9
+      }
+    ],
+    "relationships": [
+      {
+        "from": "TANK-FRW-01",
+        "to": "HW-2207",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "TANK-FRW-01",
+        "to": "T. RAHANGDALE",
+        "type": "MAINTAINED_BY"
+      }
+    ]
+  },
+  {
+    "chunk_id": "6700426347f2",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "PIPELINE-PL-9",
+        "normalized_value": "PIPELINE-PL-9",
+        "chunk_id": "6700426347f2",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Permit",
+        "value": "CS-3108",
+        "normalized_value": "CS-3108",
+        "chunk_id": "6700426347f2",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Person",
+        "value": "P. Verma",
+        "normalized_value": "P. VERMA",
+        "chunk_id": "6700426347f2",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-03-31",
+        "normalized_value": "2026-03-31",
+        "chunk_id": "6700426347f2",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-07-05",
+        "normalized_value": "2026-07-05",
+        "chunk_id": "6700426347f2",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "15.7",
+        "normalized_value": "15.7",
+        "chunk_id": "6700426347f2",
+        "confidence": 0.9
+      }
+    ],
+    "relationships": [
+      {
+        "from": "PIPELINE-PL-9",
+        "to": "CS-3108",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "PIPELINE-PL-9",
+        "to": "P. VERMA",
+        "type": "MAINTAINED_BY"
+      }
+    ]
+  },
+  {
+    "chunk_id": "42e0ab051d71",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "VALVE-HW-12",
+        "normalized_value": "VALVE-HW-12",
+        "chunk_id": "42e0ab051d71",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Permit",
+        "value": "HW-2209",
+        "normalized_value": "HW-2209",
+        "chunk_id": "42e0ab051d71",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Person",
+        "value": "P. Verma",
+        "normalized_value": "P. VERMA",
+        "chunk_id": "42e0ab051d71",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-04-27",
+        "normalized_value": "2026-04-27",
+        "chunk_id": "42e0ab051d71",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-06-15",
+        "normalized_value": "2026-06-15",
+        "chunk_id": "42e0ab051d71",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "0.0",
+        "normalized_value": "0.0",
+        "chunk_id": "42e0ab051d71",
+        "confidence": 0.9
+      }
+    ],
+    "relationships": [
+      {
+        "from": "VALVE-HW-12",
+        "to": "HW-2209",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "VALVE-HW-12",
+        "to": "P. VERMA",
+        "type": "MAINTAINED_BY"
+      }
+    ]
+  },
+  {
+    "chunk_id": "145dff5ab149",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "HEAT-EXCH-E7",
+        "normalized_value": "HEAT-EXCH-E7",
+        "chunk_id": "145dff5ab149",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Permit",
+        "value": "CS-3110",
+        "normalized_value": "CS-3110",
+        "chunk_id": "145dff5ab149",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Person",
+        "value": "M. Iyer",
+        "normalized_value": "M. IYER",
+        "chunk_id": "145dff5ab149",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Date",
+        "value": "2025-09-02",
+        "normalized_value": "2025-09-02",
+        "chunk_id": "145dff5ab149",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-07-12",
+        "normalized_value": "2026-07-12",
+        "chunk_id": "145dff5ab149",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "19.6",
+        "normalized_value": "19.6",
+        "chunk_id": "145dff5ab149",
+        "confidence": 0.8
+      }
+    ],
+    "relationships": [
+      {
+        "from": "HEAT-EXCH-E7",
+        "to": "CS-3110",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "HEAT-EXCH-E7",
+        "to": "M. IYER",
+        "type": "MAINTAINED_BY"
+      }
+    ]
+  },
+  {
+    "chunk_id": "c3a188e16997",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "VALVE-HW-12",
+        "normalized_value": "VALVE-HW-12",
+        "chunk_id": "c3a188e16997",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Permit",
+        "value": "HW-2211",
+        "normalized_value": "HW-2211",
+        "chunk_id": "c3a188e16997",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Person",
+        "value": "P. Verma",
+        "normalized_value": "P. VERMA",
+        "chunk_id": "c3a188e16997",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-06-11",
+        "normalized_value": "2026-06-11",
+        "chunk_id": "c3a188e16997",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-06-14",
+        "normalized_value": "2026-06-14",
+        "chunk_id": "c3a188e16997",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "27.5",
+        "normalized_value": "27.5",
+        "chunk_id": "c3a188e16997",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Incident",
+        "value": "Bearing wear observed",
+        "normalized_value": "BEARING WEAR OBSERVED",
+        "chunk_id": "c3a188e16997",
+        "confidence": 0.85
+      }
+    ],
+    "relationships": [
+      {
+        "from": "VALVE-HW-12",
+        "to": "HW-2211",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "VALVE-HW-12",
+        "to": "P. VERMA",
+        "type": "MAINTAINED_BY"
+      }
+    ]
+  },
+  {
+    "chunk_id": "ea6b64c3ca63",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "PUMP-04B",
+        "normalized_value": "PUMP-04B",
+        "chunk_id": "ea6b64c3ca63",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Permit",
+        "value": "CS-3112",
+        "normalized_value": "CS-3112",
+        "chunk_id": "ea6b64c3ca63",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Person",
+        "value": "T. Rahangdale",
+        "normalized_value": "T. RAHANGDALE",
+        "chunk_id": "ea6b64c3ca63",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-03-26",
+        "normalized_value": "2026-03-26",
+        "chunk_id": "ea6b64c3ca63",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-07-07",
+        "normalized_value": "2026-07-07",
+        "chunk_id": "ea6b64c3ca63",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "17.8",
+        "normalized_value": "17.8",
+        "chunk_id": "ea6b64c3ca63",
+        "confidence": 0.9
+      }
+    ],
+    "relationships": [
+      {
+        "from": "PUMP-04B",
+        "to": "CS-3112",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "PUMP-04B",
+        "to": "T. RAHANGDALE",
+        "type": "MAINTAINED_BY"
+      }
+    ]
+  },
+  {
+    "chunk_id": "be5c8500c502",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "VALVE-HW-12",
+        "normalized_value": "VALVE-HW-12",
+        "chunk_id": "be5c8500c502",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "Pressure drop beyond limit",
+        "normalized_value": "Pressure drop beyond limit",
+        "chunk_id": "be5c8500c502",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Person",
+        "value": "R. Nair",
+        "normalized_value": "R. NAIR",
+        "chunk_id": "be5c8500c502",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-02-09",
+        "normalized_value": "2026-02-09",
+        "chunk_id": "be5c8500c502",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-07-10",
+        "normalized_value": "2026-07-10",
+        "chunk_id": "be5c8500c502",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Incident",
+        "value": "WO-1013",
+        "normalized_value": "WO-1013",
+        "chunk_id": "be5c8500c502",
+        "confidence": 0.9
+      }
+    ],
+    "relationships": [
+      {
+        "from": "WO-1013",
+        "to": "VALVE-HW-12",
+        "type": "FAILED_ON"
+      },
+      {
+        "from": "WO-1013",
+        "to": "R. Nair",
+        "type": "MAINTAINED_BY"
+      }
+    ]
+  },
+  {
+    "chunk_id": "3caed8bb5972",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "TANK-FRW-01",
+        "normalized_value": "TANK-FRW-01",
+        "chunk_id": "3caed8bb5972",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Permit",
+        "value": "CS-3114",
+        "normalized_value": "CS-3114",
+        "chunk_id": "3caed8bb5972",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Person",
+        "value": "A. Sahay",
+        "normalized_value": "A. SAHAY",
+        "chunk_id": "3caed8bb5972",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-01-28",
+        "normalized_value": "2026-01-28",
+        "chunk_id": "3caed8bb5972",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-06-23",
+        "normalized_value": "2026-06-23",
+        "chunk_id": "3caed8bb5972",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "33.5",
+        "normalized_value": "33.5",
+        "chunk_id": "3caed8bb5972",
+        "confidence": 0.9
+      }
+    ],
+    "relationships": [
+      {
+        "from": "TANK-FRW-01",
+        "to": "CS-3114",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "TANK-FRW-01",
+        "to": "A. SAHAY",
+        "type": "MAINTAINED_BY"
+      }
+    ]
+  },
+  {
+    "chunk_id": "856f51f3f6b1",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "TK-103",
+        "normalized_value": "TK-103",
+        "chunk_id": "856f51f3f6b1",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Permit",
+        "value": "CS-3115",
+        "normalized_value": "CS-3115",
+        "chunk_id": "856f51f3f6b1",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Person",
+        "value": "P. Verma",
+        "normalized_value": "P. VERMA",
+        "chunk_id": "856f51f3f6b1",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-04-12",
+        "normalized_value": "2026-04-12",
+        "chunk_id": "856f51f3f6b1",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-07-10",
+        "normalized_value": "2026-07-10",
+        "chunk_id": "856f51f3f6b1",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Incident",
+        "value": "Thermal anomaly on casing",
+        "normalized_value": "THERMAL ANOMALY ON CASING",
+        "chunk_id": "856f51f3f6b1",
+        "confidence": 0.8
+      }
+    ],
+    "relationships": [
+      {
+        "from": "TK-103",
+        "to": "CS-3115",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "TK-103",
+        "to": "P. Verma",
+        "type": "MAINTAINED_BY"
+      }
+    ]
+  },
+  {
+    "chunk_id": "41957b9ede45",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "PIPELINE-PL-9",
+        "normalized_value": "PIPELINE-PL-9",
+        "chunk_id": "41957b9ede45",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Permit",
+        "value": "HW-2216",
+        "normalized_value": "HW-2216",
+        "chunk_id": "41957b9ede45",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Person",
+        "value": "T. Rahangdale",
+        "normalized_value": "T. RAHANGDALE",
+        "chunk_id": "41957b9ede45",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-05-09",
+        "normalized_value": "2026-05-09",
+        "chunk_id": "41957b9ede45",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-06-15",
+        "normalized_value": "2026-06-15",
+        "chunk_id": "41957b9ede45",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "0.0",
+        "normalized_value": "0.0",
+        "chunk_id": "41957b9ede45",
+        "confidence": 0.9
+      }
+    ],
+    "relationships": [
+      {
+        "from": "PIPELINE-PL-9",
+        "to": "HW-2216",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "PIPELINE-PL-9",
+        "to": "T. RAHANGDALE",
+        "type": "MAINTAINED_BY"
+      }
+    ]
+  },
+  {
+    "chunk_id": "81cf6e3b0c8d",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "TURBINE-T2",
+        "normalized_value": "TURBINE-T2",
+        "chunk_id": "81cf6e3b0c8d",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Permit",
+        "value": "HW-2217",
+        "normalized_value": "HW-2217",
+        "chunk_id": "81cf6e3b0c8d",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Person",
+        "value": "P. Verma",
+        "normalized_value": "P. VERMA",
+        "chunk_id": "81cf6e3b0c8d",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-02-08",
+        "normalized_value": "2026-02-08",
+        "chunk_id": "81cf6e3b0c8d",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-06-17",
+        "normalized_value": "2026-06-17",
+        "chunk_id": "81cf6e3b0c8d",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "0.0",
+        "normalized_value": "0.0",
+        "chunk_id": "81cf6e3b0c8d",
+        "confidence": 0.9
+      }
+    ],
+    "relationships": [
+      {
+        "from": "TURBINE-T2",
+        "to": "HW-2217",
+        "type": "MAINTAINED_BY"
+      },
+      {
+        "from": "TURBINE-T2",
+        "to": "P. VERMA",
+        "type": "MAINTAINED_BY"
+      }
+    ]
+  },
+  {
+    "chunk_id": "0f65133af0a7",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "HEAT-EXCH-E7",
+        "normalized_value": "HEAT-EXCH-E7",
+        "chunk_id": "0f65133af0a7",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Permit",
+        "value": "HW-2218",
+        "normalized_value": "HW-2218",
+        "chunk_id": "0f65133af0a7",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Person",
+        "value": "R. Nair",
+        "normalized_value": "R. NAIR",
+        "chunk_id": "0f65133af0a7",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Date",
+        "value": "2025-07-13",
+        "normalized_value": "2025-07-13",
+        "chunk_id": "0f65133af0a7",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-07-09",
+        "normalized_value": "2026-07-09",
+        "chunk_id": "0f65133af0a7",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "12.5",
+        "normalized_value": "12.5",
+        "chunk_id": "0f65133af0a7",
+        "confidence": 0.8
+      }
+    ],
+    "relationships": [
+      {
+        "from": "HEAT-EXCH-E7",
+        "to": "HW-2218",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "HEAT-EXCH-E7",
+        "to": "R. Nair",
+        "type": "MAINTAINED_BY"
+      }
+    ]
+  },
+  {
+    "chunk_id": "cc477f5a7fa9",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "TK-103",
+        "normalized_value": "TK-103",
+        "chunk_id": "cc477f5a7fa9",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Permit",
+        "value": "HW-2219",
+        "normalized_value": "HW-2219",
+        "chunk_id": "cc477f5a7fa9",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Person",
+        "value": "A. Sahay",
+        "normalized_value": "A. SAHAY",
+        "chunk_id": "cc477f5a7fa9",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Date",
+        "value": "2025-11-08",
+        "normalized_value": "2025-11-08",
+        "chunk_id": "cc477f5a7fa9",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-06-28",
+        "normalized_value": "2026-06-28",
+        "chunk_id": "cc477f5a7fa9",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "3.2",
+        "normalized_value": "3.2",
+        "chunk_id": "cc477f5a7fa9",
+        "confidence": 0.9
+      }
+    ],
+    "relationships": [
+      {
+        "from": "TK-103",
+        "to": "HW-2219",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "TK-103",
+        "to": "A. SAHAY",
+        "type": "MAINTAINED_BY"
+      }
+    ]
+  },
+  {
+    "chunk_id": "a8fc891f6719",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "TANK-FRW-01",
+        "normalized_value": "TANK-FRW-01",
+        "chunk_id": "a8fc891f6719",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Permit",
+        "value": "HW-2220",
+        "normalized_value": "HW-2220",
+        "chunk_id": "a8fc891f6719",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Person",
+        "value": "S. Chavan",
+        "normalized_value": "S. CHAVAN",
+        "chunk_id": "a8fc891f6719",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-02-11",
+        "normalized_value": "2026-02-11",
+        "chunk_id": "a8fc891f6719",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-06-27",
+        "normalized_value": "2026-06-27",
+        "chunk_id": "a8fc891f6719",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "Vibration exceeding threshold",
+        "normalized_value": "VIBRATION EXCEEDING THRESHOLD",
+        "chunk_id": "a8fc891f6719",
+        "confidence": 0.8
+      }
+    ],
+    "relationships": [
+      {
+        "from": "TANK-FRW-01",
+        "to": "HW-2220",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "TANK-FRW-01",
+        "to": "S. CHAVAN",
+        "type": "MAINTAINED_BY"
+      }
+    ]
+  },
+  {
+    "chunk_id": "7a1e85db1c07",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "PUMP-04A",
+        "normalized_value": "PUMP-04A",
+        "chunk_id": "7a1e85db1c07",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Permit",
+        "value": "HW-2221",
+        "normalized_value": "HW-2221",
+        "chunk_id": "7a1e85db1c07",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Person",
+        "value": "M. Iyer",
+        "normalized_value": "M. IYER",
+        "chunk_id": "7a1e85db1c07",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Date",
+        "value": "2025-10-23",
+        "normalized_value": "2025-10-23",
+        "chunk_id": "7a1e85db1c07",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-06-20",
+        "normalized_value": "2026-06-20",
+        "chunk_id": "7a1e85db1c07",
+        "confidence": 0.95
+      }
+    ],
+    "relationships": [
+      {
+        "from": "PUMP-04A",
+        "to": "HW-2221",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "PUMP-04A",
+        "to": "M. IYER",
+        "type": "MAINTAINED_BY"
+      }
+    ]
+  },
+  {
+    "chunk_id": "130dc2b6bda9",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "PUMP-04A",
+        "normalized_value": "PUMP-04A",
+        "chunk_id": "130dc2b6bda9",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Person",
+        "value": "R. Nair",
+        "normalized_value": "R. NAIR",
+        "chunk_id": "130dc2b6bda9",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Date",
+        "value": "2025-08-17",
+        "normalized_value": "2025-08-17",
+        "chunk_id": "130dc2b6bda9",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-06-13",
+        "normalized_value": "2026-06-13",
+        "chunk_id": "130dc2b6bda9",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "Vibration",
+        "normalized_value": "VIBRATION",
+        "chunk_id": "130dc2b6bda9",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "threshold",
+        "normalized_value": "THRESHOLD",
+        "chunk_id": "130dc2b6bda9",
+        "confidence": 0.8
+      }
+    ],
+    "relationships": [
+      {
+        "from": "PUMP-04A",
+        "to": "R. Nair",
+        "type": "MAINTAINED_BY"
+      },
+      {
+        "from": "PUMP-04A",
+        "to": "Vibration",
+        "type": "FAILED_ON"
+      }
+    ]
+  },
+  {
+    "chunk_id": "0e2d92b58e8e",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "TK-102",
+        "normalized_value": "TK-102",
+        "chunk_id": "0e2d92b58e8e",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Permit",
+        "value": "HW-2223",
+        "normalized_value": "HW-2223",
+        "chunk_id": "0e2d92b58e8e",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Person",
+        "value": "J. Rao",
+        "normalized_value": "J. RAO",
+        "chunk_id": "0e2d92b58e8e",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-04-12",
+        "normalized_value": "2026-04-12",
+        "chunk_id": "0e2d92b58e8e",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-06-24",
+        "normalized_value": "2026-06-24",
+        "chunk_id": "0e2d92b58e8e",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "Pressure drop beyond limit",
+        "normalized_value": "Pressure drop beyond limit",
+        "chunk_id": "0e2d92b58e8e",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "1.9",
+        "normalized_value": "1.9",
+        "chunk_id": "0e2d92b58e8e",
+        "confidence": 0.9
+      }
+    ],
+    "relationships": [
+      {
+        "from": "TK-102",
+        "to": "HW-2223",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "TK-102",
+        "to": "J. Rao",
+        "type": "MAINTAINED_BY"
+      }
+    ]
+  },
+  {
+    "chunk_id": "9166cd7417f9",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "PIPELINE-PL-9",
+        "normalized_value": "PIPELINE-PL-9",
+        "chunk_id": "9166cd7417f9",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Permit",
+        "value": "CS-3124",
+        "normalized_value": "CS-3124",
+        "chunk_id": "9166cd7417f9",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Person",
+        "value": "K. Deshpande",
+        "normalized_value": "K. DESHPANDE",
+        "chunk_id": "9166cd7417f9",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-02-10",
+        "normalized_value": "2026-02-10",
+        "chunk_id": "9166cd7417f9",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-07-08",
+        "normalized_value": "2026-07-08",
+        "chunk_id": "9166cd7417f9",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "Pressure drop",
+        "normalized_value": "PRESSURE DROP",
+        "chunk_id": "9166cd7417f9",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "downtime_hours",
+        "normalized_value": "DOWNTIME HOURS",
+        "chunk_id": "9166cd7417f9",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "33.5",
+        "normalized_value": "33.5",
+        "chunk_id": "9166cd7417f9",
+        "confidence": 0.95
+      }
+    ],
+    "relationships": [
+      {
+        "from": "PIPELINE-PL-9",
+        "to": "CS-3124",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "PIPELINE-PL-9",
+        "to": "K. Deshpande",
+        "type": "MAINTAINED_BY"
+      }
+    ]
+  },
+  {
+    "chunk_id": "6515bf2f9c7f",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "PUMP-04A",
+        "normalized_value": "PUMP-04A",
+        "chunk_id": "6515bf2f9c7f",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Person",
+        "value": "T. Rahangdale",
+        "normalized_value": "T. RAHANGDALE",
+        "chunk_id": "6515bf2f9c7f",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Date",
+        "value": "2025-09-26",
+        "normalized_value": "2025-09-26",
+        "chunk_id": "6515bf2f9c7f",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-06-13",
+        "normalized_value": "2026-06-13",
+        "chunk_id": "6515bf2f9c7f",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "31.7",
+        "normalized_value": "31.7",
+        "chunk_id": "6515bf2f9c7f",
+        "confidence": 0.9
+      }
+    ],
+    "relationships": [
+      {
+        "from": "PUMP-04A",
+        "to": "T. RAHANGDALE",
+        "type": "MAINTAINED_BY"
+      }
+    ]
+  },
+  {
+    "chunk_id": "f2ae217d8418",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "TK-102",
+        "normalized_value": "TK-102",
+        "chunk_id": "f2ae217d8418",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Person",
+        "value": "R. Nair",
+        "normalized_value": "R. NAIR",
+        "chunk_id": "f2ae217d8418",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Date",
+        "value": "2025-09-02",
+        "normalized_value": "2025-09-02",
+        "chunk_id": "f2ae217d8418",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-06-21",
+        "normalized_value": "2026-06-21",
+        "chunk_id": "f2ae217d8418",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "5.3",
+        "normalized_value": "5.3",
+        "chunk_id": "f2ae217d8418",
+        "confidence": 0.8
+      }
+    ],
+    "relationships": [
+      {
+        "from": "TK-102",
+        "to": "R. Nair",
+        "type": "MAINTAINED_BY"
+      }
+    ]
+  },
+  {
+    "chunk_id": "6c2dabd7f3a8",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "PUMP-04B",
+        "normalized_value": "PUMP-04B",
+        "chunk_id": "6c2dabd7f3a8",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Permit",
+        "value": "CS-3127",
+        "normalized_value": "CS-3127",
+        "chunk_id": "6c2dabd7f3a8",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Person",
+        "value": "T. Rahangdale",
+        "normalized_value": "T. RAHANGDALE",
+        "chunk_id": "6c2dabd7f3a8",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Date",
+        "value": "2025-12-19",
+        "normalized_value": "2025-12-19",
+        "chunk_id": "6c2dabd7f3a8",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-06-22",
+        "normalized_value": "2026-06-22",
+        "chunk_id": "6c2dabd7f3a8",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "9.4",
+        "normalized_value": "9.4",
+        "chunk_id": "6c2dabd7f3a8",
+        "confidence": 0.9
+      }
+    ],
+    "relationships": [
+      {
+        "from": "PUMP-04B",
+        "to": "CS-3127",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "PUMP-04B",
+        "to": "T. RAHANGDALE",
+        "type": "MAINTAINED_BY"
+      }
+    ]
+  },
+  {
+    "chunk_id": "9b4dc5be4615",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "PUMP-04A",
+        "normalized_value": "PUMP-04A",
+        "chunk_id": "9b4dc5be4615",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Permit",
+        "value": "HW-2228",
+        "normalized_value": "HW-2228",
+        "chunk_id": "9b4dc5be4615",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Person",
+        "value": "R. Nair",
+        "normalized_value": "R. NAIR",
+        "chunk_id": "9b4dc5be4615",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-06-11",
+        "normalized_value": "2026-06-11",
+        "chunk_id": "9b4dc5be4615",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-07-08",
+        "normalized_value": "2026-07-08",
+        "chunk_id": "9b4dc5be4615",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "0.0",
+        "normalized_value": "0.0",
+        "chunk_id": "9b4dc5be4615",
+        "confidence": 0.9
+      }
+    ],
+    "relationships": [
+      {
+        "from": "PUMP-04A",
+        "to": "HW-2228",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "PUMP-04A",
+        "to": "R. Nair",
+        "type": "MAINTAINED_BY"
+      }
+    ]
+  },
+  {
+    "chunk_id": "8c56ae0e0f78",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "HEAT-EXCH-E7",
+        "normalized_value": "HEAT-EXCH-E7",
+        "chunk_id": "8c56ae0e0f78",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Permit",
+        "value": "CS-3129",
+        "normalized_value": "CS-3129",
+        "chunk_id": "8c56ae0e0f78",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Person",
+        "value": "R. Nair",
+        "normalized_value": "R. NAIR",
+        "chunk_id": "8c56ae0e0f78",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Date",
+        "value": "2025-12-05",
+        "normalized_value": "2025-12-05",
+        "chunk_id": "8c56ae0e0f78",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-07-08",
+        "normalized_value": "2026-07-08",
+        "chunk_id": "8c56ae0e0f78",
+        "confidence": 0.95
+      }
+    ],
+    "relationships": [
+      {
+        "from": "HEAT-EXCH-E7",
+        "to": "CS-3129",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "HEAT-EXCH-E7",
+        "to": "R. Nair",
+        "type": "MAINTAINED_BY"
+      }
+    ]
+  },
+  {
+    "chunk_id": "42f51a81156b",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "PUMP-04A",
+        "normalized_value": "PUMP-04A",
+        "chunk_id": "42f51a81156b",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Permit",
+        "value": "CS-3130",
+        "normalized_value": "CS-3130",
+        "chunk_id": "42f51a81156b",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Person",
+        "value": "K. Deshpande",
+        "normalized_value": "K. DESHPANDE",
+        "chunk_id": "42f51a81156b",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Date",
+        "value": "2025-08-30",
+        "normalized_value": "2025-08-30",
+        "chunk_id": "42f51a81156b",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-06-29",
+        "normalized_value": "2026-06-29",
+        "chunk_id": "42f51a81156b",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "8.9",
+        "normalized_value": "8.9",
+        "chunk_id": "42f51a81156b",
+        "confidence": 0.9
+      }
+    ],
+    "relationships": [
+      {
+        "from": "PUMP-04A",
+        "to": "CS-3130",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "PUMP-04A",
+        "to": "K. Deshpande",
+        "type": "MAINTAINED_BY"
+      }
+    ]
+  },
+  {
+    "chunk_id": "ef5afcf21a5b",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "TK-102",
+        "normalized_value": "TK-102",
+        "chunk_id": "ef5afcf21a5b",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Permit",
+        "value": "CS-3131",
+        "normalized_value": "CS-3131",
+        "chunk_id": "ef5afcf21a5b",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Person",
+        "value": "T. Rahangdale",
+        "normalized_value": "T. RAHANGDALE",
+        "chunk_id": "ef5afcf21a5b",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-01-27",
+        "normalized_value": "2026-01-27",
+        "chunk_id": "ef5afcf21a5b",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-06-20",
+        "normalized_value": "2026-06-20",
+        "chunk_id": "ef5afcf21a5b",
+        "confidence": 0.95
+      }
+    ],
+    "relationships": [
+      {
+        "from": "TK-102",
+        "to": "CS-3131",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "TK-102",
+        "to": "T. RAHANGDALE",
+        "type": "MAINTAINED_BY"
+      }
+    ]
+  },
+  {
+    "chunk_id": "b8ba824bc80a",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "TK-103",
+        "normalized_value": "TK-103",
+        "chunk_id": "b8ba824bc80a",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Permit",
+        "value": "CS-3132",
+        "normalized_value": "CS-3132",
+        "chunk_id": "b8ba824bc80a",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Person",
+        "value": "T. Rahangdale",
+        "normalized_value": "T. RAHANGDALE",
+        "chunk_id": "b8ba824bc80a",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-05-31",
+        "normalized_value": "2026-05-31",
+        "chunk_id": "b8ba824bc80a",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-06-30",
+        "normalized_value": "2026-06-30",
+        "chunk_id": "b8ba824bc80a",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "Pressure drop",
+        "normalized_value": "Pressure drop",
+        "chunk_id": "b8ba824bc80a",
+        "confidence": 0.8
+      }
+    ],
+    "relationships": [
+      {
+        "from": "TK-103",
+        "to": "CS-3132",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "TK-103",
+        "to": "T. Rahangdale",
+        "type": "MAINTAINED_BY"
+      }
+    ]
+  },
+  {
+    "chunk_id": "5a8903d81e77",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "COMPRESSOR-C1",
+        "normalized_value": "COMPRESSOR-C1",
+        "chunk_id": "5a8903d81e77",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Permit",
+        "value": "HW-2233",
+        "normalized_value": "HW-2233",
+        "chunk_id": "5a8903d81e77",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Person",
+        "value": "K. Deshpande",
+        "normalized_value": "K. DESHPANDE",
+        "chunk_id": "5a8903d81e77",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-05-29",
+        "normalized_value": "2026-05-29",
+        "chunk_id": "5a8903d81e77",
+        "confidence": 0.95
+      }
+    ],
+    "relationships": [
+      {
+        "from": "COMPRESSOR-C1",
+        "to": "HW-2233",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "COMPRESSOR-C1",
+        "to": "K. Deshpande",
+        "type": "MAINTAINED_BY"
+      }
+    ]
+  },
+  {
+    "chunk_id": "7d6829a2e3c5",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "COMPRESSOR-C1",
+        "normalized_value": "COMPRESSOR-C1",
+        "chunk_id": "7d6829a2e3c5",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Permit",
+        "value": "HW-2234",
+        "normalized_value": "HW-2234",
+        "chunk_id": "7d6829a2e3c5",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Person",
+        "value": "K. Deshpande",
+        "normalized_value": "K. DESHPANDE",
+        "chunk_id": "7d6829a2e3c5",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-01-03",
+        "normalized_value": "2026-01-03",
+        "chunk_id": "7d6829a2e3c5",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-06-26",
+        "normalized_value": "2026-06-26",
+        "chunk_id": "7d6829a2e3c5",
+        "confidence": 0.95
+      }
+    ],
+    "relationships": [
+      {
+        "from": "COMPRESSOR-C1",
+        "to": "HW-2234",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "COMPRESSOR-C1",
+        "to": "K. Deshpande",
+        "type": "MAINTAINED_BY"
+      }
+    ]
+  },
+  {
+    "chunk_id": "143cde4de482",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "HEAT-EXCH-E7",
+        "normalized_value": "HEAT-EXCH-E7",
+        "chunk_id": "143cde4de482",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Permit",
+        "value": "HW-2235",
+        "normalized_value": "HW-2235",
+        "chunk_id": "143cde4de482",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Person",
+        "value": "K. Deshpande",
+        "normalized_value": "K. DESHPANDE",
+        "chunk_id": "143cde4de482",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Date",
+        "value": "2025-11-04",
+        "normalized_value": "2025-11-04",
+        "chunk_id": "143cde4de482",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "Pressure drop",
+        "normalized_value": "PRESSURE_DROP",
+        "chunk_id": "143cde4de482",
+        "confidence": 0.8
+      }
+    ],
+    "relationships": [
+      {
+        "from": "HEAT-EXCH-E7",
+        "to": "HW-2235",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "HEAT-EXCH-E7",
+        "to": "K. Deshpande",
+        "type": "MAINTAINED_BY"
+      }
+    ]
+  },
+  {
+    "chunk_id": "8da9e02521ff",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "COMPRESSOR-C1",
+        "normalized_value": "COMPRESSOR-C1",
+        "chunk_id": "8da9e02521ff",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Person",
+        "value": "M. Iyer",
+        "normalized_value": "M. IYER",
+        "chunk_id": "8da9e02521ff",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Date",
+        "value": "2025-09-02",
+        "normalized_value": "2025-09-02",
+        "chunk_id": "8da9e02521ff",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "14.0",
+        "normalized_value": "14.0",
+        "chunk_id": "8da9e02521ff",
+        "confidence": 0.8
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "chunk_id": "484b7e579296",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "TK-102",
+        "normalized_value": "TK-102",
+        "chunk_id": "484b7e579296",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Permit",
+        "value": "CS-3137",
+        "normalized_value": "CS-3137",
+        "chunk_id": "484b7e579296",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Person",
+        "value": "M. Iyer",
+        "normalized_value": "M. IYER",
+        "chunk_id": "484b7e579296",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-01-17",
+        "normalized_value": "2026-01-17",
+        "chunk_id": "484b7e579296",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-06-17",
+        "normalized_value": "2026-06-17",
+        "chunk_id": "484b7e579296",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "16.2",
+        "normalized_value": "16.2",
+        "chunk_id": "484b7e579296",
+        "confidence": 0.9
+      }
+    ],
+    "relationships": [
+      {
+        "from": "TK-102",
+        "to": "CS-3137",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "TK-102",
+        "to": "M. IYER",
+        "type": "MAINTAINED_BY"
+      }
+    ]
+  },
+  {
+    "chunk_id": "c3426661c5c7",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "TURBINE-T2",
+        "normalized_value": "TURBINE-T2",
+        "chunk_id": "c3426661c5c7",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Person",
+        "value": "M. Iyer",
+        "normalized_value": "M. IYER",
+        "chunk_id": "c3426661c5c7",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Date",
+        "value": "2025-09-22",
+        "normalized_value": "2025-09-22",
+        "chunk_id": "c3426661c5c7",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-06-23",
+        "normalized_value": "2026-06-23",
+        "chunk_id": "c3426661c5c7",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "0.0",
+        "normalized_value": "0.0",
+        "chunk_id": "c3426661c5c7",
+        "confidence": 0.9
+      }
+    ],
+    "relationships": [
+      {
+        "from": "TURBINE-T2",
+        "to": "M. IYER",
+        "type": "MAINTAINED_BY"
+      }
+    ]
+  },
+  {
+    "chunk_id": "4321453418bf",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "TK-103",
+        "normalized_value": "TK-103",
+        "chunk_id": "4321453418bf",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Permit",
+        "value": "CS-3139",
+        "normalized_value": "CS-3139",
+        "chunk_id": "4321453418bf",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Person",
+        "value": "R. Nair",
+        "normalized_value": "R. NAIR",
+        "chunk_id": "4321453418bf",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-05-20",
+        "normalized_value": "2026-05-20",
+        "chunk_id": "4321453418bf",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-06-27",
+        "normalized_value": "2026-06-27",
+        "chunk_id": "4321453418bf",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "32.0",
+        "normalized_value": "32.0",
+        "chunk_id": "4321453418bf",
+        "confidence": 0.9
+      }
+    ],
+    "relationships": [
+      {
+        "from": "TK-103",
+        "to": "CS-3139",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "TK-103",
+        "to": "R. NAIR",
+        "type": "MAINTAINED_BY"
+      }
+    ]
+  },
+  {
+    "chunk_id": "3e2392f16ff3",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "HEAT-EXCH-E7",
+        "normalized_value": "HEAT-EXCH-E7",
+        "chunk_id": "3e2392f16ff3",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Permit",
+        "value": "CS-3140",
+        "normalized_value": "CS-3140",
+        "chunk_id": "3e2392f16ff3",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Person",
+        "value": "J. Rao",
+        "normalized_value": "J. RAO",
+        "chunk_id": "3e2392f16ff3",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-02-20",
+        "normalized_value": "2026-02-20",
+        "chunk_id": "3e2392f16ff3",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-06-20",
+        "normalized_value": "2026-06-20",
+        "chunk_id": "3e2392f16ff3",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "0.0",
+        "normalized_value": "0.0",
+        "chunk_id": "3e2392f16ff3",
+        "confidence": 0.9
+      }
+    ],
+    "relationships": [
+      {
+        "from": "HEAT-EXCH-E7",
+        "to": "CS-3140",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "HEAT-EXCH-E7",
+        "to": "J. Rao",
+        "type": "MAINTAINED_BY"
+      }
+    ]
+  },
+  {
+    "chunk_id": "ef54d1c7e361",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "TANK-01",
+        "normalized_value": "TANK-01",
+        "chunk_id": "ef54d1c7e361",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "LS-01",
+        "normalized_value": "LS-01",
+        "chunk_id": "ef54d1c7e361",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "LAL-01",
+        "normalized_value": "LAL-01",
+        "chunk_id": "ef54d1c7e361",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "LAH-01",
+        "normalized_value": "LAH-01",
+        "chunk_id": "ef54d1c7e361",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "LT-01",
+        "normalized_value": "LT-01",
+        "chunk_id": "ef54d1c7e361",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Permit",
+        "value": "CS-4201",
+        "normalized_value": "CS-4201",
+        "chunk_id": "ef54d1c7e361",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Person",
+        "value": "R. Nair",
+        "normalized_value": "R. NAIR",
+        "chunk_id": "ef54d1c7e361",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-06-18",
+        "normalized_value": "2026-06-18",
+        "chunk_id": "ef54d1c7e361",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Date",
+        "value": "2026-06-19",
+        "normalized_value": "2026-06-19",
+        "chunk_id": "ef54d1c7e361",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "4.5",
+        "normalized_value": "4.5",
+        "chunk_id": "ef54d1c7e361",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Mycom compressor",
+        "normalized_value": "MYCOM COMPRESSOR",
+        "chunk_id": "ef54d1c7e361",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "SN 2053474",
+        "normalized_value": "SN 2053474",
+        "chunk_id": "ef54d1c7e361",
+        "confidence": 0.85
+      }
+    ],
+    "relationships": [
+      {
+        "from": "LS-01",
+        "to": "TANK-01",
+        "type": "LOCATED_IN"
+      },
+      {
+        "from": "LAL-01",
+        "to": "TANK-01",
+        "type": "LOCATED_IN"
+      },
+      {
+        "from": "LAH-01",
+        "to": "TANK-01",
+        "type": "LOCATED_IN"
+      },
+      {
+        "from": "LT-01",
+        "to": "TANK-01",
+        "type": "LOCATED_IN"
+      },
+      {
+        "from": "CS-4201",
+        "to": "TANK-01",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "SN 2053474",
+        "to": "Mycom compressor",
+        "type": "REFERENCES"
+      }
+    ]
+  }
+]

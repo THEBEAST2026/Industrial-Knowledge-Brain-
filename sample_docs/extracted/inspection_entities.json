@@ -1,0 +1,192 @@
+[
+  {
+    "chunk_id": "84d400419545",
+    "source_doc": "sample_docs/3769_-_Mycom_200SUD-HE_rapport.pdf",
+    "doc_type": "inspection",
+    "unit_ref": "2053474",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "SN 2053474",
+        "normalized_value": "SN-2053474",
+        "chunk_id": "84d400419545",
+        "confidence": 0.98
+      },
+      {
+        "entity_type": "Person",
+        "value": "Ted Swart",
+        "normalized_value": "TED SWART",
+        "chunk_id": "84d400419545",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "Running hours: 30619",
+        "normalized_value": "30619",
+        "chunk_id": "84d400419545",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "Axial play (male): 0.00 mm",
+        "normalized_value": "0.00",
+        "chunk_id": "84d400419545",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "Run out (male shaft): 0.001 mm",
+        "normalized_value": "0.001",
+        "chunk_id": "84d400419545",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "Thrust bearing condition: good, no wear (male & female)",
+        "normalized_value": "GOOD_NO_WEAR",
+        "chunk_id": "84d400419545",
+        "confidence": 0.9
+      }
+    ],
+    "relationships": [
+      {
+        "from": "SN-2053474",
+        "to": "TED SWART",
+        "type": "MAINTAINED_BY"
+      },
+      {
+        "from": "SN-2053474",
+        "to": "HOS-BV",
+        "type": "LOCATED_IN"
+      },
+      {
+        "from": "SN-2053474",
+        "to": "LOCKNUTS-&-WASHERS",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "SN-2053474",
+        "to": "O-RING-&-GASKETS",
+        "type": "REFERENCES"
+      }
+    ],
+    "raw_summary": {
+      "serial": "2053474",
+      "customer": "HOS BV",
+      "contact_person": "Ted Swart",
+      "compressor_type": "Mycom 200 SUD-HE",
+      "running_hours": "30619",
+      "refrigerant": "NH3",
+      "end_clearance_male": "within factory settings",
+      "end_clearance_female": "within factory settings",
+      "run_out_male_shaft_mm": "0.001",
+      "thrust_bearing_condition": "good, no wear (male & female)",
+      "axial_play_male_mm": "0.00",
+      "axial_play_female_mm": "0.00",
+      "seal_type": "Double seal, good condition",
+      "parts_replaced": [
+        "LOCKNUTS & WASHERS",
+        "O-RING & GASKETS"
+      ],
+      "tests_performed": [
+        "LEAKTEST with NITROGEN",
+        "SLIDEVALVE TEST with NITROGEN PRESSURE"
+      ]
+    }
+  },
+  {
+    "chunk_id": "394ea5a91ddf",
+    "source_doc": "sample_docs/3769_-_Mycom_200SUD-HE_rapport.pdf",
+    "doc_type": "inspection",
+    "unit_ref": "2053500",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "SN 2053500",
+        "normalized_value": "SN-2053500",
+        "chunk_id": "394ea5a91ddf",
+        "confidence": 0.98
+      },
+      {
+        "entity_type": "Person",
+        "value": "Ted Swart",
+        "normalized_value": "TED SWART",
+        "chunk_id": "394ea5a91ddf",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "Running hours: 37639",
+        "normalized_value": "37639",
+        "chunk_id": "394ea5a91ddf",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "Axial play (male): 0.00 mm",
+        "normalized_value": "0.00",
+        "chunk_id": "394ea5a91ddf",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "Run out (male shaft): 0.001 mm",
+        "normalized_value": "0.001",
+        "chunk_id": "394ea5a91ddf",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "Thrust bearing condition: good, no wear (male & female)",
+        "normalized_value": "GOOD_NO_WEAR",
+        "chunk_id": "394ea5a91ddf",
+        "confidence": 0.9
+      }
+    ],
+    "relationships": [
+      {
+        "from": "SN-2053500",
+        "to": "TED SWART",
+        "type": "MAINTAINED_BY"
+      },
+      {
+        "from": "SN-2053500",
+        "to": "HOS-BV",
+        "type": "LOCATED_IN"
+      },
+      {
+        "from": "SN-2053500",
+        "to": "SEAL-PARTS",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "SN-2053500",
+        "to": "O-RING-&-GASKETS",
+        "type": "REFERENCES"
+      }
+    ],
+    "raw_summary": {
+      "serial": "2053500",
+      "customer": "HOS BV",
+      "contact_person": "Ted Swart",
+      "compressor_type": "Mycom 200 SUD-HE",
+      "running_hours": "37639",
+      "refrigerant": "NH3",
+      "end_clearance_male": "within factory settings",
+      "end_clearance_female": "within factory settings",
+      "run_out_male_shaft_mm": "0.001",
+      "thrust_bearing_condition": "good, no wear (male & female)",
+      "axial_play_male_mm": "0.00",
+      "axial_play_female_mm": "0.00",
+      "seal_type": "Double seal, good condition",
+      "parts_replaced": [
+        "SEAL PARTS",
+        "O-RING & GASKETS"
+      ],
+      "tests_performed": [
+        "LEAKTEST with NITROGEN",
+        "SLIDEVALVE TEST with NITROGEN PRESSURE"
+      ]
+    }
+  }
+]

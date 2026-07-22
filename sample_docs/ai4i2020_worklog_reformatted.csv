@@ -1,0 +1,400 @@
+work_order_id,equipment_tag,product_id_ref,work_type,fault_description,air_temperature_k,process_temperature_k,rotational_speed_rpm,torque_nm,tool_wear_min,permit_ref,assigned_engineer,date_reported,status
+WO-2000,VALVE-HW-12,H35833,Corrective,Tool wear failure,300.3,309.9,1394,46.7,210,,J. Rao,2025-07-14,Completed
+WO-2001,PUMP-04A,L49761,Corrective,Overstrain failure,299.2,309.1,1345,60.7,191,CS-4101,S. Chavan,2025-12-07,Completed
+WO-2002,PIPELINE-PL-9,M19011,Corrective,Heat dissipation failure,301.9,310.4,1373,48.0,73,CS-4102,T. Rahangdale,2026-05-24,Completed
+WO-2003,PUMP-04B,L51391,Corrective,Heat dissipation failure,302.1,310.7,1314,52.8,8,,S. Chavan,2026-02-09,Completed
+WO-2004,PUMP-04B,L52884,Routine Monitoring,No fault — routine sensor log,302.5,311.8,1335,52.7,135,,R. Nair,2025-08-27,Logged
+WO-2005,PUMP-04B,L48275,Corrective,Power failure,296.9,307.5,2721,9.3,18,,R. Nair,2025-08-21,Completed
+WO-2006,PIPELINE-PL-9,M22424,Corrective,Power failure,300.3,311.2,1381,65.2,136,,T. Rahangdale,2026-05-20,Completed
+WO-2007,TANK-FRW-01,L51267,Corrective,Heat dissipation failure,301.9,310.4,1376,54.9,126,,M. Iyer,2025-11-10,Completed
+WO-2008,TK-102,L54267,Corrective,Tool wear failure,300.6,310.3,1648,30.5,217,,M. Iyer,2025-08-30,Completed
+WO-2009,TK-102,L51597,Corrective,Heat dissipation failure; Power failure,302.6,310.4,1365,66.8,80,CS-4109,T. Rahangdale,2025-12-04,Completed
+WO-2010,PUMP-04B,L49413,Corrective,Power failure,299.5,308.7,2549,13.0,179,,S. Chavan,2025-08-28,Completed
+WO-2011,PUMP-04A,M21659,Corrective,Power failure,301.1,310.7,2636,12.2,100,,P. Verma,2025-09-13,Completed
+WO-2012,HEAT-EXCH-E7,L51550,Corrective,Heat dissipation failure; Overstrain failure,302.0,309.9,1308,57.6,197,,P. Verma,2025-08-17,Completed
+WO-2013,TURBINE-T2,L47703,Routine Monitoring,No fault — routine sensor log,297.4,309.4,1401,45.9,49,,T. Rahangdale,2026-03-12,Logged
+WO-2014,TK-103,H34192,Corrective,Heat dissipation failure,303.6,312.2,1371,54.6,112,CS-4114,M. Iyer,2025-09-17,Completed
+WO-2015,TURBINE-T2,L51095,Routine Monitoring,No fault — routine sensor log,302.5,311.5,1700,29.5,133,,P. Verma,2026-01-16,Logged
+WO-2016,PIPELINE-PL-9,L51318,Corrective,Heat dissipation failure,301.7,310.2,1311,57.4,40,,S. Chavan,2025-09-23,Completed
+WO-2017,HEAT-EXCH-E7,M17104,Corrective,Tool wear failure,299.3,308.4,1542,37.5,203,CS-4117,K. Deshpande,2026-03-27,Completed
+WO-2018,TURBINE-T2,L56793,Corrective,Power failure,299.0,310.2,1377,62.5,92,,S. Chavan,2025-08-31,Completed
+WO-2019,PIPELINE-PL-9,M22971,Corrective,Tool wear failure,300.4,311.8,1553,33.1,209,,K. Deshpande,2025-12-20,Completed
+WO-2020,VALVE-HW-12,L49195,Corrective,Power failure,298.5,308.2,1301,66.3,42,,P. Verma,2026-05-08,Completed
+WO-2021,PUMP-04B,L51434,Corrective,Heat dissipation failure; Power failure,302.6,311.0,1284,68.0,114,,P. Verma,2026-05-10,Completed
+WO-2022,PUMP-04A,L54969,Routine Monitoring,No fault — routine sensor log,300.2,311.5,1495,38.5,69,,M. Iyer,2025-07-16,Logged
+WO-2023,PIPELINE-PL-9,M16742,Routine Monitoring,No fault — routine sensor log,298.0,307.6,1581,43.4,113,,P. Verma,2026-01-18,Logged
+WO-2024,HEAT-EXCH-E7,L48341,Corrective,Overstrain failure,297.0,307.8,1316,61.2,200,,K. Deshpande,2026-06-01,Completed
+WO-2025,TURBINE-T2,L54943,Corrective,Power failure,300.4,311.6,1200,76.6,3,,S. Chavan,2025-10-03,Completed
+WO-2026,PUMP-04A,L53121,Corrective,No fault — routine sensor log,300.6,310.7,1438,48.5,78,CS-4126,M. Iyer,2026-04-07,Completed
+WO-2027,TK-103,L51801,Corrective,Heat dissipation failure,303.0,311.2,1341,51.0,174,,P. Verma,2026-05-02,Completed
+WO-2028,TK-102,L52156,Corrective,Overstrain failure,303.7,312.7,1359,56.8,194,,M. Iyer,2026-04-03,Completed
+WO-2029,HEAT-EXCH-E7,M19221,Corrective,Heat dissipation failure,302.1,310.1,1379,48.2,166,,M. Iyer,2025-11-12,Completed
+WO-2030,VALVE-HW-12,L52031,Corrective,Heat dissipation failure,303.7,312.1,1363,51.8,90,,J. Rao,2026-02-14,Completed
+WO-2031,TK-102,L47622,Corrective,Power failure,297.4,308.5,1399,61.5,61,CS-4131,A. Sahay,2026-02-14,Completed
+WO-2032,TK-103,M20254,Corrective,Power failure; Overstrain failure,302.8,312.3,1262,70.5,234,CS-4132,A. Sahay,2026-01-29,Completed
+WO-2033,COMPRESSOR-C1,H30676,Routine Monitoring,No fault — routine sensor log,297.8,309.2,1648,33.0,29,CS-4133,J. Rao,2025-09-12,Logged
+WO-2034,VALVE-HW-12,L49512,Corrective,Overstrain failure,299.2,308.5,1378,50.4,220,,K. Deshpande,2026-04-09,Completed
+WO-2035,TANK-FRW-01,L52878,Routine Monitoring,No fault — routine sensor log,302.5,311.9,1265,59.8,119,,R. Nair,2025-10-22,Logged
+WO-2036,TANK-FRW-01,M16856,Corrective,Tool wear failure,298.4,308.0,1416,38.2,198,,J. Rao,2025-11-23,Completed
+WO-2037,PUMP-04B,L51903,Corrective,Heat dissipation failure,303.4,311.8,1366,50.9,200,,J. Rao,2026-05-12,Completed
+WO-2038,TK-103,H34462,Corrective,Power failure,304.0,313.2,1271,68.6,161,CS-4138,T. Rahangdale,2025-10-30,Completed
+WO-2039,TK-102,L50940,Corrective,Heat dissipation failure,302.3,310.9,1377,46.8,166,CS-4139,R. Nair,2026-04-21,Completed
+WO-2040,PUMP-04A,L51759,Corrective,Heat dissipation failure,303.0,311.2,1374,48.2,65,,S. Chavan,2025-12-08,Completed
+WO-2041,PIPELINE-PL-9,L51681,Corrective,Heat dissipation failure,302.5,310.2,1307,54.0,86,CS-4141,T. Rahangdale,2025-08-02,Completed
+WO-2042,HEAT-EXCH-E7,L52670,Corrective,Power failure,302.6,312.1,1288,68.5,0,CS-4142,M. Iyer,2025-12-17,Completed
+WO-2043,PIPELINE-PL-9,M23105,Corrective,Power failure,299.0,310.3,1303,68.6,111,,S. Chavan,2026-04-14,Completed
+WO-2044,TURBINE-T2,L51260,Corrective,Heat dissipation failure,302.0,310.4,1357,58.0,108,,P. Verma,2025-10-10,Completed
+WO-2045,TURBINE-T2,M23211,Routine Monitoring,No fault — routine sensor log,298.7,309.6,1686,26.2,189,,A. Sahay,2026-04-21,Logged
+WO-2046,VALVE-HW-12,L51364,Corrective,Heat dissipation failure,302.2,310.6,1334,53.2,159,,P. Verma,2026-03-22,Completed
+WO-2047,TANK-FRW-01,L52321,Corrective,Tool wear failure,304.4,313.7,1509,35.0,205,CS-4147,K. Deshpande,2026-03-29,Completed
+WO-2048,TANK-FRW-01,M15984,Corrective,Power failure,296.7,307.8,1258,69.0,105,,M. Iyer,2025-07-18,Completed
+WO-2049,PUMP-04B,L48676,Corrective,Power failure; Overstrain failure,298.0,308.7,1268,69.4,189,,M. Iyer,2025-09-20,Completed
+WO-2050,VALVE-HW-12,L47340,Corrective,Overstrain failure,298.4,308.2,1282,60.7,216,,K. Deshpande,2026-02-18,Completed
+WO-2051,TANK-FRW-01,L48106,Corrective,Overstrain failure,295.6,306.1,1372,55.6,215,,K. Deshpande,2025-07-22,Completed
+WO-2052,TK-103,M19251,Corrective,Heat dissipation failure,302.2,310.1,1368,51.6,12,,T. Rahangdale,2026-02-10,Completed
+WO-2053,HEAT-EXCH-E7,L55433,Routine Monitoring,No fault — routine sensor log,299.1,310.4,1657,31.0,129,,T. Rahangdale,2026-03-02,Logged
+WO-2054,TANK-FRW-01,L51911,Corrective,Heat dissipation failure,303.3,311.6,1301,45.1,219,,R. Nair,2026-05-29,Completed
+WO-2055,COMPRESSOR-C1,H34175,Corrective,Heat dissipation failure,303.7,311.9,1332,52.7,66,,T. Rahangdale,2025-08-07,Completed
+WO-2056,VALVE-HW-12,L53705,Corrective,Power failure,301.1,310.4,1312,73.6,49,,K. Deshpande,2025-12-08,Completed
+WO-2057,PUMP-04B,L51299,Corrective,Heat dissipation failure,302.1,310.7,1325,45.1,208,CS-4157,T. Rahangdale,2025-10-15,Completed
+WO-2058,TK-103,L55113,Routine Monitoring,No fault — routine sensor log,300.8,311.8,1928,21.8,209,,P. Verma,2025-07-28,Logged
+WO-2059,PIPELINE-PL-9,L50536,Corrective,Overstrain failure,301.6,310.8,1355,57.8,195,,P. Verma,2025-07-13,Completed
+WO-2060,VALVE-HW-12,L51503,Corrective,Heat dissipation failure,301.8,310.3,1341,50.5,64,,S. Chavan,2026-04-12,Completed
+WO-2061,HEAT-EXCH-E7,H32038,Routine Monitoring,No fault — routine sensor log,299.7,309.5,1375,46.8,86,,T. Rahangdale,2025-10-11,Logged
+WO-2062,TK-102,M17692,Routine Monitoring,No fault — routine sensor log,300.4,309.3,1467,40.3,166,,K. Deshpande,2026-04-29,Logged
+WO-2063,HEAT-EXCH-E7,L56843,Corrective,Overstrain failure,299.1,310.1,1435,48.8,229,,S. Chavan,2026-03-23,Completed
+WO-2064,TK-102,L50967,Corrective,Heat dissipation failure,302.3,310.8,1377,47.3,22,,R. Nair,2026-03-27,Completed
+WO-2065,PIPELINE-PL-9,L56839,Corrective,Overstrain failure,298.9,309.8,1287,61.9,216,,A. Sahay,2025-08-03,Completed
+WO-2066,PIPELINE-PL-9,L56847,Corrective,Overstrain failure,299.2,310.3,1352,48.9,238,,K. Deshpande,2026-03-25,Completed
+WO-2067,TANK-FRW-01,L52399,Corrective,Overstrain failure,303.8,313.0,1365,59.9,205,,R. Nair,2026-06-05,Completed
+WO-2068,PUMP-04B,L56844,Corrective,Overstrain failure,299.1,310.2,1317,54.8,231,,A. Sahay,2025-11-02,Completed
+WO-2069,TK-103,M22547,Corrective,Tool wear failure,300.7,311.7,2097,18.9,232,,T. Rahangdale,2026-05-29,Completed
+WO-2070,COMPRESSOR-C1,L53621,Routine Monitoring,No fault — routine sensor log,300.7,310.2,1639,31.4,48,CS-4170,T. Rahangdale,2025-08-16,Logged
+WO-2071,VALVE-HW-12,M19152,Corrective,Power failure,301.8,310.1,2372,13.9,205,CS-4171,J. Rao,2026-04-06,Completed
+WO-2072,PUMP-04A,L51628,Corrective,Heat dissipation failure,302.4,310.3,1374,51.2,163,,K. Deshpande,2025-10-21,Completed
+WO-2073,PIPELINE-PL-9,L52164,Corrective,Overstrain failure,303.8,313.1,1256,58.7,213,,J. Rao,2025-09-29,Completed
+WO-2074,TK-102,M24463,Routine Monitoring,No fault — routine sensor log,298.9,310.1,1549,40.2,65,,R. Nair,2025-10-30,Logged
+WO-2075,TK-102,L51994,Corrective,Overstrain failure,303.4,311.8,1401,53.0,208,,A. Sahay,2026-03-16,Completed
+WO-2076,TK-102,L49511,Corrective,Overstrain failure,299.3,308.6,1384,53.6,218,,S. Chavan,2025-09-01,Completed
+WO-2077,PUMP-04A,M21997,Routine Monitoring,No fault — routine sensor log,300.6,310.0,1486,41.2,127,,P. Verma,2026-04-19,Logged
+WO-2078,TANK-FRW-01,H32414,Corrective,Power failure,300.5,309.8,1324,72.8,159,CS-4178,T. Rahangdale,2026-01-22,Completed
+WO-2079,PUMP-04A,L50530,Corrective,Overstrain failure,301.4,310.8,1285,62.6,183,,P. Verma,2025-08-29,Completed
+WO-2080,PUMP-04A,M21478,Corrective,Power failure,301.6,310.6,1309,65.8,75,,S. Chavan,2025-10-29,Completed
+WO-2081,VALVE-HW-12,L51108,Corrective,Power failure,302.6,311.5,1442,59.8,169,,T. Rahangdale,2026-01-22,Completed
+WO-2082,TURBINE-T2,L50549,Corrective,Power failure,301.5,310.9,2760,8.0,15,,P. Verma,2025-09-26,Completed
+WO-2083,TK-103,L49013,Corrective,Overstrain failure,297.8,307.3,1327,61.0,186,,M. Iyer,2025-08-30,Completed
+WO-2084,TK-103,M20261,Corrective,Tool wear failure; Overstrain failure,302.6,312.3,1454,54.8,253,,A. Sahay,2025-11-11,Completed
+WO-2085,PUMP-04B,L49202,Routine Monitoring,No fault — routine sensor log,298.7,308.4,1373,46.9,60,,K. Deshpande,2026-05-06,Logged
+WO-2086,TK-103,L51487,Corrective,Heat dissipation failure,301.4,309.9,1259,63.9,20,,T. Rahangdale,2026-01-08,Completed
+WO-2087,PUMP-04B,M18688,Routine Monitoring,No fault — routine sensor log,302.3,310.8,1762,27.8,127,,A. Sahay,2025-07-18,Logged
+WO-2088,VALVE-HW-12,L49255,Corrective,Overstrain failure,299.5,309.4,1390,58.8,195,CS-4188,A. Sahay,2025-10-16,Completed
+WO-2089,TK-103,L56470,Routine Monitoring,No fault — routine sensor log,298.2,309.0,1418,44.2,87,,S. Chavan,2025-11-21,Logged
+WO-2090,TURBINE-T2,L51450,Corrective,Heat dissipation failure,302.6,310.9,1331,52.0,154,CS-4190,T. Rahangdale,2026-03-22,Completed
+WO-2091,HEAT-EXCH-E7,H38309,Routine Monitoring,No fault — routine sensor log,297.4,308.6,1461,40.1,126,,J. Rao,2025-12-21,Logged
+WO-2092,HEAT-EXCH-E7,L53352,Corrective,Tool wear failure,300.8,310.6,1577,37.9,227,CS-4192,K. Deshpande,2026-04-26,Completed
+WO-2093,VALVE-HW-12,L48512,Routine Monitoring,No fault — routine sensor log,299.0,310.3,1868,24.0,221,CS-4193,P. Verma,2025-10-30,Logged
+WO-2094,PUMP-04A,L51655,Corrective,Heat dissipation failure,302.7,310.5,1351,41.8,10,,M. Iyer,2025-09-23,Completed
+WO-2095,PUMP-04B,L54749,Corrective,Power failure,300.2,311.0,1255,71.8,149,CS-4195,T. Rahangdale,2026-04-20,Completed
+WO-2096,PUMP-04B,L49778,Corrective,Power failure,299.1,308.8,1320,67.5,20,CS-4196,R. Nair,2026-03-12,Completed
+WO-2097,COMPRESSOR-C1,L55375,Corrective,Overstrain failure,299.4,310.8,1376,53.9,215,,J. Rao,2026-01-31,Completed
+WO-2098,HEAT-EXCH-E7,M19279,Corrective,Power failure,302.6,310.2,2676,10.8,84,CS-4198,P. Verma,2025-12-27,Completed
+WO-2099,PUMP-04B,L51182,Corrective,Power failure,302.1,311.2,1454,59.2,153,CS-4199,A. Sahay,2025-11-07,Completed
+WO-2100,PUMP-04B,M20410,Routine Monitoring,No fault — routine sensor log,302.3,311.9,1508,42.3,159,CS-4200,R. Nair,2025-07-23,Logged
+WO-2101,PUMP-04B,L50709,Corrective,Tool wear failure,301.9,310.9,1567,39.0,214,,S. Chavan,2025-08-05,Completed
+WO-2102,TK-103,M18980,Corrective,Heat dissipation failure,302.1,310.7,1376,46.3,210,CS-4202,S. Chavan,2025-10-23,Completed
+WO-2103,PUMP-04A,L56833,Corrective,Overstrain failure,299.0,309.9,1373,55.7,201,,J. Rao,2026-01-26,Completed
+WO-2104,PIPELINE-PL-9,M18795,Corrective,Overstrain failure,302.6,311.6,1227,68.2,187,CS-4204,T. Rahangdale,2026-04-17,Completed
+WO-2105,TK-102,M20859,Corrective,Tool wear failure,300.4,310.2,1671,30.5,234,CS-4205,A. Sahay,2026-03-01,Completed
+WO-2106,COMPRESSOR-C1,L51459,Corrective,Heat dissipation failure,302.0,310.1,1361,45.4,174,,T. Rahangdale,2026-01-15,Completed
+WO-2107,TURBINE-T2,L47643,Corrective,Power failure,297.4,308.7,2874,4.2,118,,A. Sahay,2026-01-25,Completed
+WO-2108,VALVE-HW-12,L53258,Corrective,Overstrain failure,300.8,310.7,1339,59.1,203,,M. Iyer,2026-05-25,Completed
+WO-2109,PUMP-04A,L53428,Corrective,Power failure; Overstrain failure,300.8,310.1,1405,61.2,189,CS-4209,T. Rahangdale,2025-09-22,Completed
+WO-2110,TURBINE-T2,L55206,Corrective,Overstrain failure,300.7,311.9,1399,50.2,222,CS-4210,P. Verma,2026-04-19,Completed
+WO-2111,HEAT-EXCH-E7,L50791,Corrective,Tool wear failure; Random failure (no clear root cause),301.7,310.9,1405,46.4,207,,J. Rao,2025-09-26,Completed
+WO-2112,COMPRESSOR-C1,L48571,Corrective,Power failure,298.9,310.2,2737,8.8,142,,T. Rahangdale,2025-12-19,Completed
+WO-2113,TK-103,L47257,Corrective,Tool wear failure,298.8,308.9,1455,41.3,208,,A. Sahay,2025-11-17,Completed
+WO-2114,VALVE-HW-12,L49624,Corrective,Power failure,299.2,308.6,1267,68.2,76,,A. Sahay,2026-06-05,Completed
+WO-2115,PUMP-04B,L54689,Corrective,Overstrain failure,300.6,311.9,1372,60.1,212,,M. Iyer,2025-11-04,Completed
+WO-2116,TK-102,L51565,Corrective,Tool wear failure,301.8,309.7,1442,45.3,233,CS-4216,J. Rao,2025-09-26,Completed
+WO-2117,COMPRESSOR-C1,M23167,Corrective,Power failure,298.7,310.1,1402,69.7,64,,M. Iyer,2026-05-20,Completed
+WO-2118,TURBINE-T2,L51649,Corrective,Tool wear failure,302.7,310.5,1446,40.9,211,CS-4218,M. Iyer,2025-10-27,Completed
+WO-2119,PUMP-04A,L51882,Corrective,Heat dissipation failure,303.6,311.8,1222,66.8,148,CS-4219,K. Deshpande,2025-09-05,Completed
+WO-2120,VALVE-HW-12,M17801,Corrective,Tool wear failure,300.7,309.6,1996,19.8,203,CS-4220,M. Iyer,2026-02-21,Completed
+WO-2121,VALVE-HW-12,M23786,Corrective,Power failure; Overstrain failure,297.3,308.3,1459,59.6,207,CS-4221,K. Deshpande,2025-11-29,Completed
+WO-2122,PUMP-04B,L51214,Corrective,Tool wear failure,302.0,310.8,1615,29.0,235,,T. Rahangdale,2026-02-05,Completed
+WO-2123,TANK-FRW-01,M20475,Corrective,Power failure,303.0,312.2,1257,71.3,122,,S. Chavan,2026-01-28,Completed
+WO-2124,PUMP-04B,M22709,Corrective,Tool wear failure,300.3,311.7,1374,47.9,222,CS-4224,R. Nair,2025-11-23,Completed
+WO-2125,PUMP-04A,L47766,Corrective,Overstrain failure,297.6,309.6,1501,49.8,222,CS-4225,T. Rahangdale,2026-04-30,Completed
+WO-2126,PIPELINE-PL-9,M19704,Corrective,Heat dissipation failure,303.4,311.8,1316,50.9,69,,A. Sahay,2025-08-11,Completed
+WO-2127,HEAT-EXCH-E7,L56944,Corrective,Power failure,298.5,309.5,1294,66.7,12,,P. Verma,2026-03-28,Completed
+WO-2128,COMPRESSOR-C1,M19269,Corrective,Heat dissipation failure,302.4,310.1,1358,54.6,61,,A. Sahay,2026-05-21,Completed
+WO-2129,TANK-FRW-01,L50875,Corrective,Tool wear failure,302.2,311.3,1530,37.3,207,,A. Sahay,2025-09-17,Completed
+WO-2130,TANK-FRW-01,L56938,Corrective,Tool wear failure,298.6,309.8,2271,16.2,218,,R. Nair,2025-08-17,Completed
+WO-2131,TK-103,M18884,Corrective,Overstrain failure,302.1,311.0,1351,60.3,207,CS-4231,R. Nair,2026-04-05,Completed
+WO-2132,VALVE-HW-12,L51586,Corrective,Heat dissipation failure,302.5,310.3,1326,58.5,55,,J. Rao,2025-10-24,Completed
+WO-2133,TANK-FRW-01,L50038,Corrective,Overstrain failure,300.5,309.3,1417,51.5,231,CS-4233,R. Nair,2025-07-27,Completed
+WO-2134,TANK-FRW-01,L51405,Corrective,Heat dissipation failure,302.1,310.7,1359,49.3,41,,P. Verma,2026-01-28,Completed
+WO-2135,PUMP-04A,L51800,Corrective,Heat dissipation failure,303.1,311.3,1336,52.6,172,,S. Chavan,2025-09-28,Completed
+WO-2136,TANK-FRW-01,M24124,Routine Monitoring,No fault — routine sensor log,298.3,309.0,1526,36.9,20,CS-4236,S. Chavan,2025-10-13,Logged
+WO-2137,COMPRESSOR-C1,M19118,Corrective,Heat dissipation failure,302.7,311.1,1297,60.7,125,,M. Iyer,2026-02-12,Completed
+WO-2138,TK-103,L53436,Corrective,Tool wear failure,301.0,310.6,1493,37.8,206,CS-4238,P. Verma,2025-10-03,Completed
+WO-2139,HEAT-EXCH-E7,L47926,Corrective,Overstrain failure,296.8,308.1,1289,62.0,199,CS-4239,M. Iyer,2026-05-20,Completed
+WO-2140,PIPELINE-PL-9,L55578,Corrective,Power failure,298.5,309.7,2617,12.1,102,,T. Rahangdale,2026-05-04,Completed
+WO-2141,PIPELINE-PL-9,M15740,Corrective,Power failure,295.8,306.3,1235,76.2,89,CS-4241,M. Iyer,2025-07-14,Completed
+WO-2142,COMPRESSOR-C1,M17026,Corrective,Tool wear failure,299.6,309.2,1867,23.4,225,,A. Sahay,2026-06-06,Completed
+WO-2143,TURBINE-T2,L51841,Corrective,Heat dissipation failure,303.3,311.3,1350,48.1,32,CS-4243,M. Iyer,2026-04-23,Completed
+WO-2144,TK-103,L57154,Corrective,Power failure; Overstrain failure,298.6,308.2,1361,68.2,172,,M. Iyer,2025-09-21,Completed
+WO-2145,COMPRESSOR-C1,L55789,Corrective,Tool wear failure,297.4,308.3,1475,40.5,222,,P. Verma,2026-04-13,Completed
+WO-2146,TANK-FRW-01,M20194,Corrective,Power failure,303.4,312.6,2706,9.8,65,CS-4246,S. Chavan,2025-10-13,Completed
+WO-2147,PUMP-04A,L51508,Corrective,Heat dissipation failure,301.6,310.1,1326,48.2,77,CS-4247,S. Chavan,2025-09-26,Completed
+WO-2148,TURBINE-T2,L53658,Corrective,No fault — routine sensor log,300.5,309.8,1663,29.1,145,,J. Rao,2026-02-25,Completed
+WO-2149,TK-103,L51919,Corrective,Heat dissipation failure,303.2,311.4,1351,53.8,8,CS-4249,S. Chavan,2026-04-01,Completed
+WO-2150,TANK-FRW-01,M18727,Corrective,Power failure,302.7,311.6,2709,9.7,2,CS-4250,K. Deshpande,2026-04-06,Completed
+WO-2151,PIPELINE-PL-9,L47568,Routine Monitoring,No fault — routine sensor log,297.6,308.7,1455,48.2,145,,M. Iyer,2026-04-16,Logged
+WO-2152,VALVE-HW-12,L51335,Corrective,Heat dissipation failure,302.0,310.5,1370,44.4,85,CS-4252,P. Verma,2025-11-23,Completed
+WO-2153,PUMP-04A,L51297,Corrective,Overstrain failure,301.9,310.5,1340,55.7,204,CS-4253,P. Verma,2025-10-25,Completed
+WO-2154,HEAT-EXCH-E7,M21516,Routine Monitoring,No fault — routine sensor log,301.4,310.4,1553,44.7,173,,A. Sahay,2025-11-11,Logged
+WO-2155,VALVE-HW-12,M21400,Corrective,Power failure,301.4,310.7,1368,63.7,92,,S. Chavan,2025-12-25,Completed
+WO-2156,PUMP-04A,H33492,Corrective,Heat dissipation failure,302.1,310.7,1294,62.4,101,,K. Deshpande,2025-11-21,Completed
+WO-2157,PUMP-04B,L57010,Corrective,Overstrain failure,298.3,309.3,1337,56.1,206,,T. Rahangdale,2026-06-06,Completed
+WO-2158,COMPRESSOR-C1,H33243,Corrective,Heat dissipation failure,302.3,310.9,1366,48.4,130,CS-4258,S. Chavan,2025-11-23,Completed
+WO-2159,HEAT-EXCH-E7,M22451,Corrective,Overstrain failure,300.5,311.1,1296,61.3,202,,S. Chavan,2025-12-10,Completed
+WO-2160,HEAT-EXCH-E7,M19030,Corrective,Heat dissipation failure,302.2,310.6,1355,51.5,126,,R. Nair,2026-01-20,Completed
+WO-2161,PUMP-04B,M20169,Corrective,Tool wear failure,303.9,313.2,1422,48.0,215,CS-4261,M. Iyer,2025-07-22,Completed
+WO-2162,TK-102,L57112,Routine Monitoring,No fault — routine sensor log,298.3,308.2,1663,28.4,67,CS-4262,M. Iyer,2025-11-01,Logged
+WO-2163,TANK-FRW-01,L50973,Corrective,Heat dissipation failure,302.3,310.9,1379,49.3,34,,K. Deshpande,2025-11-05,Completed
+WO-2164,PUMP-04A,L54897,Routine Monitoring,No fault — routine sensor log,300.5,311.6,1365,53.0,85,,J. Rao,2025-09-02,Logged
+WO-2165,TANK-FRW-01,L57002,Corrective,Overstrain failure,298.5,309.4,1360,60.9,187,CS-4265,S. Chavan,2026-05-18,Completed
+WO-2166,HEAT-EXCH-E7,L51776,Corrective,Heat dissipation failure,303.0,311.2,1361,47.6,106,,A. Sahay,2025-07-18,Completed
+WO-2167,COMPRESSOR-C1,L51716,Corrective,Heat dissipation failure,302.4,310.2,1351,45.1,168,,A. Sahay,2026-03-17,Completed
+WO-2168,TURBINE-T2,L51690,Corrective,Heat dissipation failure,302.4,310.2,1346,62.4,106,,M. Iyer,2026-01-11,Completed
+WO-2169,COMPRESSOR-C1,L56756,Corrective,Tool wear failure,299.6,310.7,1922,23.3,205,,M. Iyer,2025-11-17,Completed
+WO-2170,TK-103,L48265,Corrective,Overstrain failure,297.0,307.8,1385,56.4,202,,J. Rao,2026-04-12,Completed
+WO-2171,TK-102,L53204,Corrective,Power failure,300.7,310.9,1356,65.3,66,,S. Chavan,2026-02-26,Completed
+WO-2172,TANK-FRW-01,L52580,Corrective,Overstrain failure,302.7,312.4,1477,46.3,251,,P. Verma,2025-09-04,Completed
+WO-2173,TK-103,M19033,Corrective,Heat dissipation failure,302.2,310.6,1346,49.2,134,,K. Deshpande,2025-10-25,Completed
+WO-2174,HEAT-EXCH-E7,L56594,Corrective,Overstrain failure,298.1,308.6,1354,53.9,207,CS-4274,T. Rahangdale,2026-02-08,Completed
+WO-2175,PUMP-04B,L50446,Corrective,Overstrain failure,301.3,310.1,1269,56.8,195,CS-4275,S. Chavan,2025-12-31,Completed
+WO-2176,TK-103,M19622,Corrective,Power failure,303.7,312.0,2663,11.4,71,,T. Rahangdale,2026-06-02,Completed
+WO-2177,HEAT-EXCH-E7,M19580,Corrective,Heat dissipation failure,303.4,311.7,1353,44.1,192,,T. Rahangdale,2025-12-02,Completed
+WO-2178,COMPRESSOR-C1,L55064,Corrective,Power failure,300.8,312.4,1465,59.1,91,,R. Nair,2025-09-30,Completed
+WO-2179,COMPRESSOR-C1,M22115,Routine Monitoring,No fault — routine sensor log,300.2,310.3,1704,29.4,221,,K. Deshpande,2026-04-09,Logged
+WO-2180,TANK-FRW-01,M17286,Corrective,Power failure,298.9,308.2,1372,63.6,30,,T. Rahangdale,2026-04-26,Completed
+WO-2181,COMPRESSOR-C1,L54191,Corrective,Power failure,300.5,310.5,2633,12.2,17,,J. Rao,2025-11-20,Completed
+WO-2182,TURBINE-T2,M18674,Corrective,Heat dissipation failure,302.1,310.6,1326,59.1,88,,M. Iyer,2026-06-01,Completed
+WO-2183,TK-102,L56264,Corrective,Power failure; Overstrain failure,297.2,307.9,1326,75.4,172,CS-4283,P. Verma,2025-08-16,Completed
+WO-2184,TURBINE-T2,L51996,Corrective,Tool wear failure,303.4,312.0,1521,35.9,215,CS-4284,J. Rao,2025-09-15,Completed
+WO-2185,TURBINE-T2,L49941,Corrective,Overstrain failure,299.8,309.3,1299,65.1,212,,T. Rahangdale,2026-04-18,Completed
+WO-2186,TK-103,L48515,Corrective,Overstrain failure,299.0,310.4,1371,53.8,228,CS-4286,S. Chavan,2025-07-16,Completed
+WO-2187,TURBINE-T2,M16352,Corrective,Power failure,298.0,308.7,1479,58.5,176,CS-4287,R. Nair,2026-06-12,Completed
+WO-2188,TK-102,L51580,Corrective,Heat dissipation failure,302.3,310.1,1353,50.9,36,CS-4288,R. Nair,2025-07-17,Completed
+WO-2189,COMPRESSOR-C1,M22286,Corrective,Tool wear failure,300.0,311.4,1692,29.0,216,,M. Iyer,2025-09-15,Completed
+WO-2190,HEAT-EXCH-E7,M15119,Corrective,Power failure,298.1,308.2,1420,63.9,19,,S. Chavan,2026-04-23,Completed
+WO-2191,PUMP-04B,L51465,Corrective,Heat dissipation failure,301.7,309.9,1317,49.0,187,,T. Rahangdale,2025-11-26,Completed
+WO-2192,COMPRESSOR-C1,L53939,Corrective,Tool wear failure,301.7,311.0,1441,44.3,208,CS-4292,R. Nair,2026-06-07,Completed
+WO-2193,TANK-FRW-01,L48868,Routine Monitoring,No fault — routine sensor log,297.9,307.4,1606,35.5,14,,P. Verma,2026-01-21,Logged
+WO-2194,VALVE-HW-12,L52241,Corrective,Overstrain failure,304.0,312.9,1363,62.5,200,,T. Rahangdale,2025-10-12,Completed
+WO-2195,TANK-FRW-01,L51359,Corrective,Heat dissipation failure,302.4,310.9,1349,46.1,148,CS-4295,T. Rahangdale,2026-05-29,Completed
+WO-2196,HEAT-EXCH-E7,M19529,Corrective,Heat dissipation failure,303.3,311.5,1373,47.3,60,,M. Iyer,2026-05-15,Completed
+WO-2197,PUMP-04A,L51738,Corrective,Heat dissipation failure,302.7,310.7,1369,47.5,11,CS-4297,J. Rao,2026-05-02,Completed
+WO-2198,COMPRESSOR-C1,L48943,Corrective,Tool wear failure,298.2,307.6,1511,31.0,209,CS-4298,J. Rao,2025-12-05,Completed
+WO-2199,TK-103,L54347,Corrective,Overstrain failure,300.3,310.3,1362,60.3,206,,K. Deshpande,2025-11-09,Completed
+WO-2200,VALVE-HW-12,L55106,Corrective,Overstrain failure,300.7,311.9,1335,57.1,194,,T. Rahangdale,2026-06-09,Completed
+WO-2201,COMPRESSOR-C1,L56919,Routine Monitoring,No fault — routine sensor log,298.9,310.0,1515,42.9,170,,S. Chavan,2026-02-27,Logged
+WO-2202,TURBINE-T2,L51675,Corrective,Heat dissipation failure,302.6,310.4,1359,57.2,67,,M. Iyer,2026-03-05,Completed
+WO-2203,TK-103,L51362,Corrective,Heat dissipation failure,302.4,310.7,1362,54.8,155,,M. Iyer,2026-01-12,Completed
+WO-2204,PUMP-04B,M19143,Corrective,Heat dissipation failure,301.8,309.9,1334,61.0,182,,P. Verma,2025-08-04,Completed
+WO-2205,TK-102,M15067,Corrective,Power failure,298.4,308.7,1421,60.7,119,,P. Verma,2025-11-11,Completed
+WO-2206,PUMP-04A,L52245,Routine Monitoring,No fault — routine sensor log,304.1,313.0,1566,37.2,7,,A. Sahay,2025-11-23,Logged
+WO-2207,PUMP-04A,H34813,Corrective,Overstrain failure,302.8,312.4,1411,53.8,246,CS-4307,A. Sahay,2025-11-12,Completed
+WO-2208,PUMP-04A,L55372,Corrective,Overstrain failure,299.6,310.9,1229,65.2,209,,A. Sahay,2025-11-23,Completed
+WO-2209,TURBINE-T2,M19387,Corrective,Heat dissipation failure,302.4,310.5,1372,45.7,144,,K. Deshpande,2026-04-16,Completed
+WO-2210,PUMP-04B,L51642,Corrective,Heat dissipation failure; Overstrain failure,302.7,310.5,1263,67.8,197,,K. Deshpande,2026-03-07,Completed
+WO-2211,TK-102,L54939,Corrective,Overstrain failure,300.4,311.8,1272,59.2,198,,P. Verma,2026-05-27,Completed
+WO-2212,COMPRESSOR-C1,L47422,Corrective,Overstrain failure,298.0,308.2,1348,58.8,202,,J. Rao,2025-12-03,Completed
+WO-2213,VALVE-HW-12,L51563,Corrective,Heat dissipation failure; Overstrain failure,301.7,309.5,1298,65.5,229,,S. Chavan,2026-06-11,Completed
+WO-2214,PUMP-04B,H30537,Corrective,Power failure,296.6,307.7,1386,62.3,100,CS-4314,K. Deshpande,2025-11-09,Completed
+WO-2215,PUMP-04B,L54936,Corrective,Overstrain failure,300.5,311.8,1368,57.9,191,,T. Rahangdale,2025-11-30,Completed
+WO-2216,VALVE-HW-12,M16723,Routine Monitoring,No fault — routine sensor log,297.9,307.7,1517,39.5,69,,M. Iyer,2025-11-03,Logged
+WO-2217,PUMP-04B,L49479,Corrective,Power failure,299.4,308.7,1446,62.9,134,CS-4317,P. Verma,2026-03-04,Completed
+WO-2218,VALVE-HW-12,L51898,Corrective,Heat dissipation failure,303.3,311.6,1337,56.8,187,,P. Verma,2026-03-06,Completed
+WO-2219,VALVE-HW-12,L49682,Corrective,Overstrain failure,299.2,309.0,1515,48.9,228,,P. Verma,2026-05-28,Completed
+WO-2220,HEAT-EXCH-E7,M18317,Corrective,Power failure,301.5,310.4,2639,12.0,21,CS-4320,J. Rao,2026-05-23,Completed
+WO-2221,HEAT-EXCH-E7,L49447,Routine Monitoring,No fault — routine sensor log,299.2,308.5,1370,52.4,61,CS-4321,S. Chavan,2026-05-12,Logged
+WO-2222,COMPRESSOR-C1,L51928,Corrective,Heat dissipation failure,303.2,311.2,1363,46.7,29,CS-4322,S. Chavan,2025-08-06,Completed
+WO-2223,VALVE-HW-12,L55686,Corrective,No fault — routine sensor log,298.4,309.6,1710,27.3,163,,K. Deshpande,2025-08-01,Completed
+WO-2224,PUMP-04A,H33769,Corrective,Heat dissipation failure,302.0,309.8,1280,57.3,147,CS-4324,K. Deshpande,2026-01-22,Completed
+WO-2225,COMPRESSOR-C1,L48969,Corrective,Power failure,298.2,307.9,1313,67.3,67,CS-4325,S. Chavan,2026-05-31,Completed
+WO-2226,TK-103,M19587,Corrective,Heat dissipation failure,303.4,311.8,1341,47.0,210,CS-4326,P. Verma,2025-11-27,Completed
+WO-2227,COMPRESSOR-C1,L52668,Corrective,Overstrain failure,302.7,312.2,1450,52.1,213,,P. Verma,2026-04-06,Completed
+WO-2228,TURBINE-T2,L48342,Corrective,Overstrain failure,296.9,307.8,1400,57.1,202,CS-4328,M. Iyer,2026-03-27,Completed
+WO-2229,PIPELINE-PL-9,L47249,Corrective,Power failure; Overstrain failure,298.9,309.0,1410,65.7,191,CS-4329,K. Deshpande,2025-10-20,Completed
+WO-2230,VALVE-HW-12,M19309,Corrective,Heat dissipation failure,302.4,310.3,1378,54.3,165,,S. Chavan,2025-09-23,Completed
+WO-2231,TK-103,L56355,Corrective,Power failure,297.8,309.0,1403,64.2,0,,A. Sahay,2026-02-06,Completed
+WO-2232,HEAT-EXCH-E7,L47560,Corrective,Power failure,297.5,308.3,2564,12.8,127,CS-4332,R. Nair,2025-10-09,Completed
+WO-2233,TANK-FRW-01,H35468,Routine Monitoring,No fault — routine sensor log,300.7,310.8,1518,40.1,142,,A. Sahay,2025-11-06,Logged
+WO-2234,PUMP-04B,L47428,Corrective,Overstrain failure,298.0,308.3,1362,56.8,216,,M. Iyer,2025-07-28,Completed
+WO-2235,PUMP-04B,L51476,Corrective,Power failure,301.8,310.2,2825,5.8,215,CS-4335,J. Rao,2025-09-30,Completed
+WO-2236,TURBINE-T2,L53339,Corrective,Overstrain failure,301.0,311.0,1399,58.0,190,CS-4336,A. Sahay,2025-11-11,Completed
+WO-2237,TURBINE-T2,H35754,Corrective,Tool wear failure,300.5,309.9,1397,45.9,210,,T. Rahangdale,2025-09-10,Completed
+WO-2238,PUMP-04B,L54694,Routine Monitoring,No fault — routine sensor log,300.4,311.8,1636,32.3,7,,M. Iyer,2026-01-13,Logged
+WO-2239,COMPRESSOR-C1,L51034,Corrective,Power failure; Overstrain failure,302.4,311.0,1338,67.6,194,,K. Deshpande,2026-02-02,Completed
+WO-2240,COMPRESSOR-C1,M16184,Corrective,Power failure; Overstrain failure,298.8,310.1,1243,74.5,194,CS-4340,T. Rahangdale,2026-03-09,Completed
+WO-2241,TK-103,H33279,Corrective,Tool wear failure,302.6,311.5,1629,34.4,228,CS-4341,M. Iyer,2025-08-20,Completed
+WO-2242,TK-103,L52981,Routine Monitoring,No fault — routine sensor log,301.5,310.8,1413,44.6,166,,J. Rao,2026-02-04,Logged
+WO-2243,TK-103,L54170,Corrective,Power failure,300.7,311.1,2478,13.4,170,,T. Rahangdale,2025-07-15,Completed
+WO-2244,PUMP-04B,L52797,Corrective,Power failure,303.1,312.4,1404,61.5,127,,R. Nair,2026-04-21,Completed
+WO-2245,PUMP-04A,L56195,Corrective,No fault — routine sensor log,297.2,308.1,1431,49.7,210,,T. Rahangdale,2025-10-26,Completed
+WO-2246,VALVE-HW-12,L48438,Routine Monitoring,No fault — routine sensor log,297.5,308.9,1427,50.4,17,CS-4346,M. Iyer,2026-02-13,Logged
+WO-2247,PUMP-04B,M18981,Corrective,Heat dissipation failure,302.1,310.7,1364,47.8,213,CS-4347,T. Rahangdale,2026-05-05,Completed
+WO-2248,VALVE-HW-12,L51615,Corrective,Heat dissipation failure,302.3,310.1,1321,52.7,134,,A. Sahay,2025-10-26,Completed
+WO-2249,PIPELINE-PL-9,H31096,Corrective,Tool wear failure,297.9,307.4,1604,36.1,225,CS-4349,R. Nair,2026-04-19,Completed
+WO-2250,PIPELINE-PL-9,L51585,Corrective,Heat dissipation failure,302.4,310.2,1331,45.5,53,,K. Deshpande,2026-02-21,Completed
+WO-2251,PUMP-04A,L52011,Corrective,Heat dissipation failure,303.5,312.0,1366,54.5,30,,A. Sahay,2026-05-21,Completed
+WO-2252,TK-103,L55537,Corrective,Tool wear failure,298.5,309.5,1385,46.3,203,,R. Nair,2025-08-10,Completed
+WO-2253,TK-103,L51310,Corrective,Heat dissipation failure,301.9,310.4,1286,62.8,22,,K. Deshpande,2025-11-15,Completed
+WO-2254,VALVE-HW-12,L48347,Corrective,Overstrain failure,297.0,308.1,1362,52.5,213,CS-4354,M. Iyer,2026-05-04,Completed
+WO-2255,TK-103,M18096,Corrective,Heat dissipation failure,300.8,309.4,1342,62.4,113,CS-4355,P. Verma,2025-09-05,Completed
+WO-2256,TURBINE-T2,L55870,Corrective,Tool wear failure,297.1,308.5,1323,44.4,207,CS-4356,S. Chavan,2025-11-22,Completed
+WO-2257,TANK-FRW-01,L49674,Corrective,Overstrain failure,299.1,308.8,1329,53.6,207,CS-4357,S. Chavan,2025-07-13,Completed
+WO-2258,TK-102,L52116,Corrective,Power failure,303.5,312.4,1284,70.6,94,,M. Iyer,2025-11-15,Completed
+WO-2259,COMPRESSOR-C1,L51750,Corrective,Heat dissipation failure,302.8,310.9,1312,52.2,40,,J. Rao,2026-05-17,Completed
+WO-2260,COMPRESSOR-C1,L53677,Corrective,Overstrain failure,300.8,309.9,1312,65.3,192,,K. Deshpande,2025-11-12,Completed
+WO-2261,HEAT-EXCH-E7,L51831,Corrective,Heat dissipation failure,303.2,311.4,1349,51.1,9,CS-4361,K. Deshpande,2025-07-18,Completed
+WO-2262,TK-103,L53853,Corrective,Overstrain failure,301.6,310.7,1380,51.8,216,,J. Rao,2026-02-28,Completed
+WO-2263,PUMP-04A,M19013,Corrective,Heat dissipation failure,302.0,310.4,1212,55.6,79,,A. Sahay,2025-11-08,Completed
+WO-2264,PUMP-04B,L56168,Routine Monitoring,No fault — routine sensor log,297.2,307.9,1825,24.6,142,,J. Rao,2025-08-21,Logged
+WO-2265,VALVE-HW-12,M17050,Routine Monitoring,No fault — routine sensor log,299.6,309.1,1471,44.3,67,,A. Sahay,2026-04-07,Logged
+WO-2266,PUMP-04A,M19249,Corrective,Heat dissipation failure,302.1,310.0,1355,45.1,6,CS-4366,A. Sahay,2025-07-19,Completed
+WO-2267,HEAT-EXCH-E7,L50759,Corrective,Power failure,301.8,310.6,2672,11.8,124,CS-4367,K. Deshpande,2025-09-27,Completed
+WO-2268,TK-102,L52016,Corrective,Heat dissipation failure,303.3,311.8,1315,62.0,42,CS-4368,M. Iyer,2026-03-22,Completed
+WO-2269,TANK-FRW-01,L53435,Corrective,Overstrain failure,301.0,310.5,1379,57.3,204,CS-4369,S. Chavan,2026-04-18,Completed
+WO-2270,HEAT-EXCH-E7,L56198,Corrective,Tool wear failure,297.3,308.1,1615,35.4,217,,T. Rahangdale,2026-01-09,Completed
+WO-2271,TK-102,H32554,Corrective,Power failure,300.4,309.9,2563,12.8,81,,R. Nair,2025-10-08,Completed
+WO-2272,VALVE-HW-12,L50034,Routine Monitoring,No fault — routine sensor log,300.5,309.3,1470,40.8,219,CS-4372,J. Rao,2026-04-29,Logged
+WO-2273,PIPELINE-PL-9,L47799,Routine Monitoring,No fault — routine sensor log,298.3,310.0,1507,44.7,73,,A. Sahay,2025-07-20,Logged
+WO-2274,TK-103,L50864,Corrective,Overstrain failure,302.0,311.2,1270,65.3,182,,T. Rahangdale,2025-10-13,Completed
+WO-2275,TK-102,L52222,Routine Monitoring,No fault — routine sensor log,304.1,313.2,1569,35.8,146,,R. Nair,2025-11-20,Logged
+WO-2276,TANK-FRW-01,L51724,Corrective,Heat dissipation failure,302.5,310.4,1349,55.1,187,CS-4376,K. Deshpande,2026-04-10,Completed
+WO-2277,TK-102,M18904,Corrective,No fault — routine sensor log,301.9,310.9,1419,47.7,20,CS-4377,T. Rahangdale,2026-05-22,Completed
+WO-2278,TANK-FRW-01,L48988,Corrective,Power failure,298.1,307.7,2567,12.8,125,,R. Nair,2025-12-29,Completed
+WO-2279,PUMP-04B,L47348,Corrective,Power failure,298.4,308.3,1433,62.3,20,,P. Verma,2025-09-04,Completed
+WO-2280,COMPRESSOR-C1,L47783,Corrective,Power failure,297.9,309.8,1336,71.6,31,,M. Iyer,2025-08-18,Completed
+WO-2281,TK-103,M19857,Corrective,Power failure,303.6,312.8,2659,11.4,26,,K. Deshpande,2025-10-27,Completed
+WO-2282,TANK-FRW-01,L56196,Corrective,Overstrain failure,297.3,308.2,1396,52.7,212,,R. Nair,2026-06-11,Completed
+WO-2283,PIPELINE-PL-9,L51228,Corrective,Power failure,301.9,311.0,2691,12.1,31,,P. Verma,2026-02-12,Completed
+WO-2284,TURBINE-T2,L51427,Corrective,Heat dissipation failure,302.6,311.0,1369,60.0,93,,P. Verma,2026-03-13,Completed
+WO-2285,TURBINE-T2,L56354,Corrective,Tool wear failure,297.8,308.9,1871,25.6,200,,S. Chavan,2026-04-08,Completed
+WO-2286,VALVE-HW-12,L52020,Corrective,Heat dissipation failure,303.4,311.9,1298,63.9,59,,S. Chavan,2025-10-29,Completed
+WO-2287,TANK-FRW-01,L51935,Corrective,Heat dissipation failure,303.4,311.7,1295,51.3,51,,R. Nair,2026-05-23,Completed
+WO-2288,TK-102,M19461,Corrective,Heat dissipation failure,303.0,311.1,1372,54.3,117,CS-4388,K. Deshpande,2025-09-24,Completed
+WO-2289,PUMP-04B,L50147,Routine Monitoring,No fault — routine sensor log,300.6,309.4,1369,51.6,71,CS-4389,J. Rao,2025-07-13,Logged
+WO-2290,TK-102,L54460,Corrective,Power failure,299.9,310.2,1288,69.6,62,CS-4390,S. Chavan,2025-08-02,Completed
+WO-2291,PUMP-04B,L48324,Corrective,Power failure,297.0,307.9,1296,69.1,153,CS-4391,P. Verma,2026-01-16,Completed
+WO-2292,TK-102,L51621,Corrective,Heat dissipation failure,302.5,310.2,1329,50.6,148,,T. Rahangdale,2026-05-10,Completed
+WO-2293,VALVE-HW-12,M19393,Corrective,Heat dissipation failure,302.4,310.3,1375,52.5,161,,M. Iyer,2026-03-23,Completed
+WO-2294,VALVE-HW-12,L51123,Corrective,Power failure; Overstrain failure,302.3,311.4,1333,66.7,205,,M. Iyer,2025-10-22,Completed
+WO-2295,TK-102,L51823,Corrective,Heat dissipation failure; Overstrain failure,303.2,311.4,1324,54.2,228,CS-4395,P. Verma,2026-02-26,Completed
+WO-2296,PIPELINE-PL-9,L51909,Corrective,Heat dissipation failure; Overstrain failure,303.4,311.8,1306,61.0,215,CS-4396,T. Rahangdale,2025-12-31,Completed
+WO-2297,VALVE-HW-12,L51429,Corrective,Heat dissipation failure,302.5,310.9,1330,56.9,97,CS-4397,A. Sahay,2025-11-18,Completed
+WO-2298,TK-102,L54595,Routine Monitoring,No fault — routine sensor log,300.1,311.2,1489,39.1,188,,M. Iyer,2025-12-27,Logged
+WO-2299,HEAT-EXCH-E7,L49175,Routine Monitoring,No fault — routine sensor log,298.3,308.0,1451,47.1,196,CS-4399,M. Iyer,2026-04-15,Logged
+WO-2300,TANK-FRW-01,L51826,Corrective,Tool wear failure,303.3,311.4,1497,46.0,234,CS-4400,K. Deshpande,2025-10-24,Completed
+WO-2301,TANK-FRW-01,L51601,Corrective,Heat dissipation failure,302.6,310.2,1325,62.4,92,,S. Chavan,2026-02-03,Completed
+WO-2302,TANK-FRW-01,M23706,Corrective,Tool wear failure; Overstrain failure,297.4,308.8,1325,62.4,204,,J. Rao,2025-12-04,Completed
+WO-2303,COMPRESSOR-C1,H33665,Corrective,Heat dissipation failure,302.5,310.9,1356,55.5,101,,K. Deshpande,2025-08-21,Completed
+WO-2304,TK-102,L54690,Corrective,Tool wear failure,300.5,311.8,1524,38.9,214,,S. Chavan,2025-10-29,Completed
+WO-2305,TK-103,M19067,Corrective,Tool wear failure,302.3,310.9,1710,30.4,218,CS-4405,R. Nair,2026-01-12,Completed
+WO-2306,TANK-FRW-01,H30851,Corrective,No fault — routine sensor log,298.8,309.9,1439,45.2,40,CS-4406,K. Deshpande,2026-06-12,Completed
+WO-2307,PUMP-04A,L51939,Corrective,Heat dissipation failure,303.5,311.6,1361,46.5,62,CS-4407,M. Iyer,2025-08-01,Completed
+WO-2308,HEAT-EXCH-E7,L48763,Corrective,Overstrain failure,298.2,308.4,1310,61.0,189,,K. Deshpande,2026-05-19,Completed
+WO-2309,TK-102,L49305,Corrective,Power failure,299.3,308.9,1258,69.4,119,,R. Nair,2026-06-01,Completed
+WO-2310,PUMP-04A,H36632,Routine Monitoring,No fault — routine sensor log,299.9,309.8,1400,48.7,119,CS-4410,K. Deshpande,2026-01-08,Logged
+WO-2311,PUMP-04B,M22857,Corrective,Power failure,301.0,312.2,2710,9.7,143,,T. Rahangdale,2025-11-13,Completed
+WO-2312,PIPELINE-PL-9,L52706,Routine Monitoring,No fault — routine sensor log,302.5,311.9,1520,44.9,94,,A. Sahay,2026-02-28,Logged
+WO-2313,VALVE-HW-12,L55379,Corrective,Tool wear failure,299.2,310.7,1737,27.0,225,,P. Verma,2026-03-23,Completed
+WO-2314,TK-102,L48514,Corrective,Overstrain failure,299.0,310.4,1365,49.1,226,CS-4414,T. Rahangdale,2026-03-28,Completed
+WO-2315,TURBINE-T2,L55617,Corrective,Overstrain failure,298.7,309.8,1181,65.9,203,CS-4415,A. Sahay,2026-01-25,Completed
+WO-2316,HEAT-EXCH-E7,L54112,Corrective,Power failure,300.8,311.4,1322,67.2,18,,R. Nair,2026-05-15,Completed
+WO-2317,TANK-FRW-01,L51344,Corrective,Heat dissipation failure,302.2,310.6,1346,47.5,109,,P. Verma,2025-08-08,Completed
+WO-2318,TANK-FRW-01,L51462,Corrective,Heat dissipation failure,301.9,309.9,1374,48.5,180,,T. Rahangdale,2026-03-20,Completed
+WO-2319,PUMP-04A,L51261,Corrective,Heat dissipation failure,302.0,310.4,1336,58.2,110,CS-4419,R. Nair,2025-11-17,Completed
+WO-2320,TK-102,L56239,Routine Monitoring,No fault — routine sensor log,297.2,308.3,1805,25.6,103,CS-4420,R. Nair,2026-04-20,Logged
+WO-2321,PUMP-04A,L51251,Corrective,Power failure,301.9,310.6,1331,68.6,85,,T. Rahangdale,2026-04-01,Completed
+WO-2322,HEAT-EXCH-E7,L47507,Corrective,Overstrain failure,297.7,308.5,1373,56.7,203,CS-4422,J. Rao,2025-08-03,Completed
+WO-2323,TK-102,M21538,Corrective,Power failure,301.5,310.7,1336,65.6,0,,S. Chavan,2026-01-10,Completed
+WO-2324,PUMP-04A,L48964,Corrective,Power failure,298.3,308.0,2886,3.8,57,,P. Verma,2025-09-10,Completed
+WO-2325,PUMP-04A,M19544,Corrective,No fault — routine sensor log,303.6,311.8,1421,44.8,101,,J. Rao,2025-10-17,Completed
+WO-2326,PUMP-04B,L49833,Routine Monitoring,No fault — routine sensor log,299.9,309.5,1779,26.1,169,,P. Verma,2026-03-15,Logged
+WO-2327,TK-103,L51320,Corrective,Heat dissipation failure,301.7,310.2,1331,61.2,47,,M. Iyer,2026-02-14,Completed
+WO-2328,PUMP-04A,L48083,Corrective,Power failure,295.7,306.2,2270,14.6,149,CS-4428,M. Iyer,2026-05-17,Completed
+WO-2329,COMPRESSOR-C1,L50708,Corrective,Overstrain failure,302.0,310.9,1378,53.1,212,,J. Rao,2025-09-18,Completed
+WO-2330,COMPRESSOR-C1,L51365,Corrective,Heat dissipation failure,302.2,310.6,1348,48.4,161,CS-4430,T. Rahangdale,2026-04-30,Completed
+WO-2331,TANK-FRW-01,L56834,Corrective,Overstrain failure,299.1,310.0,1367,56.3,203,CS-4431,M. Iyer,2026-02-12,Completed
+WO-2332,TK-103,L52100,Corrective,Power failure,303.4,312.2,1337,69.4,52,,K. Deshpande,2026-03-06,Completed
+WO-2333,HEAT-EXCH-E7,L55185,Routine Monitoring,No fault — routine sensor log,300.8,312.0,1477,37.3,164,,T. Rahangdale,2025-11-30,Logged
+WO-2334,TANK-FRW-01,L54716,Corrective,Power failure,300.1,311.3,2579,12.5,64,,R. Nair,2026-05-30,Completed
+WO-2335,HEAT-EXCH-E7,L51337,Corrective,Heat dissipation failure,302.0,310.5,1263,60.6,90,,T. Rahangdale,2025-08-24,Completed
+WO-2336,COMPRESSOR-C1,L48464,Corrective,Power failure,298.4,309.5,2153,15.3,98,,J. Rao,2025-07-29,Completed
+WO-2337,PIPELINE-PL-9,M18886,Routine Monitoring,No fault — routine sensor log,302.1,311.0,1574,34.1,215,CS-4437,A. Sahay,2026-03-30,Logged
+WO-2338,PUMP-04A,L47341,Corrective,Overstrain failure,298.3,308.1,1412,52.3,218,CS-4438,S. Chavan,2025-07-29,Completed
+WO-2339,TK-102,L48027,Corrective,Power failure,296.4,307.4,2833,5.6,213,,A. Sahay,2026-05-29,Completed
+WO-2340,PUMP-04A,L51950,Corrective,Heat dissipation failure,303.5,311.9,1344,49.3,93,CS-4440,R. Nair,2026-05-09,Completed
+WO-2341,PUMP-04A,M22576,Routine Monitoring,No fault — routine sensor log,300.5,311.5,1378,48.2,82,CS-4441,K. Deshpande,2026-03-02,Logged
+WO-2342,TANK-FRW-01,L51506,Corrective,Heat dissipation failure,301.6,310.1,1362,55.8,70,,S. Chavan,2025-11-28,Completed
+WO-2343,PUMP-04B,L52013,Corrective,Heat dissipation failure,303.4,311.9,1377,41.6,34,CS-4443,T. Rahangdale,2026-04-16,Completed
+WO-2344,PUMP-04A,M20396,Corrective,No fault — routine sensor log,302.3,311.8,1363,54.0,119,CS-4444,S. Chavan,2025-07-24,Completed
+WO-2345,COMPRESSOR-C1,L49531,Routine Monitoring,No fault — routine sensor log,299.2,308.4,1393,48.4,35,,A. Sahay,2026-04-23,Logged
+WO-2346,TK-103,M19202,Corrective,Heat dissipation failure; Power failure,301.7,309.8,1284,68.2,111,CS-4446,K. Deshpande,2025-11-08,Completed
+WO-2347,COMPRESSOR-C1,M23874,Corrective,Overstrain failure,297.2,308.1,1340,61.3,207,CS-4447,M. Iyer,2026-01-19,Completed
+WO-2348,PUMP-04A,L54849,Corrective,Overstrain failure,300.7,311.8,1336,58.4,189,,K. Deshpande,2025-12-30,Completed
+WO-2349,PIPELINE-PL-9,L52168,Corrective,Power failure,303.8,313.1,2497,13.0,5,,M. Iyer,2025-07-31,Completed
+WO-2350,PUMP-04A,L47429,Corrective,Overstrain failure,298.0,308.3,1405,56.2,218,,R. Nair,2025-11-01,Completed
+WO-2351,TANK-FRW-01,L54263,Corrective,Power failure; Overstrain failure,300.7,310.4,1416,61.8,209,,K. Deshpande,2025-10-15,Completed
+WO-2352,PUMP-04A,H32278,Corrective,Tool wear failure,300.6,309.4,1380,47.6,246,,T. Rahangdale,2026-04-27,Completed
+WO-2353,PIPELINE-PL-9,H35323,Corrective,Tool wear failure; Power failure; Overstrain failure,300.7,310.2,1364,65.3,208,,A. Sahay,2025-11-01,Completed
+WO-2354,PUMP-04A,M18666,Corrective,Heat dissipation failure,302.3,310.9,1360,44.0,67,,M. Iyer,2026-05-16,Completed
+WO-2355,PUMP-04A,M16199,Routine Monitoring,No fault — routine sensor log,298.6,310.2,1668,31.5,7,,S. Chavan,2025-10-04,Logged
+WO-2356,TK-102,M19478,Corrective,Heat dissipation failure,303.0,311.3,1335,53.6,164,,K. Deshpande,2025-09-22,Completed
+WO-2357,COMPRESSOR-C1,L53333,Corrective,Overstrain failure,301.0,311.1,1236,64.4,177,,A. Sahay,2026-01-18,Completed
+WO-2358,TK-103,L55926,Routine Monitoring,No fault — routine sensor log,297.3,308.5,1528,44.5,140,,T. Rahangdale,2025-09-30,Logged
+WO-2359,TK-102,M19059,Routine Monitoring,No fault — routine sensor log,302.5,311.1,1638,32.0,198,CS-4459,S. Chavan,2025-10-04,Logged
+WO-2360,TANK-FRW-01,M19492,Corrective,Heat dissipation failure,302.9,311.2,1330,53.7,200,,K. Deshpande,2025-12-12,Completed
+WO-2361,PUMP-04B,H32292,Routine Monitoring,No fault — routine sensor log,300.5,309.4,1502,34.3,40,,J. Rao,2026-04-29,Logged
+WO-2362,HEAT-EXCH-E7,M19113,Corrective,Heat dissipation failure,302.6,311.0,1329,48.6,111,,R. Nair,2025-12-04,Completed
+WO-2363,TK-103,L53358,Corrective,Power failure,301.1,310.9,1282,67.9,10,,J. Rao,2025-09-06,Completed
+WO-2364,TANK-FRW-01,L48599,Corrective,Overstrain failure,298.7,309.8,1354,53.3,212,CS-4464,T. Rahangdale,2025-10-20,Completed
+WO-2365,TK-102,M19525,Corrective,Heat dissipation failure,303.4,311.4,1307,54.0,44,,R. Nair,2025-12-16,Completed
+WO-2366,PIPELINE-PL-9,L54925,Routine Monitoring,No fault — routine sensor log,300.4,311.7,1460,39.6,162,,A. Sahay,2025-10-25,Logged
+WO-2367,TANK-FRW-01,L54773,Corrective,Overstrain failure,300.5,311.2,1270,67.5,208,,A. Sahay,2025-10-18,Completed
+WO-2368,TURBINE-T2,L51780,Corrective,Heat dissipation failure,303.0,311.0,1359,44.2,115,,M. Iyer,2025-08-20,Completed
+WO-2369,TK-103,L52914,Corrective,Overstrain failure,302.3,311.8,1369,56.2,208,CS-4469,P. Verma,2025-07-18,Completed
+WO-2370,TK-103,L51276,Corrective,Heat dissipation failure,301.9,310.4,1370,51.7,153,,M. Iyer,2026-01-09,Completed
+WO-2371,PIPELINE-PL-9,M19416,Corrective,Heat dissipation failure,302.7,310.6,1349,51.2,6,CS-4471,A. Sahay,2026-02-06,Completed
+WO-2372,VALVE-HW-12,M19213,Corrective,Power failure,302.0,309.7,1386,62.7,142,,K. Deshpande,2026-03-22,Completed
+WO-2373,TK-103,L55788,Corrective,Overstrain failure,297.4,308.4,1369,50.6,220,,T. Rahangdale,2026-01-31,Completed
+WO-2374,PUMP-04B,L56673,Corrective,Overstrain failure,299.1,309.8,1398,55.4,217,CS-4474,S. Chavan,2026-03-04,Completed
+WO-2375,HEAT-EXCH-E7,L51791,Corrective,Heat dissipation failure,303.0,311.3,1365,56.2,146,CS-4475,A. Sahay,2026-01-09,Completed
+WO-2376,COMPRESSOR-C1,L48775,Corrective,Overstrain failure,298.0,308.2,1365,52.9,218,,T. Rahangdale,2026-04-18,Completed
+WO-2377,PUMP-04B,L54104,Corrective,Overstrain failure,301.2,311.6,1461,52.9,208,CS-4477,J. Rao,2025-10-18,Completed
+WO-2378,PUMP-04A,M15054,Corrective,Power failure,298.2,308.5,2678,10.7,86,CS-4478,J. Rao,2026-02-19,Completed
+WO-2379,TANK-FRW-01,L52886,Corrective,Power failure,302.4,311.9,1290,70.0,139,,M. Iyer,2025-10-18,Completed
+WO-2380,PUMP-04A,M23442,Corrective,Power failure,297.5,308.1,1334,72.0,151,CS-4480,J. Rao,2026-06-10,Completed
+WO-2381,TK-103,L50199,Corrective,Overstrain failure,300.5,309.8,1379,54.2,207,,J. Rao,2025-08-23,Completed
+WO-2382,PIPELINE-PL-9,L47230,Corrective,Power failure,298.9,309.1,2861,4.6,143,,J. Rao,2026-02-15,Completed
+WO-2383,PIPELINE-PL-9,M17609,Corrective,No fault — routine sensor log,299.7,309.2,1685,28.9,179,,A. Sahay,2025-07-19,Completed
+WO-2384,PUMP-04B,M19287,Corrective,Heat dissipation failure,302.4,310.1,1379,48.9,107,,K. Deshpande,2026-01-30,Completed
+WO-2385,PUMP-04B,L51948,Corrective,Heat dissipation failure,303.6,312.0,1309,52.9,86,,T. Rahangdale,2025-11-20,Completed
+WO-2386,TK-102,L48689,Corrective,Tool wear failure,298.0,308.5,1429,37.7,220,CS-4486,J. Rao,2025-10-08,Completed
+WO-2387,TURBINE-T2,M24468,Routine Monitoring,No fault — routine sensor log,298.9,310.1,1513,41.5,80,CS-4487,J. Rao,2025-09-20,Logged
+WO-2388,TK-102,L52066,Routine Monitoring,No fault — routine sensor log,303.8,312.5,1372,45.7,180,,K. Deshpande,2026-06-07,Logged
+WO-2389,HEAT-EXCH-E7,M17739,Corrective,Power failure,300.6,309.4,1367,63.2,45,,S. Chavan,2026-05-24,Completed
+WO-2390,COMPRESSOR-C1,M15876,Corrective,Power failure,296.3,307.2,1319,68.3,24,,A. Sahay,2026-03-02,Completed
+WO-2391,TANK-FRW-01,H33979,Corrective,Heat dissipation failure,302.7,310.8,1275,55.0,25,,P. Verma,2025-09-08,Completed
+WO-2392,TK-103,M20800,Routine Monitoring,No fault — routine sensor log,300.6,310.6,1427,52.8,75,,R. Nair,2025-07-20,Logged
+WO-2393,VALVE-HW-12,L51212,Corrective,Overstrain failure,302.0,310.8,1383,50.3,231,,J. Rao,2025-10-22,Completed
+WO-2394,TK-103,M19597,Corrective,Heat dissipation failure,303.2,311.5,1336,58.2,2,,A. Sahay,2025-11-24,Completed
+WO-2395,TANK-FRW-01,M17531,Corrective,Tool wear failure,299.7,309.3,1399,41.9,221,,S. Chavan,2025-08-02,Completed
+WO-2396,VALVE-HW-12,H30501,Corrective,Tool wear failure,296.9,307.8,1549,35.8,206,,M. Iyer,2026-01-23,Completed
+WO-2397,HEAT-EXCH-E7,L51822,Corrective,Heat dissipation failure; Overstrain failure,303.2,311.4,1238,54.6,226,,R. Nair,2026-05-05,Completed
+WO-2398,HEAT-EXCH-E7,H33894,Corrective,Heat dissipation failure,302.7,310.4,1305,55.2,20,,K. Deshpande,2025-08-19,Completed

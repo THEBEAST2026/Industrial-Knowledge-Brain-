@@ -1,0 +1,6108 @@
+[
+  {
+    "chunk_id": "ce81bf882345",
+    "entities": [
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STANDARD-144",
+        "normalized_value": "OISD-STANDARD-144",
+        "chunk_id": "ce81bf882345",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Date",
+        "value": "1994",
+        "normalized_value": "1994",
+        "chunk_id": "ce81bf882345",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Date",
+        "value": "October 2005",
+        "normalized_value": "2005-10",
+        "chunk_id": "ce81bf882345",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Date",
+        "value": "July 2008",
+        "normalized_value": "2008-07",
+        "chunk_id": "ce81bf882345",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Date",
+        "value": "October 2017",
+        "normalized_value": "2017-10",
+        "chunk_id": "ce81bf882345",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Date",
+        "value": "March 2022",
+        "normalized_value": "2022-03",
+        "chunk_id": "ce81bf882345",
+        "confidence": 0.9
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "chunk_id": "1d62866a03fb",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "ede95387e046",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "d77dc22dbf43",
+    "entities": [
+      {
+        "entity_type": "Regulation",
+        "value": "OISD standards",
+        "normalized_value": "OISD Standards",
+        "chunk_id": "d77dc22dbf43",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "Acts/ Rules/ Regulation and National/ International Standards",
+        "normalized_value": "Acts, Rules, Regulations, National and International Standards",
+        "chunk_id": "d77dc22dbf43",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Date",
+        "value": "1 year",
+        "normalized_value": "P1Y",
+        "chunk_id": "d77dc22dbf43",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "OISD standard",
+        "normalized_value": "OISD Standard",
+        "chunk_id": "d77dc22dbf43",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Date",
+        "value": "every ten years",
+        "normalized_value": "P10Y",
+        "chunk_id": "d77dc22dbf43",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Person",
+        "value": "ps-ed.oisd@gov.in",
+        "normalized_value": "ps-ed.oisd@gov.in",
+        "chunk_id": "d77dc22dbf43",
+        "confidence": 0.8
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "chunk_id": "36ebd299b5d9",
+    "entities": [
+      {
+        "entity_type": "Person",
+        "value": "Gopakumar Balakrishnan",
+        "normalized_value": "GOPAKUMAR BALAKRISHNAN",
+        "chunk_id": "36ebd299b5d9",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Person",
+        "value": "Ranjan Mehrotra",
+        "normalized_value": "RANJAN MEHROTRA",
+        "chunk_id": "36ebd299b5d9",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Person",
+        "value": "Vineet Singh",
+        "normalized_value": "VINEET SINGH",
+        "chunk_id": "36ebd299b5d9",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Person",
+        "value": "Rakesh Agrawal",
+        "normalized_value": "RAKESH AGRAWAL",
+        "chunk_id": "36ebd299b5d9",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Person",
+        "value": "Manish Shandilya",
+        "normalized_value": "MANISH SHANDILYA",
+        "chunk_id": "36ebd299b5d9",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Person",
+        "value": "Mahesh Goyal",
+        "normalized_value": "MAHESH GOYAL",
+        "chunk_id": "36ebd299b5d9",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Person",
+        "value": "Perumal A",
+        "normalized_value": "PERUMAL A",
+        "chunk_id": "36ebd299b5d9",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Person",
+        "value": "Jaimin Kumar Shah",
+        "normalized_value": "JAIMIN KUMAR SHAH",
+        "chunk_id": "36ebd299b5d9",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Person",
+        "value": "M Vamshi Krishna",
+        "normalized_value": "M VAMSHI KRISHNA",
+        "chunk_id": "36ebd299b5d9",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Person",
+        "value": "Manpreet Singh",
+        "normalized_value": "MANPREET SINGH",
+        "chunk_id": "36ebd299b5d9",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Person",
+        "value": "Md. Mustaque Ahmed",
+        "normalized_value": "MD. MUSTAQUE AHMED",
+        "chunk_id": "36ebd299b5d9",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Person",
+        "value": "Gagan Aggarwal",
+        "normalized_value": "GAGAN AGGARWAL",
+        "chunk_id": "36ebd299b5d9",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Person",
+        "value": "Ashendra Singh",
+        "normalized_value": "ASHENDRA SINGH",
+        "chunk_id": "36ebd299b5d9",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Person",
+        "value": "Amit Sharma",
+        "normalized_value": "AMIT SHARMA",
+        "chunk_id": "36ebd299b5d9",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Person",
+        "value": "Manish Kumar Lenpale",
+        "normalized_value": "MANISH KUMAR LENPALE",
+        "chunk_id": "36ebd299b5d9",
+        "confidence": 0.95
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "chunk_id": "8b7ba083674f",
+    "entities": [
+      {
+        "entity_type": "Regulation",
+        "value": "Statutory Rules/ Regulations",
+        "normalized_value": "Statutory Rules/ Regulations",
+        "chunk_id": "8b7ba083674f",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "LPG Storage Vessels",
+        "normalized_value": "LPG Storage Vessels",
+        "chunk_id": "8b7ba083674f",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "LPG Loading/ Unloading Facilities",
+        "normalized_value": "LPG Loading/ Unloading Facilities",
+        "chunk_id": "8b7ba083674f",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Cylinder Filling Facilities",
+        "normalized_value": "Cylinder Filling Facilities",
+        "chunk_id": "8b7ba083674f",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "LPG Pumps",
+        "normalized_value": "LPG Pumps",
+        "chunk_id": "8b7ba083674f",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "LPG compressors",
+        "normalized_value": "LPG Compressors",
+        "chunk_id": "8b7ba083674f",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Thermal Pressure Relief System",
+        "normalized_value": "Thermal Pressure Relief System",
+        "chunk_id": "8b7ba083674f",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "PMCC Panels",
+        "normalized_value": "PMCC Panels",
+        "chunk_id": "8b7ba083674f",
+        "confidence": 0.9
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "chunk_id": "089eff7caed1",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "LPG Cylinder",
+        "normalized_value": "LPG CYLINDER",
+        "chunk_id": "089eff7caed1",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "425 kg cylinder",
+        "normalized_value": "425 KG CYLINDER",
+        "chunk_id": "089eff7caed1",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "composite cylinder",
+        "normalized_value": "COMPOSITE CYLINDER",
+        "chunk_id": "089eff7caed1",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "tare weight",
+        "normalized_value": "TARE WEIGHT",
+        "chunk_id": "089eff7caed1",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "flow rate",
+        "normalized_value": "FLOW RATE",
+        "chunk_id": "089eff7caed1",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "fire water system",
+        "normalized_value": "FIRE WATER SYSTEM",
+        "chunk_id": "089eff7caed1",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "fire water storage",
+        "normalized_value": "FIRE WATER STORAGE",
+        "chunk_id": "089eff7caed1",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "fire water pumps",
+        "normalized_value": "FIRE WATER PUMPS",
+        "chunk_id": "089eff7caed1",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "fire hydrant network",
+        "normalized_value": "FIRE HYDRANT NETWORK",
+        "chunk_id": "089eff7caed1",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "medium velocity sprinkler system",
+        "normalized_value": "MEDIUM VELOCITY SPRINKLER SYSTEM",
+        "chunk_id": "089eff7caed1",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "automatic fire protection system",
+        "normalized_value": "AUTOMATIC FIRE PROTECTION SYSTEM",
+        "chunk_id": "089eff7caed1",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "emergency control/ alarm system",
+        "normalized_value": "EMERGENCY CONTROL ALARM SYSTEM",
+        "chunk_id": "089eff7caed1",
+        "confidence": 0.95
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "chunk_id": "05821d2221d5",
+    "entities": [
+      {
+        "entity_type": "Regulation",
+        "value": "Statutory rules and regulations",
+        "normalized_value": "STATUTORY RULES AND REGULATIONS",
+        "chunk_id": "05821d2221d5",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "water seal",
+        "normalized_value": "WATER SEAL",
+        "chunk_id": "05821d2221d5",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "LPG storage vessel",
+        "normalized_value": "LPG STORAGE VESSEL",
+        "chunk_id": "05821d2221d5",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "bottling pump",
+        "normalized_value": "BOTTLING PUMP",
+        "chunk_id": "05821d2221d5",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "compressor",
+        "normalized_value": "COMPRESSOR",
+        "chunk_id": "05821d2221d5",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "cylinder evacuation facility",
+        "normalized_value": "CYLINDER EVACUATION FACILITY",
+        "chunk_id": "05821d2221d5",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "new cylinder purging system",
+        "normalized_value": "NEW CYLINDER PURGING SYSTEM",
+        "chunk_id": "05821d2221d5",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Bulk LPG Storage Vessels",
+        "normalized_value": "BULK LPG STORAGE VESSELS",
+        "chunk_id": "05821d2221d5",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "LPG tank Trucks",
+        "normalized_value": "LPG TANK TRUCKS",
+        "chunk_id": "05821d2221d5",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "LPG tank wagons",
+        "normalized_value": "LPG TANK WAGONS",
+        "chunk_id": "05821d2221d5",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "14.2 kg cylinder",
+        "normalized_value": "14.2 KG CYLINDER",
+        "chunk_id": "05821d2221d5",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Compressor",
+        "normalized_value": "COMPRESSOR",
+        "chunk_id": "05821d2221d5",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Pump",
+        "normalized_value": "PUMP",
+        "chunk_id": "05821d2221d5",
+        "confidence": 0.85
+      }
+    ],
+    "relationships": [
+      {
+        "from": "water seal",
+        "to": "LPG storage vessel",
+        "type": "LOCATED_IN"
+      },
+      {
+        "from": "bottling pump",
+        "to": "LPG storage vessel",
+        "type": "LOCATED_IN"
+      },
+      {
+        "from": "compressor",
+        "to": "LPG storage vessel",
+        "type": "LOCATED_IN"
+      },
+      {
+        "from": "cylinder evacuation facility",
+        "to": "LPG storage vessel",
+        "type": "LOCATED_IN"
+      },
+      {
+        "from": "new cylinder purging system",
+        "to": "LPG storage vessel",
+        "type": "LOCATED_IN"
+      }
+    ]
+  },
+  {
+    "chunk_id": "78b9afa8c60b",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "CCTV",
+        "normalized_value": "CCTV",
+        "chunk_id": "78b9afa8c60b",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "LPG Cylinders",
+        "normalized_value": "LPG CYLINDERS",
+        "chunk_id": "78b9afa8c60b",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "STP Cylinder",
+        "normalized_value": "STP CYLINDER",
+        "chunk_id": "78b9afa8c60b",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "fire water calculation",
+        "normalized_value": "FIRE WATER CALCULATION",
+        "chunk_id": "78b9afa8c60b",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "LPG Installation",
+        "normalized_value": "LPG INSTALLATION",
+        "chunk_id": "78b9afa8c60b",
+        "confidence": 0.9
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "chunk_id": "e57a13aaaa9c",
+    "entities": [
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-144",
+        "normalized_value": "OISD-STD-144",
+        "chunk_id": "e57a13aaaa9c",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "IS4576",
+        "normalized_value": "IS 4576",
+        "chunk_id": "e57a13aaaa9c",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "0.525 to 0.580 @ 15 oC",
+        "normalized_value": "0.525-0.580 @ 15\u00b0C",
+        "chunk_id": "e57a13aaaa9c",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "1.8% to 9.5% volume of gas in air",
+        "normalized_value": "1.8-9.5% v/v",
+        "chunk_id": "e57a13aaaa9c",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "0.3 CS @ 45 oC",
+        "normalized_value": "0.3 cSt @ 45\u00b0C",
+        "chunk_id": "e57a13aaaa9c",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "0.00237 per oC",
+        "normalized_value": "0.00237/\u00b0C",
+        "chunk_id": "e57a13aaaa9c",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "14 to 15 kg./sq.cm. for each degree centigrade",
+        "normalized_value": "14-15 kg/cm\u00b2/\u00b0C",
+        "chunk_id": "e57a13aaaa9c",
+        "confidence": 0.75
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "CH3CH2SH",
+        "normalized_value": "CH3CH2SH",
+        "chunk_id": "e57a13aaaa9c",
+        "confidence": 0.9
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "chunk_id": "f66b7f523bfd",
+    "entities": [
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-144",
+        "normalized_value": "OISD-STD-144",
+        "chunk_id": "f66b7f523bfd",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "410 to 580 oC",
+        "normalized_value": "410-580 degC",
+        "chunk_id": "f66b7f523bfd",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-150",
+        "normalized_value": "OISD-STD-150",
+        "chunk_id": "f66b7f523bfd",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-159",
+        "normalized_value": "OISD-STD-159",
+        "chunk_id": "f66b7f523bfd",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-GDN-169",
+        "normalized_value": "OISD-GDN-169",
+        "chunk_id": "f66b7f523bfd",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-210",
+        "normalized_value": "OISD-STD-210",
+        "chunk_id": "f66b7f523bfd",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-214",
+        "normalized_value": "OISD-STD-214",
+        "chunk_id": "f66b7f523bfd",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-236",
+        "normalized_value": "OISD-STD-236",
+        "chunk_id": "f66b7f523bfd",
+        "confidence": 0.95
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "chunk_id": "c7be69f83062",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "adc7b731fb6c",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "49e9d94d4b48",
+    "entities": [
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-144",
+        "normalized_value": "OISD-STD-144",
+        "chunk_id": "49e9d94d4b48",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "pressure vessel",
+        "normalized_value": "pressure vessel",
+        "chunk_id": "49e9d94d4b48",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "safety relief valve",
+        "normalized_value": "safety relief valve",
+        "chunk_id": "49e9d94d4b48",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "thermal safety valve",
+        "normalized_value": "thermal safety valve",
+        "chunk_id": "49e9d94d4b48",
+        "confidence": 0.9
+      }
+    ],
+    "relationships": [
+      {
+        "from": "OISD-STD-144",
+        "to": "pressure vessel",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "safety relief valve",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "thermal safety valve",
+        "type": "REFERENCES"
+      }
+    ]
+  },
+  {
+    "chunk_id": "d76284cae843",
+    "entities": [
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-144",
+        "normalized_value": "OISD-STD-144",
+        "chunk_id": "d76284cae843",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "Annexure-4",
+        "normalized_value": "Annexure-4",
+        "chunk_id": "d76284cae843",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-118",
+        "normalized_value": "OISD-STD-118",
+        "chunk_id": "d76284cae843",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "LPG storage vessels",
+        "normalized_value": "LPG storage vessels",
+        "chunk_id": "d76284cae843",
+        "confidence": 0.85
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "chunk_id": "eb3b983c8b6e",
+    "entities": [
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-144",
+        "normalized_value": "OISD-STD-144",
+        "chunk_id": "eb3b983c8b6e",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-118",
+        "normalized_value": "OISD-STD-118",
+        "chunk_id": "eb3b983c8b6e",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "SMPV Rules",
+        "normalized_value": "SMPV Rules",
+        "chunk_id": "eb3b983c8b6e",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "minimum 3 no's vessels",
+        "normalized_value": "minimum 3 vessels",
+        "chunk_id": "eb3b983c8b6e",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "minimum distance between vessel and kerb wall shall be the diameter of the vessel or five meters, whichever is less",
+        "normalized_value": "minimum distance between vessel and kerb wall = min(vessel diameter, 5m)",
+        "chunk_id": "eb3b983c8b6e",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "concrete floor shall be graded to form a slope of minimum 1:100",
+        "normalized_value": "minimum concrete floor slope 1:100",
+        "chunk_id": "eb3b983c8b6e",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "kerb wall height shall be a minimum of 30 cm but shall not exceed 60 cm",
+        "normalized_value": "kerb wall height 30-60 cm",
+        "chunk_id": "eb3b983c8b6e",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "spillage diversion area shall be located at a distance where the flames from the fire will not impinge on the vessel. This distance shall be equal to the diameter of the nearest vessel or 15 m, whichever is more",
+        "normalized_value": "spillage diversion area distance = max(nearest vessel diameter, 15m)",
+        "chunk_id": "eb3b983c8b6e",
+        "confidence": 0.8
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "chunk_id": "179fdd3b5160",
+    "entities": [
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-144",
+        "normalized_value": "OISD-STD-144",
+        "chunk_id": "179fdd3b5160",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "water seal",
+        "normalized_value": "water seal",
+        "chunk_id": "179fdd3b5160",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "kerb wall",
+        "normalized_value": "kerb wall",
+        "chunk_id": "179fdd3b5160",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Bulk Storage area",
+        "normalized_value": "Bulk Storage area",
+        "chunk_id": "179fdd3b5160",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Tank Truck Gantry",
+        "normalized_value": "Tank Truck Gantry",
+        "chunk_id": "179fdd3b5160",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Tank Wagon Gantry",
+        "normalized_value": "Tank Wagon Gantry",
+        "chunk_id": "179fdd3b5160",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "LPG Cylinder Filling shed",
+        "normalized_value": "LPG Cylinder Filling shed",
+        "chunk_id": "179fdd3b5160",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "main drainage system",
+        "normalized_value": "main drainage system",
+        "chunk_id": "179fdd3b5160",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Plant drain",
+        "normalized_value": "Plant drain",
+        "chunk_id": "179fdd3b5160",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "storm drain",
+        "normalized_value": "storm drain",
+        "chunk_id": "179fdd3b5160",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "interconnecting sump",
+        "normalized_value": "interconnecting sump",
+        "chunk_id": "179fdd3b5160",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "firefighting sprinkler",
+        "normalized_value": "firefighting sprinkler",
+        "chunk_id": "179fdd3b5160",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "metallic float",
+        "normalized_value": "metallic float",
+        "chunk_id": "179fdd3b5160",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "LPG Pump House",
+        "normalized_value": "LPG Pump House",
+        "chunk_id": "179fdd3b5160",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Storage Vessel",
+        "normalized_value": "Storage Vessel",
+        "chunk_id": "179fdd3b5160",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "piping manifold",
+        "normalized_value": "piping manifold",
+        "chunk_id": "179fdd3b5160",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Spheres",
+        "normalized_value": "Spheres",
+        "chunk_id": "179fdd3b5160",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "bullets",
+        "normalized_value": "bullets",
+        "chunk_id": "179fdd3b5160",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "mounded vessels",
+        "normalized_value": "mounded vessels",
+        "chunk_id": "179fdd3b5160",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "3-way valves",
+        "normalized_value": "3-way valves",
+        "chunk_id": "179fdd3b5160",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "logic controlled/ interlocked valves",
+        "normalized_value": "logic controlled/ interlocked valves",
+        "chunk_id": "179fdd3b5160",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "LPG tank truck loading/ unloading gantry",
+        "normalized_value": "LPG tank truck loading/ unloading gantry",
+        "chunk_id": "179fdd3b5160",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Pipeline Island",
+        "normalized_value": "Pipeline Island",
+        "chunk_id": "179fdd3b5160",
+        "confidence": 0.8
+      }
+    ],
+    "relationships": [
+      {
+        "from": "water seal",
+        "to": "Bulk Storage area",
+        "type": "LOCATED_IN"
+      },
+      {
+        "from": "water seal",
+        "to": "Tank Truck Gantry",
+        "type": "LOCATED_IN"
+      },
+      {
+        "from": "water seal",
+        "to": "Tank Wagon Gantry",
+        "type": "LOCATED_IN"
+      },
+      {
+        "from": "water seal",
+        "to": "LPG Cylinder Filling shed",
+        "type": "LOCATED_IN"
+      },
+      {
+        "from": "water seal",
+        "to": "firefighting sprinkler",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "metallic float",
+        "to": "water seal",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "LPG Pump House",
+        "to": "Storage Vessel",
+        "type": "LOCATED_IN"
+      },
+      {
+        "from": "piping manifold",
+        "to": "LPG Pump House",
+        "type": "LOCATED_IN"
+      },
+      {
+        "from": "piping manifold",
+        "to": "Storage Vessel",
+        "type": "LOCATED_IN"
+      },
+      {
+        "from": "3-way valves",
+        "to": "vessels",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "logic controlled/ interlocked valves",
+        "to": "vessels",
+        "type": "REFERENCES"
+      }
+    ]
+  },
+  {
+    "chunk_id": "5b884d17b947",
+    "entities": [
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-144",
+        "normalized_value": "OISD-STD-144",
+        "chunk_id": "5b884d17b947",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "weigh bridge",
+        "normalized_value": "weigh bridge",
+        "chunk_id": "5b884d17b947",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "venting",
+        "normalized_value": "venting",
+        "chunk_id": "5b884d17b947",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "earthing interlock",
+        "normalized_value": "earthing interlock",
+        "chunk_id": "5b884d17b947",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "hydrants",
+        "normalized_value": "hydrants",
+        "chunk_id": "5b884d17b947",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "monitors",
+        "normalized_value": "monitors",
+        "chunk_id": "5b884d17b947",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "fire hydrant network",
+        "normalized_value": "fire hydrant network",
+        "chunk_id": "5b884d17b947",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "CCTV cameras",
+        "normalized_value": "CCTV cameras",
+        "chunk_id": "5b884d17b947",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "mechanical stoppers",
+        "normalized_value": "mechanical stoppers",
+        "chunk_id": "5b884d17b947",
+        "confidence": 0.8
+      }
+    ],
+    "relationships": [
+      {
+        "from": "OISD-STD-144",
+        "to": "weigh bridge",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "venting",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "earthing interlock",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "hydrants",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "monitors",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "fire hydrant network",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "CCTV cameras",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "mechanical stoppers",
+        "type": "REFERENCES"
+      }
+    ]
+  },
+  {
+    "chunk_id": "8176ccaf0290",
+    "entities": [
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-144",
+        "normalized_value": "OISD-STD-144",
+        "chunk_id": "8176ccaf0290",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "50 m",
+        "normalized_value": "50 meters",
+        "chunk_id": "8176ccaf0290",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "SMPV Rules 2016",
+        "normalized_value": "SMPV Rules 2016",
+        "chunk_id": "8176ccaf0290",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "15 m",
+        "normalized_value": "15 meters",
+        "chunk_id": "8176ccaf0290",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "1.5 m",
+        "normalized_value": "1.5 meters",
+        "chunk_id": "8176ccaf0290",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "IS:8374",
+        "normalized_value": "IS:8374",
+        "chunk_id": "8176ccaf0290",
+        "confidence": 0.95
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "chunk_id": "b5457a523d8e",
+    "entities": [
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-144",
+        "normalized_value": "OISD-STD-144",
+        "chunk_id": "b5457a523d8e",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "degassing unit",
+        "normalized_value": "Degassing Unit",
+        "chunk_id": "b5457a523d8e",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "filling shed",
+        "normalized_value": "Filling Shed",
+        "chunk_id": "b5457a523d8e",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "LPG cylinder filling machines",
+        "normalized_value": "LPG Cylinder Filling Machines",
+        "chunk_id": "b5457a523d8e",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "1.2 m",
+        "normalized_value": "1.2 m",
+        "chunk_id": "b5457a523d8e",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "30 cms",
+        "normalized_value": "30 cm",
+        "chunk_id": "b5457a523d8e",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "15 cms",
+        "normalized_value": "15 cm",
+        "chunk_id": "b5457a523d8e",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "100 cm",
+        "normalized_value": "100 cm",
+        "chunk_id": "b5457a523d8e",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "3 m",
+        "normalized_value": "3 m",
+        "chunk_id": "b5457a523d8e",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "0.6 m",
+        "normalized_value": "0.6 m",
+        "chunk_id": "b5457a523d8e",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "1 m",
+        "normalized_value": "1 m",
+        "chunk_id": "b5457a523d8e",
+        "confidence": 0.9
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "chunk_id": "50874c62b94a",
+    "entities": [
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-144",
+        "normalized_value": "OISD-STD-144",
+        "chunk_id": "50874c62b94a",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "boundary wall",
+        "normalized_value": "boundary wall",
+        "chunk_id": "50874c62b94a",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "1 m high wall",
+        "normalized_value": "1 m high wall",
+        "chunk_id": "50874c62b94a",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "chain link fencing",
+        "normalized_value": "chain link fencing",
+        "chunk_id": "50874c62b94a",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "gate",
+        "normalized_value": "gate",
+        "chunk_id": "50874c62b94a",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "drains",
+        "normalized_value": "drains",
+        "chunk_id": "50874c62b94a",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "ducts",
+        "normalized_value": "ducts",
+        "chunk_id": "50874c62b94a",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "culverts",
+        "normalized_value": "culverts",
+        "chunk_id": "50874c62b94a",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "tunnels",
+        "normalized_value": "tunnels",
+        "chunk_id": "50874c62b94a",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "grating",
+        "normalized_value": "grating",
+        "chunk_id": "50874c62b94a",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "fire water pumps",
+        "normalized_value": "fire water pumps",
+        "chunk_id": "50874c62b94a",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Admin building",
+        "normalized_value": "Admin building",
+        "chunk_id": "50874c62b94a",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "canteen",
+        "normalized_value": "canteen",
+        "chunk_id": "50874c62b94a",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "motor control center",
+        "normalized_value": "motor control center",
+        "chunk_id": "50874c62b94a",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "DG room",
+        "normalized_value": "DG room",
+        "chunk_id": "50874c62b94a",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "air compressors",
+        "normalized_value": "air compressors",
+        "chunk_id": "50874c62b94a",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "dryers",
+        "normalized_value": "dryers",
+        "chunk_id": "50874c62b94a",
+        "confidence": 0.8
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "chunk_id": "9daa9653eb9c",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "60b39466dae1",
+    "entities": [
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-144",
+        "normalized_value": "OISD-STD-144",
+        "chunk_id": "60b39466dae1",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "LPG storage vessels",
+        "normalized_value": "LPG storage vessels",
+        "chunk_id": "60b39466dae1",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "refrigerated LPG tank",
+        "normalized_value": "refrigerated LPG tank",
+        "chunk_id": "60b39466dae1",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "pressurised storage",
+        "normalized_value": "pressurized storage",
+        "chunk_id": "60b39466dae1",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "above-ground refrigerated LPG storage tanks",
+        "normalized_value": "above-ground refrigerated LPG storage tanks",
+        "chunk_id": "60b39466dae1",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "control room",
+        "normalized_value": "control room",
+        "chunk_id": "60b39466dae1",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "OISD STD-163",
+        "normalized_value": "OISD STD-163",
+        "chunk_id": "60b39466dae1",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "battery limit",
+        "normalized_value": "battery limit",
+        "chunk_id": "60b39466dae1",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "LPG bulk tank truck",
+        "normalized_value": "LPG bulk tank truck",
+        "chunk_id": "60b39466dae1",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "tank wagon loading/unloading area",
+        "normalized_value": "tank wagon loading/unloading area",
+        "chunk_id": "60b39466dae1",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Mounded storage vessel",
+        "normalized_value": "Mounded storage vessel",
+        "chunk_id": "60b39466dae1",
+        "confidence": 0.85
+      }
+    ],
+    "relationships": [
+      {
+        "from": "OISD-STD-144",
+        "to": "LPG storage vessels",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "refrigerated LPG tank",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "pressurised storage",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "above-ground refrigerated LPG storage tanks",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "control room",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "battery limit",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "LPG bulk tank truck",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "tank wagon loading/unloading area",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "Mounded storage vessel",
+        "type": "REFERENCES"
+      }
+    ]
+  },
+  {
+    "chunk_id": "b78062859931",
+    "entities": [
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-144",
+        "normalized_value": "OISD-STD-144",
+        "chunk_id": "b78062859931",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "20 m",
+        "normalized_value": "20 meters",
+        "chunk_id": "b78062859931",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "15 m",
+        "normalized_value": "15 meters",
+        "chunk_id": "b78062859931",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "30 m",
+        "normalized_value": "30 meters",
+        "chunk_id": "b78062859931",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "60 m",
+        "normalized_value": "60 meters",
+        "chunk_id": "b78062859931",
+        "confidence": 0.9
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "chunk_id": "d1ebb6682682",
+    "entities": [
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-144",
+        "normalized_value": "OISD-STD-144",
+        "chunk_id": "d1ebb6682682",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "LPG bulk tank wagon",
+        "normalized_value": "LPG bulk tank wagon",
+        "chunk_id": "d1ebb6682682",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "LPG storage vessels",
+        "normalized_value": "LPG storage vessels",
+        "chunk_id": "d1ebb6682682",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "10-20",
+        "normalized_value": "10-20",
+        "chunk_id": "d1ebb6682682",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "15",
+        "normalized_value": "15",
+        "chunk_id": "d1ebb6682682",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "> 20-40",
+        "normalized_value": "20-40",
+        "chunk_id": "d1ebb6682682",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "20",
+        "normalized_value": "20",
+        "chunk_id": "d1ebb6682682",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Parameter",
+        "value": ">40-350",
+        "normalized_value": "40-350",
+        "chunk_id": "d1ebb6682682",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "30",
+        "normalized_value": "30",
+        "chunk_id": "d1ebb6682682",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Parameter",
+        "value": ">350-450",
+        "normalized_value": "350-450",
+        "chunk_id": "d1ebb6682682",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "40",
+        "normalized_value": "40",
+        "chunk_id": "d1ebb6682682",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Parameter",
+        "value": ">450-750",
+        "normalized_value": "450-750",
+        "chunk_id": "d1ebb6682682",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "60",
+        "normalized_value": "60",
+        "chunk_id": "d1ebb6682682",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Parameter",
+        "value": ">750-3800",
+        "normalized_value": "750-3800",
+        "chunk_id": "d1ebb6682682",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "90",
+        "normalized_value": "90",
+        "chunk_id": "d1ebb6682682",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "> 3800",
+        "normalized_value": "3800+",
+        "chunk_id": "d1ebb6682682",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "120",
+        "normalized_value": "120",
+        "chunk_id": "d1ebb6682682",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "LPG Pump House",
+        "normalized_value": "LPG Pump House",
+        "chunk_id": "d1ebb6682682",
+        "confidence": 0.8
+      }
+    ],
+    "relationships": [
+      {
+        "from": "OISD-STD-144",
+        "to": "LPG bulk tank wagon",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "LPG storage vessels",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "LPG Pump House",
+        "type": "REFERENCES"
+      }
+    ]
+  },
+  {
+    "chunk_id": "a3ab1b640786",
+    "entities": [
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-144",
+        "normalized_value": "OISD-STD-144",
+        "chunk_id": "a3ab1b640786",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "SMPV Rules 2016",
+        "normalized_value": "SMPV Rules 2016",
+        "chunk_id": "a3ab1b640786",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "IS:2825",
+        "normalized_value": "IS 2825",
+        "chunk_id": "a3ab1b640786",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "ASME Section VIII Division 1",
+        "normalized_value": "ASME Section VIII Division 1",
+        "chunk_id": "a3ab1b640786",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "ASME Section VIII Division 2",
+        "normalized_value": "ASME Section VIII Division 2",
+        "chunk_id": "a3ab1b640786",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "PD5500",
+        "normalized_value": "PD 5500",
+        "chunk_id": "a3ab1b640786",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "EN 13458",
+        "normalized_value": "EN 13458",
+        "chunk_id": "a3ab1b640786",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "EN 13530",
+        "normalized_value": "EN 13530",
+        "chunk_id": "a3ab1b640786",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "AD:2000",
+        "normalized_value": "AD 2000",
+        "chunk_id": "a3ab1b640786",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "(-) 27oC to (+) 55oC",
+        "normalized_value": "-27\u00b0C to 55\u00b0C",
+        "chunk_id": "a3ab1b640786",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "14.5 kg/cm\u00b2 (1.42 Mpa)",
+        "normalized_value": "14.5 kg/cm\u00b2",
+        "chunk_id": "a3ab1b640786",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "IS:4576",
+        "normalized_value": "IS 4576",
+        "chunk_id": "a3ab1b640786",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "IS:14861",
+        "normalized_value": "IS 14861",
+        "chunk_id": "a3ab1b640786",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "1.5 mm",
+        "normalized_value": "1.5 mm",
+        "chunk_id": "a3ab1b640786",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "IS:875",
+        "normalized_value": "IS 875",
+        "chunk_id": "a3ab1b640786",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "IS:1893",
+        "normalized_value": "IS 1893",
+        "chunk_id": "a3ab1b640786",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "remote operated shutdown valve (ROV)",
+        "normalized_value": "ROV",
+        "chunk_id": "a3ab1b640786",
+        "confidence": 0.85
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "chunk_id": "d8fa7ee1b7da",
+    "entities": [
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-144",
+        "normalized_value": "OISD-STD-144",
+        "chunk_id": "d8fa7ee1b7da",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "sphere",
+        "normalized_value": "SPHERE",
+        "chunk_id": "d8fa7ee1b7da",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "bullet",
+        "normalized_value": "BULLET",
+        "chunk_id": "d8fa7ee1b7da",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "nozzle",
+        "normalized_value": "NOZZLE",
+        "chunk_id": "d8fa7ee1b7da",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "3 m",
+        "normalized_value": "3 METER",
+        "chunk_id": "d8fa7ee1b7da",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "1.5o",
+        "normalized_value": "1.5 DEGREE",
+        "chunk_id": "d8fa7ee1b7da",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "ROV",
+        "normalized_value": "ROV",
+        "chunk_id": "d8fa7ee1b7da",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Valve",
+        "normalized_value": "VALVE",
+        "chunk_id": "d8fa7ee1b7da",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Tank Truck Gantry",
+        "normalized_value": "TANK TRUCK GANTRY",
+        "chunk_id": "d8fa7ee1b7da",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Tank Wagon Gantry",
+        "normalized_value": "TANK WAGON GANTRY",
+        "chunk_id": "d8fa7ee1b7da",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "LPG filling shed",
+        "normalized_value": "LPG FILLING SHED",
+        "chunk_id": "d8fa7ee1b7da",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "QB detectors",
+        "normalized_value": "QB DETECTORS",
+        "chunk_id": "d8fa7ee1b7da",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "sprinkler nozzles",
+        "normalized_value": "SPRINKLER NOZZLES",
+        "chunk_id": "d8fa7ee1b7da",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "15 m",
+        "normalized_value": "15 METER",
+        "chunk_id": "d8fa7ee1b7da",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "level indicators",
+        "normalized_value": "LEVEL INDICATORS",
+        "chunk_id": "d8fa7ee1b7da",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "high-level switch",
+        "normalized_value": "HIGH-LEVEL SWITCH",
+        "chunk_id": "d8fa7ee1b7da",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "safety relief valves",
+        "normalized_value": "SAFETY RELIEF VALVES",
+        "chunk_id": "d8fa7ee1b7da",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "pressure gauge",
+        "normalized_value": "PRESSURE GAUGE",
+        "chunk_id": "d8fa7ee1b7da",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "pressure indicator",
+        "normalized_value": "PRESSURE INDICATOR",
+        "chunk_id": "d8fa7ee1b7da",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "manhole",
+        "normalized_value": "MANHOLE",
+        "chunk_id": "d8fa7ee1b7da",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "water drain line",
+        "normalized_value": "WATER DRAIN LINE",
+        "chunk_id": "d8fa7ee1b7da",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "quick shut-off type valve",
+        "normalized_value": "QUICK SHUT-OFF TYPE VALVE",
+        "chunk_id": "d8fa7ee1b7da",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "throttling type antifreeze Globe Valve",
+        "normalized_value": "THROTTLING TYPE ANTIFREEZE GLOBE VALVE",
+        "chunk_id": "d8fa7ee1b7da",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "spring-loaded dead man valve",
+        "normalized_value": "SPRING-LOADED DEAD MAN VALVE",
+        "chunk_id": "d8fa7ee1b7da",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "bulk LPG receipt header",
+        "normalized_value": "BULK LPG RECEIPT HEADER",
+        "chunk_id": "d8fa7ee1b7da",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "isolation valve",
+        "normalized_value": "ISOLATION VALVE",
+        "chunk_id": "d8fa7ee1b7da",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "NRV",
+        "normalized_value": "NRV",
+        "chunk_id": "d8fa7ee1b7da",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "male coupling",
+        "normalized_value": "MALE COUPLING",
+        "chunk_id": "d8fa7ee1b7da",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "hydrant hose",
+        "normalized_value": "HYDRANT HOSE",
+        "chunk_id": "d8fa7ee1b7da",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "API 607",
+        "normalized_value": "API 607",
+        "chunk_id": "d8fa7ee1b7da",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "ASME B16.20",
+        "normalized_value": "ASME B16.20",
+        "chunk_id": "d8fa7ee1b7da",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "ASTM A194 Gr 2 H",
+        "normalized_value": "ASTM A194 GR 2 H",
+        "chunk_id": "d8fa7ee1b7da",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "ASTM A193 Gr B7",
+        "normalized_value": "ASTM A193 GR B7",
+        "chunk_id": "d8fa7ee1b7da",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "ASME/ ANSI B16.5 class 300",
+        "normalized_value": "ASME/ ANSI B16.5 CLASS 300",
+        "chunk_id": "d8fa7ee1b7da",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "300 class rating",
+        "normalized_value": "300 CLASS RATING",
+        "chunk_id": "d8fa7ee1b7da",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "20 mm",
+        "normalized_value": "20 MILLIMETER",
+        "chunk_id": "d8fa7ee1b7da",
+        "confidence": 0.9
+      }
+    ],
+    "relationships": [
+      {
+        "from": "ROV",
+        "to": "sphere",
+        "type": "LOCATED_IN"
+      },
+      {
+        "from": "ROV",
+        "to": "bullet",
+        "type": "LOCATED_IN"
+      },
+      {
+        "from": "nozzle",
+        "to": "sphere",
+        "type": "LOCATED_IN"
+      },
+      {
+        "from": "nozzle",
+        "to": "bullet",
+        "type": "LOCATED_IN"
+      },
+      {
+        "from": "level indicators",
+        "to": "storage vessels",
+        "type": "LOCATED_IN"
+      },
+      {
+        "from": "high-level switch",
+        "to": "storage vessels",
+        "type": "LOCATED_IN"
+      },
+      {
+        "from": "safety relief valves",
+        "to": "storage vessels",
+        "type": "LOCATED_IN"
+      },
+      {
+        "from": "pressure gauge",
+        "to": "storage vessels",
+        "type": "LOCATED_IN"
+      },
+      {
+        "from": "pressure indicator",
+        "to": "storage vessels",
+        "type": "LOCATED_IN"
+      },
+      {
+        "from": "manhole",
+        "to": "storage vessels",
+        "type": "LOCATED_IN"
+      },
+      {
+        "from": "water drain line",
+        "to": "storage vessels",
+        "type": "LOCATED_IN"
+      }
+    ]
+  },
+  {
+    "chunk_id": "214c5ddaa93e",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "34823919726a",
+    "entities": [
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-144",
+        "normalized_value": "OISD-STD-144",
+        "chunk_id": "34823919726a",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Excess Flow Check Valve",
+        "normalized_value": "EFCV",
+        "chunk_id": "34823919726a",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "non-return valve",
+        "normalized_value": "NRV",
+        "chunk_id": "34823919726a",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "isolation valves",
+        "normalized_value": "isolation valves",
+        "chunk_id": "34823919726a",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "vapour return line",
+        "normalized_value": "vapour return line",
+        "chunk_id": "34823919726a",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "NRV",
+        "normalized_value": "NRV",
+        "chunk_id": "34823919726a",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "LPG hoses",
+        "normalized_value": "LPG hoses",
+        "chunk_id": "34823919726a",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "QCDC",
+        "normalized_value": "QCDC",
+        "chunk_id": "34823919726a",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "dry breakaway couplings",
+        "normalized_value": "dry breakaway couplings",
+        "chunk_id": "34823919726a",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-135",
+        "normalized_value": "OISD-STD-135",
+        "chunk_id": "34823919726a",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "weigh bridges",
+        "normalized_value": "weigh bridges",
+        "chunk_id": "34823919726a",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "mass flow meter",
+        "normalized_value": "MFM",
+        "chunk_id": "34823919726a",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "vapour compressors",
+        "normalized_value": "vapour compressors",
+        "chunk_id": "34823919726a",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "LPG filling machine",
+        "normalized_value": "LPG filling machine",
+        "chunk_id": "34823919726a",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "vapour extraction system",
+        "normalized_value": "vapour extraction system",
+        "chunk_id": "34823919726a",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "carousels",
+        "normalized_value": "carousels",
+        "chunk_id": "34823919726a",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "leak detectors",
+        "normalized_value": "leak detectors",
+        "chunk_id": "34823919726a",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "washing unit",
+        "normalized_value": "washing unit",
+        "chunk_id": "34823919726a",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "drying unit",
+        "normalized_value": "drying unit",
+        "chunk_id": "34823919726a",
+        "confidence": 0.8
+      }
+    ],
+    "relationships": [
+      {
+        "from": "OISD-STD-144",
+        "to": "EFCV",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "NRV",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "isolation valves",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "vapour return line",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "LPG hoses",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "QCDC",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "dry breakaway couplings",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "weigh bridges",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "MFM",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "vapour compressors",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "LPG filling machine",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "vapour extraction system",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "carousels",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "leak detectors",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "washing unit",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "drying unit",
+        "type": "REFERENCES"
+      }
+    ]
+  },
+  {
+    "chunk_id": "00377cf127ad",
+    "entities": [
+      {
+        "entity_type": "Regulation",
+        "value": "Weights & Measures Rules",
+        "normalized_value": "Weights & Measures Rules",
+        "chunk_id": "00377cf127ad",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "Legal Metrology (Packaged Commodities) Rules, 2023",
+        "normalized_value": "Legal Metrology (Packaged Commodities) Rules, 2023",
+        "chunk_id": "00377cf127ad",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "Legal Metrology (General) Rules, 2011",
+        "normalized_value": "Legal Metrology (General) Rules, 2011",
+        "chunk_id": "00377cf127ad",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Valve Change Without Evacuation machine",
+        "normalized_value": "Valve Change Without Evacuation Machine",
+        "chunk_id": "00377cf127ad",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "16.87 kg/cm\u00b2",
+        "normalized_value": "16.87 kg/cm\u00b2",
+        "chunk_id": "00377cf127ad",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "14.2 kg",
+        "normalized_value": "14.2 kg",
+        "chunk_id": "00377cf127ad",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "10 gms",
+        "normalized_value": "10 g",
+        "chunk_id": "00377cf127ad",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "425 kg",
+        "normalized_value": "425 kg",
+        "chunk_id": "00377cf127ad",
+        "confidence": 0.8
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "chunk_id": "6a96ba7d7a18",
+    "entities": [
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-144",
+        "normalized_value": "OISD-STD-144",
+        "chunk_id": "6a96ba7d7a18",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "potable quality conforming to IS:10500",
+        "normalized_value": "IS:10500",
+        "chunk_id": "6a96ba7d7a18",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Jockey Pump",
+        "normalized_value": "Jockey Pump",
+        "chunk_id": "6a96ba7d7a18",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "CCTV",
+        "normalized_value": "CCTV",
+        "chunk_id": "6a96ba7d7a18",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "30 min. operation",
+        "normalized_value": "30 minutes",
+        "chunk_id": "6a96ba7d7a18",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "LPG Pumps",
+        "normalized_value": "LPG Pumps",
+        "chunk_id": "6a96ba7d7a18",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "API 610",
+        "normalized_value": "API 610",
+        "chunk_id": "6a96ba7d7a18",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "5.0 kg/cm\u00b2 above the vapour pressure",
+        "normalized_value": "5.0 kg/cm\u00b2",
+        "chunk_id": "6a96ba7d7a18",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "OISD Standard-113",
+        "normalized_value": "OISD-STD-113",
+        "chunk_id": "6a96ba7d7a18",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "IS:5572",
+        "normalized_value": "IS:5572",
+        "chunk_id": "6a96ba7d7a18",
+        "confidence": 0.9
+      }
+    ],
+    "relationships": [
+      {
+        "from": "LPG Pumps",
+        "to": "API 610",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "LPG Pumps",
+        "to": "OISD-STD-113",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "LPG Pumps",
+        "to": "IS:5572",
+        "type": "REFERENCES"
+      }
+    ]
+  },
+  {
+    "chunk_id": "682094e7ff8a",
+    "entities": [
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-144",
+        "normalized_value": "OISD-STD-144",
+        "chunk_id": "682094e7ff8a",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "LPG Pump House",
+        "normalized_value": "LPG Pump House",
+        "chunk_id": "682094e7ff8a",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Carousel pump",
+        "normalized_value": "Carousel pump",
+        "chunk_id": "682094e7ff8a",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "LPG VAPOUR COMPRESSOR",
+        "normalized_value": "LPG Vapour Compressor",
+        "chunk_id": "682094e7ff8a",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "API 618",
+        "normalized_value": "API 618",
+        "chunk_id": "682094e7ff8a",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "API 619",
+        "normalized_value": "API 619",
+        "chunk_id": "682094e7ff8a",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "24 kg/cm\u00b2",
+        "normalized_value": "24 kg/cm\u00b2",
+        "chunk_id": "682094e7ff8a",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "ANSI/ ASME B 31.3",
+        "normalized_value": "ANSI/ASME B31.3",
+        "chunk_id": "682094e7ff8a",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "SMPV Rule,2016",
+        "normalized_value": "SMPV Rules 2016",
+        "chunk_id": "682094e7ff8a",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "API 5L Gr. B",
+        "normalized_value": "API 5L Grade B",
+        "chunk_id": "682094e7ff8a",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "ASTM A106 Gr B",
+        "normalized_value": "ASTM A106 Grade B",
+        "chunk_id": "682094e7ff8a",
+        "confidence": 0.95
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "chunk_id": "56237855113b",
+    "entities": [
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-144",
+        "normalized_value": "OISD-STD-144",
+        "chunk_id": "56237855113b",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "low point drains",
+        "normalized_value": "low point drains",
+        "chunk_id": "56237855113b",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "high point vents",
+        "normalized_value": "high point vents",
+        "chunk_id": "56237855113b",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "full-bore isolation valve",
+        "normalized_value": "full-bore isolation valve",
+        "chunk_id": "56237855113b",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "LPG compressor",
+        "normalized_value": "LPG compressor",
+        "chunk_id": "56237855113b",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "LPG pumps",
+        "normalized_value": "LPG pumps",
+        "chunk_id": "56237855113b",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "LPG loading/ unloading arms",
+        "normalized_value": "LPG loading/unloading arms",
+        "chunk_id": "56237855113b",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "LPG loading/ unloading hoses",
+        "normalized_value": "LPG loading/unloading hoses",
+        "chunk_id": "56237855113b",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "buried piping",
+        "normalized_value": "buried piping",
+        "chunk_id": "56237855113b",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "Material of Construction",
+        "normalized_value": "Material of Construction",
+        "chunk_id": "56237855113b",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "LPG liquid, vapour and venting pipeline",
+        "normalized_value": "LPG liquid, vapour and venting pipeline",
+        "chunk_id": "56237855113b",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "pressure relief valves",
+        "normalized_value": "pressure relief valves",
+        "chunk_id": "56237855113b",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "thermal relief valves",
+        "normalized_value": "thermal relief valves",
+        "chunk_id": "56237855113b",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "design pressure",
+        "normalized_value": "design pressure",
+        "chunk_id": "56237855113b",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "ASME Section VIII Div. 1",
+        "normalized_value": "ASME Section VIII Div. 1",
+        "chunk_id": "56237855113b",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "ASME B31.3",
+        "normalized_value": "ASME B31.3",
+        "chunk_id": "56237855113b",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "TSV",
+        "normalized_value": "TSV",
+        "chunk_id": "56237855113b",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "SRV",
+        "normalized_value": "SRV",
+        "chunk_id": "56237855113b",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "API",
+        "normalized_value": "API",
+        "chunk_id": "56237855113b",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "BIS",
+        "normalized_value": "BIS",
+        "chunk_id": "56237855113b",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "steel valves",
+        "normalized_value": "steel valves",
+        "chunk_id": "56237855113b",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "steel flanges",
+        "normalized_value": "steel flanges",
+        "chunk_id": "56237855113b",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "ASTM A105",
+        "normalized_value": "ASTM A105",
+        "chunk_id": "56237855113b",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "ASME B16.5",
+        "normalized_value": "ASME B16.5",
+        "chunk_id": "56237855113b",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "slip-on flanges",
+        "normalized_value": "slip-on flanges",
+        "chunk_id": "56237855113b",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "weld neck flanges",
+        "normalized_value": "weld neck flanges",
+        "chunk_id": "56237855113b",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "screwed flanges",
+        "normalized_value": "screwed flanges",
+        "chunk_id": "56237855113b",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "ASMI B 16.11",
+        "normalized_value": "ASME B16.11",
+        "chunk_id": "56237855113b",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "steel screwed fittings",
+        "normalized_value": "steel screwed fittings",
+        "chunk_id": "56237855113b",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "steel unions",
+        "normalized_value": "steel unions",
+        "chunk_id": "56237855113b",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "steel plugs",
+        "normalized_value": "steel plugs",
+        "chunk_id": "56237855113b",
+        "confidence": 0.9
+      }
+    ],
+    "relationships": [
+      {
+        "from": "low point drains",
+        "to": "full-bore isolation valve",
+        "type": "MAINTAINED_BY"
+      },
+      {
+        "from": "high point vents",
+        "to": "full-bore isolation valve",
+        "type": "MAINTAINED_BY"
+      },
+      {
+        "from": "LPG compressor",
+        "to": "full-bore double isolation valve",
+        "type": "MAINTAINED_BY"
+      },
+      {
+        "from": "LPG pumps",
+        "to": "full-bore double isolation valve",
+        "type": "MAINTAINED_BY"
+      },
+      {
+        "from": "LPG loading/ unloading arms",
+        "to": "full-bore double isolation valve",
+        "type": "MAINTAINED_BY"
+      },
+      {
+        "from": "LPG loading/ unloading hoses",
+        "to": "full-bore double isolation valve",
+        "type": "MAINTAINED_BY"
+      },
+      {
+        "from": "pressure relief valves",
+        "to": "steel",
+        "type": "MAINTAINED_BY"
+      },
+      {
+        "from": "thermal relief valves",
+        "to": "steel",
+        "type": "MAINTAINED_BY"
+      },
+      {
+        "from": "TSV",
+        "to": "full-bore isolation valve",
+        "type": "MAINTAINED_BY"
+      },
+      {
+        "from": "steel flanges",
+        "to": "ASTM A105",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "steel flanges",
+        "to": "ASME B16.5",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "steel screwed fittings",
+        "to": "ASME B16.11",
+        "type": "REFERENCES"
+      }
+    ]
+  },
+  {
+    "chunk_id": "7671d13519c7",
+    "entities": [
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-144",
+        "normalized_value": "OISD-STD-144",
+        "chunk_id": "7671d13519c7",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Cylinder emptying vessel",
+        "normalized_value": "Cylinder Emptying Vessel",
+        "chunk_id": "7671d13519c7",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Compressor",
+        "normalized_value": "Compressor",
+        "chunk_id": "7671d13519c7",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Four-way valves",
+        "normalized_value": "Four-Way Valves",
+        "chunk_id": "7671d13519c7",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Pressure gauge",
+        "normalized_value": "Pressure Gauge",
+        "chunk_id": "7671d13519c7",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Level gauge",
+        "normalized_value": "Level Gauge",
+        "chunk_id": "7671d13519c7",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "High level alarm switch",
+        "normalized_value": "High Level Alarm Switch",
+        "chunk_id": "7671d13519c7",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Pressure relief valves",
+        "normalized_value": "Pressure Relief Valves",
+        "chunk_id": "7671d13519c7",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Vent valves",
+        "normalized_value": "Vent Valves",
+        "chunk_id": "7671d13519c7",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Drain valve",
+        "normalized_value": "Drain Valve",
+        "chunk_id": "7671d13519c7",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Pneumatically operated hydraulic cylinder",
+        "normalized_value": "Pneumatically Operated Hydraulic Cylinder",
+        "chunk_id": "7671d13519c7",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Reciprocating Pump",
+        "normalized_value": "Reciprocating Pump",
+        "chunk_id": "7671d13519c7",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Pneumatic cylinder",
+        "normalized_value": "Pneumatic Cylinder",
+        "chunk_id": "7671d13519c7",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Cylinder rack",
+        "normalized_value": "Cylinder Rack",
+        "chunk_id": "7671d13519c7",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Strainer",
+        "normalized_value": "Strainer",
+        "chunk_id": "7671d13519c7",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Non-return valve",
+        "normalized_value": "Non-Return Valve",
+        "chunk_id": "7671d13519c7",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Vacuum pump",
+        "normalized_value": "Vacuum Pump",
+        "chunk_id": "7671d13519c7",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Purging manifold",
+        "normalized_value": "Purging Manifold",
+        "chunk_id": "7671d13519c7",
+        "confidence": 0.85
+      }
+    ],
+    "relationships": [
+      {
+        "from": "Cylinder Emptying Vessel",
+        "to": "Pressure Gauge",
+        "type": "EQUIPPED_WITH"
+      },
+      {
+        "from": "Cylinder Emptying Vessel",
+        "to": "Level Gauge",
+        "type": "EQUIPPED_WITH"
+      },
+      {
+        "from": "Cylinder Emptying Vessel",
+        "to": "High Level Alarm Switch",
+        "type": "EQUIPPED_WITH"
+      },
+      {
+        "from": "Cylinder Emptying Vessel",
+        "to": "Pressure Relief Valves",
+        "type": "EQUIPPED_WITH"
+      },
+      {
+        "from": "Cylinder Emptying Vessel",
+        "to": "Vent Valves",
+        "type": "EQUIPPED_WITH"
+      },
+      {
+        "from": "Cylinder Emptying Vessel",
+        "to": "Drain Valve",
+        "type": "EQUIPPED_WITH"
+      },
+      {
+        "from": "Pneumatically Operated Hydraulic Cylinder",
+        "to": "Reciprocating Pump",
+        "type": "COMPRISES"
+      },
+      {
+        "from": "Pneumatically Operated Hydraulic Cylinder",
+        "to": "Pneumatic Cylinder",
+        "type": "COMPRISES"
+      },
+      {
+        "from": "Cylinder Rack",
+        "to": "Strainer",
+        "type": "EQUIPPED_WITH"
+      }
+    ]
+  },
+  {
+    "chunk_id": "210f85f6216f",
+    "entities": [
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-144",
+        "normalized_value": "OISD-STD-144",
+        "chunk_id": "210f85f6216f",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "vacuum receiver",
+        "normalized_value": "VACUUM RECEIVER",
+        "chunk_id": "210f85f6216f",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "vacuum gauge",
+        "normalized_value": "VACUUM GAUGE",
+        "chunk_id": "210f85f6216f",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "LPG vapour header",
+        "normalized_value": "LPG VAPOUR HEADER",
+        "chunk_id": "210f85f6216f",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "purging adapters",
+        "normalized_value": "PURGING ADAPTERS",
+        "chunk_id": "210f85f6216f",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "vacuum pump",
+        "normalized_value": "VACUUM PUMP",
+        "chunk_id": "210f85f6216f",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "suction strainer",
+        "normalized_value": "SUCTION STRAINER",
+        "chunk_id": "210f85f6216f",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "pressure regulator",
+        "normalized_value": "PRESSURE REGULATOR",
+        "chunk_id": "210f85f6216f",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "relief valves",
+        "normalized_value": "RELIEF VALVES",
+        "chunk_id": "210f85f6216f",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "ethyl mercaptan containers",
+        "normalized_value": "ETHYL MERCAPTAN CONTAINERS",
+        "chunk_id": "210f85f6216f",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "hermetically sealed pumps",
+        "normalized_value": "HERMETICALLY SEALED PUMPS",
+        "chunk_id": "210f85f6216f",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "stainless-steel piping",
+        "normalized_value": "STAINLESS-STEEL PIPING",
+        "chunk_id": "210f85f6216f",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "flexible connections",
+        "normalized_value": "FLEXIBLE CONNECTIONS",
+        "chunk_id": "210f85f6216f",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "transfer valves",
+        "normalized_value": "TRANSFER VALVES",
+        "chunk_id": "210f85f6216f",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "pressure gauges",
+        "normalized_value": "PRESSURE GAUGES",
+        "chunk_id": "210f85f6216f",
+        "confidence": 0.85
+      }
+    ],
+    "relationships": [
+      {
+        "from": "ethyl mercaptan containers",
+        "to": "stainless steel",
+        "type": "MAINTAINED_BY"
+      },
+      {
+        "from": "ethyl mercaptan containers",
+        "to": "aluminium",
+        "type": "MAINTAINED_BY"
+      },
+      {
+        "from": "hermetically sealed pumps",
+        "to": "mercaptan service",
+        "type": "LOCATED_IN"
+      },
+      {
+        "from": "stainless-steel piping",
+        "to": "mercaptan service",
+        "type": "LOCATED_IN"
+      },
+      {
+        "from": "flexible connections",
+        "to": "mercaptan service",
+        "type": "LOCATED_IN"
+      },
+      {
+        "from": "relief valves",
+        "to": "mercaptan service",
+        "type": "LOCATED_IN"
+      },
+      {
+        "from": "transfer valves",
+        "to": "mercaptan service",
+        "type": "LOCATED_IN"
+      },
+      {
+        "from": "pressure gauges",
+        "to": "mercaptan service",
+        "type": "LOCATED_IN"
+      }
+    ]
+  },
+  {
+    "chunk_id": "5d1c0ab74c3b",
+    "entities": [
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-144",
+        "normalized_value": "OISD-STD-144",
+        "chunk_id": "5d1c0ab74c3b",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "IS:16724",
+        "normalized_value": "IS:16724",
+        "chunk_id": "5d1c0ab74c3b",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-113",
+        "normalized_value": "OISD-STD-113",
+        "chunk_id": "5d1c0ab74c3b",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-RP-149",
+        "normalized_value": "OISD-RP-149",
+        "chunk_id": "5d1c0ab74c3b",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "NEC-1985",
+        "normalized_value": "NEC-1985",
+        "chunk_id": "5d1c0ab74c3b",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "IS/IEC:60079",
+        "normalized_value": "IS/IEC:60079",
+        "chunk_id": "5d1c0ab74c3b",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "IS:5572",
+        "normalized_value": "IS:5572",
+        "chunk_id": "5d1c0ab74c3b",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "Petroleum Rules, 2002",
+        "normalized_value": "Petroleum Rules, 2002",
+        "chunk_id": "5d1c0ab74c3b",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "IS:60529",
+        "normalized_value": "IS:60529",
+        "chunk_id": "5d1c0ab74c3b",
+        "confidence": 0.95
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "chunk_id": "a24857bfab39",
+    "entities": [
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-144",
+        "normalized_value": "OISD-STD-144",
+        "chunk_id": "a24857bfab39",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "illumination levels",
+        "normalized_value": "illumination levels",
+        "chunk_id": "a24857bfab39",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "lux meter",
+        "normalized_value": "lux meter",
+        "chunk_id": "a24857bfab39",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "20 lux",
+        "normalized_value": "20 lux",
+        "chunk_id": "a24857bfab39",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "10 lux",
+        "normalized_value": "10 lux",
+        "chunk_id": "a24857bfab39",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "100 lux",
+        "normalized_value": "100 lux",
+        "chunk_id": "a24857bfab39",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "60 lux",
+        "normalized_value": "60 lux",
+        "chunk_id": "a24857bfab39",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "150 lux",
+        "normalized_value": "150 lux",
+        "chunk_id": "a24857bfab39",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "70 lux",
+        "normalized_value": "70 lux",
+        "chunk_id": "a24857bfab39",
+        "confidence": 0.85
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "chunk_id": "2cbaf2c02224",
+    "entities": [
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-144",
+        "normalized_value": "OISD-STD-144",
+        "chunk_id": "2cbaf2c02224",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Battery room",
+        "normalized_value": "Battery Room",
+        "chunk_id": "2cbaf2c02224",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "UPS room",
+        "normalized_value": "UPS Room",
+        "chunk_id": "2cbaf2c02224",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Monitoring room",
+        "normalized_value": "Monitoring Room",
+        "chunk_id": "2cbaf2c02224",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Control room",
+        "normalized_value": "Control Room",
+        "chunk_id": "2cbaf2c02224",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "QC lab",
+        "normalized_value": "QC Lab",
+        "chunk_id": "2cbaf2c02224",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Fire Water Pump House",
+        "normalized_value": "Fire Water Pump House",
+        "chunk_id": "2cbaf2c02224",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "LPG Pump House",
+        "normalized_value": "LPG Pump House",
+        "chunk_id": "2cbaf2c02224",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "LPG shed",
+        "normalized_value": "LPG Shed",
+        "chunk_id": "2cbaf2c02224",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Tank truck gantry",
+        "normalized_value": "Tank Truck Gantry",
+        "chunk_id": "2cbaf2c02224",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Tank wagon gantry",
+        "normalized_value": "Tank Wagon Gantry",
+        "chunk_id": "2cbaf2c02224",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Storage area",
+        "normalized_value": "Storage Area",
+        "chunk_id": "2cbaf2c02224",
+        "confidence": 0.9
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "chunk_id": "22c2b0b7e3d2",
+    "entities": [
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-144",
+        "normalized_value": "OISD-STD-144",
+        "chunk_id": "22c2b0b7e3d2",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "IS:3043",
+        "normalized_value": "IS 3043",
+        "chunk_id": "22c2b0b7e3d2",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-GDN-180",
+        "normalized_value": "OISD-GDN-180",
+        "chunk_id": "22c2b0b7e3d2",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "IS/IEC 62305-1",
+        "normalized_value": "IS/IEC 62305-1",
+        "chunk_id": "22c2b0b7e3d2",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "IS/IEC 62305-2",
+        "normalized_value": "IS/IEC 62305-2",
+        "chunk_id": "22c2b0b7e3d2",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "IS/IEC 62305-3",
+        "normalized_value": "IS/IEC 62305-3",
+        "chunk_id": "22c2b0b7e3d2",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Spheres",
+        "normalized_value": "Spheres",
+        "chunk_id": "22c2b0b7e3d2",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Bullets",
+        "normalized_value": "Bullets",
+        "chunk_id": "22c2b0b7e3d2",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "500 mm",
+        "normalized_value": "500 mm",
+        "chunk_id": "22c2b0b7e3d2",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "250 volts",
+        "normalized_value": "250 V",
+        "chunk_id": "22c2b0b7e3d2",
+        "confidence": 0.9
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "chunk_id": "af8a1aebe1dc",
+    "entities": [
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-144",
+        "normalized_value": "OISD-STD-144",
+        "chunk_id": "af8a1aebe1dc",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "IS:3043",
+        "normalized_value": "IS 3043",
+        "chunk_id": "af8a1aebe1dc",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "CEA Regulations 2023",
+        "normalized_value": "CEA Regulations 2023",
+        "chunk_id": "af8a1aebe1dc",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "minimum of two or more bolts",
+        "normalized_value": "minimum 2 bolts",
+        "chunk_id": "af8a1aebe1dc",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "six monthly",
+        "normalized_value": "every 6 months",
+        "chunk_id": "af8a1aebe1dc",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "twice a year",
+        "normalized_value": "every 6 months",
+        "chunk_id": "af8a1aebe1dc",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "rating 30 mA",
+        "normalized_value": "30 mA",
+        "chunk_id": "af8a1aebe1dc",
+        "confidence": 0.95
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "chunk_id": "7ec414420da8",
+    "entities": [
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-144",
+        "normalized_value": "OISD-STD-144",
+        "chunk_id": "7ec414420da8",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "OISD standard",
+        "normalized_value": "OISD",
+        "chunk_id": "7ec414420da8",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "CEA Regulation 2023",
+        "normalized_value": "CEA Regulation 2023",
+        "chunk_id": "7ec414420da8",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "IS:13774",
+        "normalized_value": "IS 13774",
+        "chunk_id": "7ec414420da8",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "IS:15652",
+        "normalized_value": "IS 15652",
+        "chunk_id": "7ec414420da8",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "Static and Mobile Pressure Vessels (Unfired) Rules, 2016",
+        "normalized_value": "Static and Mobile Pressure Vessels (Unfired) Rules, 2016",
+        "chunk_id": "7ec414420da8",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-159",
+        "normalized_value": "OISD-STD-159",
+        "chunk_id": "7ec414420da8",
+        "confidence": 0.95
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "chunk_id": "93d833c4e0f7",
+    "entities": [
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-144",
+        "normalized_value": "OISD-STD-144",
+        "chunk_id": "93d833c4e0f7",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "1 kg/cm\u00b2",
+        "normalized_value": "1 kg/cm\u00b2",
+        "chunk_id": "93d833c4e0f7",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "1.5 m",
+        "normalized_value": "1.5 m",
+        "chunk_id": "93d833c4e0f7",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-135",
+        "normalized_value": "OISD-STD-135",
+        "chunk_id": "93d833c4e0f7",
+        "confidence": 0.95
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "chunk_id": "ef462a7672c4",
+    "entities": [
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-144",
+        "normalized_value": "OISD-STD-144",
+        "chunk_id": "ef462a7672c4",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "SMPV Rules,2016",
+        "normalized_value": "SMPV Rules 2016",
+        "chunk_id": "ef462a7672c4",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-159",
+        "normalized_value": "OISD-STD-159",
+        "chunk_id": "ef462a7672c4",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "safety valves",
+        "normalized_value": "safety valves",
+        "chunk_id": "ef462a7672c4",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "level gauge/ indicator",
+        "normalized_value": "level gauge",
+        "chunk_id": "ef462a7672c4",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Internal Excess flow check",
+        "normalized_value": "excess flow check valve",
+        "chunk_id": "ef462a7672c4",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "control valve",
+        "normalized_value": "control valve",
+        "chunk_id": "ef462a7672c4",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "pressure gauge/ indicator",
+        "normalized_value": "pressure gauge",
+        "chunk_id": "ef462a7672c4",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "temperature gauge/ indicator",
+        "normalized_value": "temperature gauge",
+        "chunk_id": "ef462a7672c4",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "fire screen",
+        "normalized_value": "fire screen",
+        "chunk_id": "ef462a7672c4",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "9 kg. DCP fire extinguishers",
+        "normalized_value": "9 kg DCP fire extinguisher",
+        "chunk_id": "ef462a7672c4",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "1 kg capacity DCP extinguisher",
+        "normalized_value": "1 kg DCP fire extinguisher",
+        "chunk_id": "ef462a7672c4",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "spark arrester",
+        "normalized_value": "spark arrester",
+        "chunk_id": "ef462a7672c4",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "300-amp rating",
+        "normalized_value": "300 A",
+        "chunk_id": "ef462a7672c4",
+        "confidence": 0.8
+      }
+    ],
+    "relationships": [
+      {
+        "from": "OISD-STD-144",
+        "to": "safety valves",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "level gauge",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "excess flow check valve",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "control valve",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "pressure gauge",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "temperature gauge",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "fire screen",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "9 kg DCP fire extinguisher",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "1 kg DCP fire extinguisher",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "spark arrester",
+        "type": "REFERENCES"
+      }
+    ]
+  },
+  {
+    "chunk_id": "cb5c84d10bfe",
+    "entities": [
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-144",
+        "normalized_value": "OISD-STD-144",
+        "chunk_id": "cb5c84d10bfe",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "VTS",
+        "normalized_value": "Vehicle Tracking System",
+        "chunk_id": "cb5c84d10bfe",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "AIS140",
+        "normalized_value": "AIS140",
+        "chunk_id": "cb5c84d10bfe",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "SRV",
+        "normalized_value": "Safety Relief Valve",
+        "chunk_id": "cb5c84d10bfe",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "IEFCV",
+        "normalized_value": "Internal Excess Flow Check Valve",
+        "chunk_id": "cb5c84d10bfe",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "85 %",
+        "normalized_value": "85%",
+        "chunk_id": "cb5c84d10bfe",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "PESO",
+        "normalized_value": "Petroleum and Explosives Safety Organisation",
+        "chunk_id": "cb5c84d10bfe",
+        "confidence": 0.8
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "chunk_id": "34bc71e5d111",
+    "entities": [
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-144",
+        "normalized_value": "OISD-STD-144",
+        "chunk_id": "34bc71e5d111",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "weigh bridge",
+        "normalized_value": "weigh bridge",
+        "chunk_id": "34bc71e5d111",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "density",
+        "normalized_value": "density",
+        "chunk_id": "34bc71e5d111",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "tank truck vessel",
+        "normalized_value": "tank truck vessel",
+        "chunk_id": "34bc71e5d111",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "relief valve",
+        "normalized_value": "relief valve",
+        "chunk_id": "34bc71e5d111",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "couplings",
+        "normalized_value": "couplings",
+        "chunk_id": "34bc71e5d111",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "tank truck valves",
+        "normalized_value": "tank truck valves",
+        "chunk_id": "34bc71e5d111",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "liquid and vapour return line valves",
+        "normalized_value": "liquid and vapour return line valves",
+        "chunk_id": "34bc71e5d111",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "EFCV lever",
+        "normalized_value": "EFCV lever",
+        "chunk_id": "34bc71e5d111",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "loading arms",
+        "normalized_value": "loading arms",
+        "chunk_id": "34bc71e5d111",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Roto gauge",
+        "normalized_value": "Roto gauge",
+        "chunk_id": "34bc71e5d111",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "pressure",
+        "normalized_value": "pressure",
+        "chunk_id": "34bc71e5d111",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "temperature",
+        "normalized_value": "temperature",
+        "chunk_id": "34bc71e5d111",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "vent line",
+        "normalized_value": "vent line",
+        "chunk_id": "34bc71e5d111",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "earthing connection",
+        "normalized_value": "earthing connection",
+        "chunk_id": "34bc71e5d111",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "wheel chokes",
+        "normalized_value": "wheel chokes",
+        "chunk_id": "34bc71e5d111",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "LPG liquid and vapour line",
+        "normalized_value": "LPG liquid and vapour line",
+        "chunk_id": "34bc71e5d111",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "LPG compressor",
+        "normalized_value": "LPG compressor",
+        "chunk_id": "34bc71e5d111",
+        "confidence": 0.85
+      }
+    ],
+    "relationships": [
+      {
+        "from": "tank truck vessel",
+        "to": "relief valve",
+        "type": "FAILED_ON"
+      },
+      {
+        "from": "tank truck valves",
+        "to": "loading arms",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "liquid and vapour return line valves",
+        "to": "tank truck",
+        "type": "LOCATED_IN"
+      }
+    ]
+  },
+  {
+    "chunk_id": "07b037386853",
+    "entities": [
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-144",
+        "normalized_value": "OISD-STD-144",
+        "chunk_id": "07b037386853",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "tank truck",
+        "normalized_value": "tank truck",
+        "chunk_id": "07b037386853",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "1.5 kg/cm\u00b2",
+        "normalized_value": "1.5 kg/cm\u00b2",
+        "chunk_id": "07b037386853",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "LPG Compressor",
+        "normalized_value": "LPG Compressor",
+        "chunk_id": "07b037386853",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "Roto gauge reading",
+        "normalized_value": "Roto gauge reading",
+        "chunk_id": "07b037386853",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "pressure",
+        "normalized_value": "pressure",
+        "chunk_id": "07b037386853",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "temperature",
+        "normalized_value": "temperature",
+        "chunk_id": "07b037386853",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "unloading arm",
+        "normalized_value": "unloading arm",
+        "chunk_id": "07b037386853",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "weigh bridge",
+        "normalized_value": "weigh bridge",
+        "chunk_id": "07b037386853",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Tank Wagons",
+        "normalized_value": "Tank Wagons",
+        "chunk_id": "07b037386853",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "compressor",
+        "normalized_value": "compressor",
+        "chunk_id": "07b037386853",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "mass flow meter",
+        "normalized_value": "mass flow meter",
+        "chunk_id": "07b037386853",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "dummy wagons",
+        "normalized_value": "dummy wagons",
+        "chunk_id": "07b037386853",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "railway track",
+        "normalized_value": "railway track",
+        "chunk_id": "07b037386853",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "insulation joint",
+        "normalized_value": "insulation joint",
+        "chunk_id": "07b037386853",
+        "confidence": 0.8
+      }
+    ],
+    "relationships": [
+      {
+        "from": "tank truck",
+        "to": "unloading arm",
+        "type": "CONNECTED_TO"
+      },
+      {
+        "from": "LPG Compressor",
+        "to": "tank truck",
+        "type": "CONNECTED_TO"
+      },
+      {
+        "from": "Tank Wagons",
+        "to": "compressor",
+        "type": "CONNECTED_TO"
+      },
+      {
+        "from": "Tank Wagons",
+        "to": "mass flow meter",
+        "type": "MEASURED_BY"
+      },
+      {
+        "from": "dummy wagons",
+        "to": "railway track",
+        "type": "LOCATED_ON"
+      }
+    ]
+  },
+  {
+    "chunk_id": "5971f9ff9345",
+    "entities": [
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-144",
+        "normalized_value": "OISD-STD-144",
+        "chunk_id": "5971f9ff9345",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "1.5 kg/cm\u00b2",
+        "normalized_value": "1.5 kg/cm\u00b2",
+        "chunk_id": "5971f9ff9345",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "55 \u00b0C",
+        "normalized_value": "55 \u00b0C",
+        "chunk_id": "5971f9ff9345",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-135",
+        "normalized_value": "OISD-STD-135",
+        "chunk_id": "5971f9ff9345",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "15 m",
+        "normalized_value": "15 m",
+        "chunk_id": "5971f9ff9345",
+        "confidence": 0.9
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "chunk_id": "03379a76d44a",
+    "entities": [
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-144",
+        "normalized_value": "OISD-STD-144",
+        "chunk_id": "03379a76d44a",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "half rake",
+        "normalized_value": "half rake",
+        "chunk_id": "03379a76d44a",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "SMPV Rules 2016",
+        "normalized_value": "SMPV Rules 2016",
+        "chunk_id": "03379a76d44a",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "50m",
+        "normalized_value": "50 m",
+        "chunk_id": "03379a76d44a",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "safe filling level",
+        "normalized_value": "safe filling level",
+        "chunk_id": "03379a76d44a",
+        "confidence": 0.8
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "chunk_id": "c5598c2d1da3",
+    "entities": [
+      {
+        "entity_type": "Regulation",
+        "value": "SMPV Rules 2016",
+        "normalized_value": "SMPV Rules 2016",
+        "chunk_id": "c5598c2d1da3",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "50m",
+        "normalized_value": "50 m",
+        "chunk_id": "c5598c2d1da3",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "2.0 to 2.5 kg/cm\u00b2",
+        "normalized_value": "2.0 to 2.5 kg/cm\u00b2",
+        "chunk_id": "c5598c2d1da3",
+        "confidence": 0.9
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "chunk_id": "166123c23d3f",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "131487084c4c",
+    "entities": [
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-144",
+        "normalized_value": "OISD-STD-144",
+        "chunk_id": "131487084c4c",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "LPG compressor",
+        "normalized_value": "LPG compressor",
+        "chunk_id": "131487084c4c",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "tank wagon",
+        "normalized_value": "tank wagon",
+        "chunk_id": "131487084c4c",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "vent header",
+        "normalized_value": "vent header",
+        "chunk_id": "131487084c4c",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "pressure gauge",
+        "normalized_value": "pressure gauge",
+        "chunk_id": "131487084c4c",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "liquid and vapour valves",
+        "normalized_value": "liquid and vapour valves",
+        "chunk_id": "131487084c4c",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "manhole cover",
+        "normalized_value": "manhole cover",
+        "chunk_id": "131487084c4c",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "explosive meter",
+        "normalized_value": "explosive meter",
+        "chunk_id": "131487084c4c",
+        "confidence": 0.8
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "In-motion weighbridge",
+        "normalized_value": "In-motion weighbridge",
+        "chunk_id": "131487084c4c",
+        "confidence": 0.85
+      }
+    ],
+    "relationships": [
+      {
+        "from": "OISD-STD-144",
+        "to": "LPG compressor",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "tank wagon",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "vent header",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "pressure gauge",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "liquid and vapour valves",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "manhole cover",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "explosive meter",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "In-motion weighbridge",
+        "type": "REFERENCES"
+      }
+    ]
+  },
+  {
+    "chunk_id": "76ddc72d3a51",
+    "entities": [
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-144",
+        "normalized_value": "OISD-STD-144",
+        "chunk_id": "76ddc72d3a51",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "loco engine",
+        "normalized_value": "loco engine",
+        "chunk_id": "76ddc72d3a51",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "tank wagon",
+        "normalized_value": "tank wagon",
+        "chunk_id": "76ddc72d3a51",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "flapper bridge",
+        "normalized_value": "flapper bridge",
+        "chunk_id": "76ddc72d3a51",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "swing platform",
+        "normalized_value": "swing platform",
+        "chunk_id": "76ddc72d3a51",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "2'' flexible hose",
+        "normalized_value": "2 inch flexible hose",
+        "chunk_id": "76ddc72d3a51",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "service water line",
+        "normalized_value": "service water line",
+        "chunk_id": "76ddc72d3a51",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "TW liquid line",
+        "normalized_value": "tank wagon liquid line",
+        "chunk_id": "76ddc72d3a51",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "100%",
+        "normalized_value": "100%",
+        "chunk_id": "76ddc72d3a51",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "vapour valve",
+        "normalized_value": "vapor valve",
+        "chunk_id": "76ddc72d3a51",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "TW vapour line",
+        "normalized_value": "tank wagon vapor line",
+        "chunk_id": "76ddc72d3a51",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "50 PSI",
+        "normalized_value": "50 PSI",
+        "chunk_id": "76ddc72d3a51",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "1.5 kg/cm\u00b2",
+        "normalized_value": "1.5 kg/cm\u00b2",
+        "chunk_id": "76ddc72d3a51",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "In-motion weighbridge",
+        "normalized_value": "in-motion weighbridge",
+        "chunk_id": "76ddc72d3a51",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-214",
+        "normalized_value": "OISD-STD-214",
+        "chunk_id": "76ddc72d3a51",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "SCADA",
+        "normalized_value": "SCADA",
+        "chunk_id": "76ddc72d3a51",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "IGC Code",
+        "normalized_value": "International Code for the Construction and Equipment of Ships Carrying Liquefied Gases in Bulk",
+        "chunk_id": "76ddc72d3a51",
+        "confidence": 0.95
+      }
+    ],
+    "relationships": [
+      {
+        "from": "2'' flexible hose",
+        "to": "service water line",
+        "type": "CONNECTED_TO"
+      },
+      {
+        "from": "2'' flexible hose",
+        "to": "TW liquid line",
+        "type": "CONNECTED_TO"
+      },
+      {
+        "from": "TW vapour line",
+        "to": "tank wagon",
+        "type": "CONNECTED_TO"
+      }
+    ]
+  },
+  {
+    "chunk_id": "2544abde8844",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "Cargo pumps",
+        "normalized_value": "CARGO PUMPS",
+        "chunk_id": "2544abde8844",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Compressors",
+        "normalized_value": "COMPRESSORS",
+        "chunk_id": "2544abde8844",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Condensers",
+        "normalized_value": "CONDENSERS",
+        "chunk_id": "2544abde8844",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Heat Exchangers",
+        "normalized_value": "HEAT EXCHANGERS",
+        "chunk_id": "2544abde8844",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Vapourisers",
+        "normalized_value": "VAPOURISERS",
+        "chunk_id": "2544abde8844",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Cargo heaters",
+        "normalized_value": "CARGO HEATERS",
+        "chunk_id": "2544abde8844",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "deep well pump",
+        "normalized_value": "DEEP WELL PUMP",
+        "chunk_id": "2544abde8844",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "booster pump",
+        "normalized_value": "BOOSTER PUMP",
+        "chunk_id": "2544abde8844",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "cargo tank",
+        "normalized_value": "CARGO TANK",
+        "chunk_id": "2544abde8844",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "cargo pumps",
+        "normalized_value": "CARGO PUMPS",
+        "chunk_id": "2544abde8844",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "liquid discharge line",
+        "normalized_value": "LIQUID DISCHARGE LINE",
+        "chunk_id": "2544abde8844",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "main liquid line",
+        "normalized_value": "MAIN LIQUID LINE",
+        "chunk_id": "2544abde8844",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "pump trunk way",
+        "normalized_value": "PUMP TRUNK WAY",
+        "chunk_id": "2544abde8844",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "liquid loading line",
+        "normalized_value": "LIQUID LOADING LINE",
+        "chunk_id": "2544abde8844",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "liquid level indicating devices",
+        "normalized_value": "LIQUID LEVEL INDICATING DEVICES",
+        "chunk_id": "2544abde8844",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "purge lines",
+        "normalized_value": "PURGE LINES",
+        "chunk_id": "2544abde8844",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "vapour line",
+        "normalized_value": "VAPOUR LINE",
+        "chunk_id": "2544abde8844",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Sample tubes",
+        "normalized_value": "SAMPLE TUBES",
+        "chunk_id": "2544abde8844",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "safety valves",
+        "normalized_value": "SAFETY VALVES",
+        "chunk_id": "2544abde8844",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "High and Low level alarms",
+        "normalized_value": "HIGH AND LOW LEVEL ALARMS",
+        "chunk_id": "2544abde8844",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Overfill alarm",
+        "normalized_value": "OVERFILL ALARM",
+        "chunk_id": "2544abde8844",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "main loading valve",
+        "normalized_value": "MAIN LOADING VALVE",
+        "chunk_id": "2544abde8844",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "International Code of the Construction and Equipment of Ships Carrying Liquefied Gases in Bulk",
+        "normalized_value": "INTERNATIONAL CODE OF THE CONSTRUCTION AND EQUIPMENT OF SHIPS CARRYING LIQUEFIED GASES IN BULK",
+        "chunk_id": "2544abde8844",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "ESD pendant",
+        "normalized_value": "ESD PENDANT",
+        "chunk_id": "2544abde8844",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "transfer piping",
+        "normalized_value": "TRANSFER PIPING",
+        "chunk_id": "2544abde8844",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "ROVs",
+        "normalized_value": "ROVS",
+        "chunk_id": "2544abde8844",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Relief valves",
+        "normalized_value": "RELIEF VALVES",
+        "chunk_id": "2544abde8844",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "audible alarm system",
+        "normalized_value": "AUDIBLE ALARM SYSTEM",
+        "chunk_id": "2544abde8844",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "vent/ drainpipes",
+        "normalized_value": "VENT/DRAINPIPES",
+        "chunk_id": "2544abde8844",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "9 bars",
+        "normalized_value": "9 BAR",
+        "chunk_id": "2544abde8844",
+        "confidence": 0.9
+      }
+    ],
+    "relationships": [
+      {
+        "from": "deep well pump",
+        "to": "booster pump",
+        "type": "CONNECTED_TO"
+      },
+      {
+        "from": "cargo tank",
+        "to": "liquid discharge line",
+        "type": "CONNECTED_TO"
+      },
+      {
+        "from": "liquid discharge line",
+        "to": "main liquid line",
+        "type": "CONNECTED_TO"
+      },
+      {
+        "from": "liquid loading line",
+        "to": "main liquid line",
+        "type": "CONNECTED_TO"
+      },
+      {
+        "from": "cargo tank",
+        "to": "liquid level indicating devices",
+        "type": "HAS_COMPONENT"
+      },
+      {
+        "from": "cargo tank",
+        "to": "purge lines",
+        "type": "HAS_COMPONENT"
+      },
+      {
+        "from": "cargo tank",
+        "to": "vapour line",
+        "type": "CONNECTED_TO"
+      },
+      {
+        "from": "cargo tank",
+        "to": "safety valves",
+        "type": "HAS_COMPONENT"
+      },
+      {
+        "from": "cargo tank",
+        "to": "High and Low level alarms",
+        "type": "HAS_COMPONENT"
+      },
+      {
+        "from": "cargo tank",
+        "to": "Overfill alarm",
+        "type": "HAS_COMPONENT"
+      },
+      {
+        "from": "Overfill alarm",
+        "to": "main loading valve",
+        "type": "TRIGGERS"
+      },
+      {
+        "from": "transfer piping",
+        "to": "ROVs",
+        "type": "HAS_COMPONENT"
+      },
+      {
+        "from": "transfer piping",
+        "to": "Relief valves",
+        "type": "HAS_COMPONENT"
+      },
+      {
+        "from": "Relief valves",
+        "to": "audible alarm system",
+        "type": "TRIGGERS"
+      }
+    ]
+  },
+  {
+    "chunk_id": "0f6fb8306f45",
+    "entities": [
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-144",
+        "normalized_value": "OISD-STD-144",
+        "chunk_id": "0f6fb8306f45",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "loading arms",
+        "normalized_value": "loading arms",
+        "chunk_id": "0f6fb8306f45",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "vapour recovery system",
+        "normalized_value": "vapour recovery system",
+        "chunk_id": "0f6fb8306f45",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "re-liquefaction",
+        "normalized_value": "re-liquefaction",
+        "chunk_id": "0f6fb8306f45",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "tanker discharge pipeline",
+        "normalized_value": "tanker discharge pipeline",
+        "chunk_id": "0f6fb8306f45",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "Quick Release Coupling",
+        "normalized_value": "Quick Release Coupling",
+        "chunk_id": "0f6fb8306f45",
+        "confidence": 0.9
+      }
+    ],
+    "relationships": [
+      {
+        "from": "OISD-STD-144",
+        "to": "loading arms",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "vapour recovery system",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "re-liquefaction",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "tanker discharge pipeline",
+        "type": "REFERENCES"
+      },
+      {
+        "from": "OISD-STD-144",
+        "to": "Quick Release Coupling",
+        "type": "REFERENCES"
+      }
+    ]
+  },
+  {
+    "chunk_id": "68b436d48474",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "e3624f1a1fba",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "72be924ea06a",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "5bc74f2da59d",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "68e7bfec35c1",
+    "entities": [
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-STD-144",
+        "normalized_value": "OISD-STD-144",
+        "chunk_id": "68e7bfec35c1",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "CVT",
+        "normalized_value": "CVT",
+        "chunk_id": "68e7bfec35c1",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "test cylinder",
+        "normalized_value": "test cylinder",
+        "chunk_id": "68e7bfec35c1",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "manometer",
+        "normalized_value": "manometer",
+        "chunk_id": "68e7bfec35c1",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "water test bath",
+        "normalized_value": "water test bath",
+        "chunk_id": "68e7bfec35c1",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "evacuation machine",
+        "normalized_value": "evacuation machine",
+        "chunk_id": "68e7bfec35c1",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "hot air sealing machine",
+        "normalized_value": "hot air sealing machine",
+        "chunk_id": "68e7bfec35c1",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Regulation",
+        "value": "OISD-GDN-206",
+        "normalized_value": "OISD-GDN-206",
+        "chunk_id": "68e7bfec35c1",
+        "confidence": 0.95
+      }
+    ],
+    "relationships": [
+      {
+        "from": "CVT",
+        "to": "test cylinder",
+        "type": "MAINTAINED_BY"
+      },
+      {
+        "from": "manometer",
+        "to": "test cylinder",
+        "type": "MAINTAINED_BY"
+      }
+    ]
+  },
+  {
+    "chunk_id": "b44678a35edb",
+    "entities": [
+      {
+        "entity_type": "Regulation",
+        "value": "Gas Cylinders Rules, 2016",
+        "normalized_value": "Gas Cylinders Rules, 2016",
+        "chunk_id": "b44678a35edb",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "LPG cylinders",
+        "normalized_value": "LPG cylinders",
+        "chunk_id": "b44678a35edb",
+        "confidence": 0.95
+      },
+      {
+        "entity_type": "Equipment",
+        "value": "telescopic conveyors",
+        "normalized_value": "telescopic conveyors",
+        "chunk_id": "b44678a35edb",
+        "confidence": 0.9
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "1.5 m",
+        "normalized_value": "1.5 m",
+        "chunk_id": "b44678a35edb",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "1 m",
+        "normalized_value": "1 m",
+        "chunk_id": "b44678a35edb",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "2 m",
+        "normalized_value": "2 m",
+        "chunk_id": "b44678a35edb",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "15 m",
+        "normalized_value": "15 m",
+        "chunk_id": "b44678a35edb",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "10 m",
+        "normalized_value": "10 m",
+        "chunk_id": "b44678a35edb",
+        "confidence": 0.85
+      },
+      {
+        "entity_type": "Parameter",
+        "value": "5 m",
+        "normalized_value": "5 m",
+        "chunk_id": "b44678a35edb",
+        "confidence": 0.85
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "chunk_id": "44090c24bf98",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "b4404180e636",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "e092e6ab0e9a",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "149a5fa6b34d",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "585e0c153bb0",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "07bf6fe0fa6c",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "a5bca58a2313",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "f210bbac0b66",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "c7c50ddd802c",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "badffa2c0b48",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "8fd13743d3c8",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "6f08cfe4fc3c",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "bf5af179219a",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "65f8283ae92f",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "3984c2b34dcb",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "d8930e952eda",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "3a9c7e814679",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "0be633d255ef",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "70bbebfc7af7",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "04b56c9d4244",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "85a88f4391fa",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "8f4188271754",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "8b4d86116304",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "1f712537b017",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "290ad1ece584",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "29e772c47da8",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "be4684704904",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "04b6fa1123e6",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "94f0f18103ae",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "31d374a9f51a",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "d5a73db956c6",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "dd6ce9e98474",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "6ff5e9865735",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "d47b75150e5f",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "e3510a1357c3",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "a704f321907b",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "619292a15d30",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "c6c2740b6029",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "dcbb3629685f",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "0a3a2af4b26c",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "031c5f1ae1d6",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "5c3a15969e3f",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "2c5ec93b3ae7",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "87ec0ad70c90",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "30efe968e9e8",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "81f84e7f8b07",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "78fd1cdd5289",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "e511b107d7e1",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "07265084b71d",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "fb4bed668156",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "8cfcf4a5a93f",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "c759caf2bd91",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "68dab06e998a",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "11301b52bc7a",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "652cd5b113f6",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "414b375723c2",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "640bdaed6da9",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "a8169d33a098",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "ea3737d2c112",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "22cf8f7ccda2",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "51c09d6b84eb",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "0cf1801eff84",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "798f3fe6a6a1",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "b9259915e0cd",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "49d9cfba06b2",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "41850f7caa99",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "90d1bc6e6707",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "352b91f140f2",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "c977ad5aa885",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "b753065feed6",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "4ce2f488d3b4",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "cc4c90340185",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "e77385941fb4",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "ff50eb57cab1",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "f3bdb5ae73b1",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "8cbd1660f4c7",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "ef1ef31cd6b2",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "e7d2cc9d222a",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "69041e6f5119",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "42297735337f",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "42164867ed01",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "6ddc043f0e5b",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "807b2b660921",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "5b6e25b1dc45",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "9c28bb4da8cb",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "37f85b0d0ff4",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "147c39011c0e",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "efeb02c86211",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "9d6101c5a592",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "8eb4adccc156",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "664d3cd11027",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "ead6bc720273",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "26568ab97127",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "2ad4c0d524db",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "9a6cf35f48c9",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "ca46477f116e",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "b6d90da1d74e",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "150db8665979",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "6e7d0cf19af2",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "946e8f71652b",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "12ed7541a6a7",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "ba895127c8d7",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "daa8f632bf1c",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "7c5467ce3c5a",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "4424e9dde04d",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "65bfb6661f1b",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "47955761a6fe",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "c1bb736caf6f",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "6754b0e2d75e",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "b8dacf9d3a84",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "e3561351ca20",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "96ec85659907",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "2bdad0716038",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "5070260fb529",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "72817b6d2266",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "c3c15725e286",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "ababe966e090",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "dd0ff3502ebe",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "6b8cdf0729e1",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "f64232499c3d",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "3e33e3897ba1",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "3e1a21687adf",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "4c4c01ea16a4",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "f1790a5df7ac",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "49b46154dd7d",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "f455c39a3f1d",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "9306d1a8d0ec",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "6d40a49c6253",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "78a43eceb6ba",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "ff081d4303ef",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "fbf845ded6be",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "2734fd5bfd72",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "b50a89f05e79",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "7696e071759f",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "6ffe8cc6d1c8",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "73dab8ef4fe7",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "284ad414312f",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "d20c3733dd25",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "1904d21d9d49",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "8e0d2bb61b74",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "b5d012bd138d",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "98c890790a43",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "1b747ef15b55",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "25828be604b5",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "24f9102cd477",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "29b9f2c18224",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "c2f2feb2746b",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "75536d994764",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "a67160f7f39e",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "c7cca0a7576e",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "af501e80d06e",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "5289e20a2f7a",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "aff343e65bd6",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "3a294b08cdf3",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "df1e50bd7fc2",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "1153778cf4e2",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "e05aa115a967",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "31f4c7d67eac",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "a440da3b0439",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "11e30e3b3033",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "939493c2e3f6",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "31976c7d8d83",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "4da25a099bb6",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "3036e6262284",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "36ead70068f4",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "a8d56de508f0",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "02e8441647a2",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "1533aa8349ee",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "5f69ab21e1b9",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "2f8b88fff10d",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "5f3285430c14",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "d44f4cf97ab2",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "adb6581ca1ed",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "cf03a96112c4",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "f52d3b9b4881",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "c83c9cf69406",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "a061f678d1ab",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "a55bb9d0b82f",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "8ee77ea22630",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "05265bc1ac41",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "3e1b15026d4a",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "468a14c05001",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "eed5651a7d8b",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "affe6be4acbd",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "88bcca6432ab",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "600ee8a50ffb",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "f90ee3ef21a3",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "f6695791f0c8",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "55cc41900afe",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "506a3afce124",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "2de2e198feef",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "d3f5c83a2f9d",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "ff4adb180146",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "0677305e5894",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "e109dc7475e3",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "ab43ce2205bb",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "866f34e99242",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "a5531342c2bf",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "2153e34ffbe2",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "e5c7fb199b0a",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "c69ed8d0c10e",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "f738458cfc00",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "894f87911cda",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "dd68e59dab34",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "2d90e3819416",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "676854d408a3",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "7e9011ca18d8",
+    "entities": [],
+    "relationships": []
+  }
+]

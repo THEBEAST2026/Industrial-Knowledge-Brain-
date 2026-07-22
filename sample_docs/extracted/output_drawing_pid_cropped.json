@@ -1,0 +1,172 @@
+[
+  {
+    "chunk_id": "d92da9736670",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "77c34aa75d3f",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "c49d18eba54f",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "8d5ef393af26",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "632b1592a4af",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "f96daac1cac3",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "d1d1654dc96d",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "6d95905e07ef",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "5d9d92f4b78f",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "1e0183ec2d6e",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "6dff2f0ccba3",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "05e966308443",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "29e53274cc4b",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "EY",
+        "normalized_value": "EY",
+        "chunk_id": "29e53274cc4b",
+        "confidence": 0.6
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "chunk_id": "965716990e8c",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "1702dbb7ec3b",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "4a960df0cb36",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "783032480835",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "TANK",
+        "normalized_value": "TANK",
+        "chunk_id": "783032480835",
+        "confidence": 0.95
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "chunk_id": "ceff0b0adfff",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "8f5f609cec02",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "931f5aab1c57",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "DISCHARGE",
+        "normalized_value": "DISCHARGE",
+        "chunk_id": "931f5aab1c57",
+        "confidence": 0.95
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "chunk_id": "3df59814c16d",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "PUMP",
+        "normalized_value": "PUMP",
+        "chunk_id": "3df59814c16d",
+        "confidence": 0.95
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "chunk_id": "3d0e4ea2eb6d",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "368c043dd8ae",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "6a53afd1cc9a",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "e7ff84f86495",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "chunk_id": "c765b00fcdd9",
+    "entities": [
+      {
+        "entity_type": "Equipment",
+        "value": "Qs",
+        "normalized_value": "QS",
+        "chunk_id": "c765b00fcdd9",
+        "confidence": 0.8
+      }
+    ],
+    "relationships": []
+  }
+]

@@ -1,0 +1,74 @@
+{
+  "captured_at": "2026-07-22T16:01:47.249211",
+  "demo_question": "What maintenance was performed on TANK-01, and how does it relate to the compressor inspection findings?",
+  "answer_summary": "TANK-01 is connected in the knowledge graph to its P&ID instrument tags (LAL-01, LAH-01, LS-01, LT-01) from the facility drawing, and directly references compressor inspection SN-2053474 (Mycom 200SUD-HE) based on a maintenance work order (WO-1041) that cross-checked TANK-01 instrumentation against the compressor's prior inspection findings for supply-side pressure correlation. This connects three separate source documents \u2014 a maintenance worklog, a P&ID drawing, and an inspection report \u2014 into one traversable graph.",
+  "tank01_neighborhood": [
+    {
+      "relationship": "LOCATED_IN",
+      "neighbor_labels": [
+        "Equipment"
+      ],
+      "neighbor_value": "LS-01",
+      "source_document": "sample_docs/extracted/output_worklog_maintenance_worklog.json"
+    },
+    {
+      "relationship": "LOCATED_IN",
+      "neighbor_labels": [
+        "Equipment"
+      ],
+      "neighbor_value": "LAL-01",
+      "source_document": "sample_docs/extracted/output_worklog_maintenance_worklog.json"
+    },
+    {
+      "relationship": "LOCATED_IN",
+      "neighbor_labels": [
+        "Equipment"
+      ],
+      "neighbor_value": "LAH-01",
+      "source_document": "sample_docs/extracted/output_worklog_maintenance_worklog.json"
+    },
+    {
+      "relationship": "LOCATED_IN",
+      "neighbor_labels": [
+        "Equipment"
+      ],
+      "neighbor_value": "LT-01",
+      "source_document": "sample_docs/extracted/output_worklog_maintenance_worklog.json"
+    },
+    {
+      "relationship": "REFERENCES",
+      "neighbor_labels": [
+        "Equipment"
+      ],
+      "neighbor_value": "SN-2053474",
+      "source_document": "sample_docs/extracted/output_worklog_maintenance_worklog.json"
+    },
+    {
+      "relationship": "REFERENCES",
+      "neighbor_labels": [
+        "Permit"
+      ],
+      "neighbor_value": "CS-4201",
+      "source_document": "sample_docs/extracted/output_worklog_maintenance_worklog.json"
+    }
+  ],
+  "cross_document_path": [
+    {
+      "path_nodes": [
+        "TANK-01",
+        "SN-2053474"
+      ],
+      "path_relationships": [
+        "REFERENCES"
+      ],
+      "source_documents_crossed": [
+        "sample_docs/extracted/output_worklog_maintenance_worklog.json"
+      ]
+    }
+  ],
+  "documents_involved": [
+    "maintenance_worklog.csv (worklog)",
+    "pid_cropped.png (P&ID drawing)",
+    "3769_-_Mycom_200SUD-HE_rapport.pdf (inspection report)"
+  ]
+}

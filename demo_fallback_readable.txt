@@ -1,0 +1,23 @@
+======================================================================
+DEMO FALLBACK — CROSS-DOCUMENT RETRIEVAL PROOF
+======================================================================
+
+Question: What maintenance was performed on TANK-01, and how does it relate to the compressor inspection findings?
+
+Answer:
+TANK-01 is connected in the knowledge graph to its P&ID instrument tags (LAL-01, LAH-01, LS-01, LT-01) from the facility drawing, and directly references compressor inspection SN-2053474 (Mycom 200SUD-HE) based on a maintenance work order (WO-1041) that cross-checked TANK-01 instrumentation against the compressor's prior inspection findings for supply-side pressure correlation. This connects three separate source documents — a maintenance worklog, a P&ID drawing, and an inspection report — into one traversable graph.
+
+----------------------------------------------------------------------
+TANK-01 direct neighborhood:
+  TANK-01 -[LOCATED_IN]-> LS-01 (['Equipment'])  [sample_docs/extracted/output_worklog_maintenance_worklog.json]
+  TANK-01 -[LOCATED_IN]-> LAL-01 (['Equipment'])  [sample_docs/extracted/output_worklog_maintenance_worklog.json]
+  TANK-01 -[LOCATED_IN]-> LAH-01 (['Equipment'])  [sample_docs/extracted/output_worklog_maintenance_worklog.json]
+  TANK-01 -[LOCATED_IN]-> LT-01 (['Equipment'])  [sample_docs/extracted/output_worklog_maintenance_worklog.json]
+  TANK-01 -[REFERENCES]-> SN-2053474 (['Equipment'])  [sample_docs/extracted/output_worklog_maintenance_worklog.json]
+  TANK-01 -[REFERENCES]-> CS-4201 (['Permit'])  [sample_docs/extracted/output_worklog_maintenance_worklog.json]
+
+----------------------------------------------------------------------
+Verified cross-document path:
+  Path: TANK-01 -> SN-2053474
+  Relationships: ['REFERENCES']
+  Source documents crossed: ['sample_docs/extracted/output_worklog_maintenance_worklog.json']

@@ -1,0 +1,42 @@
+work_order_id,equipment_tag,work_type,fault_description,permit_ref,assigned_engineer,date_reported,date_closed,status,downtime_hours,notes
+WO-1001,PUMP-04B,Predictive,Pressure drop beyond limit,HW-2201,T. Rahangdale,2026-04-02,2026-06-21,Completed,1.6,Follow-up required on PUMP-04B per OISD inspection checklist
+WO-1002,TK-103,Preventive,Abnormal noise during operation,CS-3102,J. Rao,2026-02-20,2026-07-04,Completed,6.2,
+WO-1003,COMPRESSOR-C1,Predictive,Seal leakage detected,HW-2203,S. Chavan,2025-11-30,,Pending Parts,29.2,
+WO-1004,TANK-FRW-01,Emergency,Seal leakage detected,HW-2204,M. Iyer,2025-07-26,2026-06-15,Pending Parts,25.5,Follow-up required on TANK-FRW-01 per OISD inspection checklist
+WO-1005,TK-103,Preventive,Seal leakage detected,,J. Rao,2026-01-21,2026-06-16,Pending Parts,0.0,
+WO-1006,COMPRESSOR-C1,Corrective,Scheduled preventive maintenance,,A. Sahay,2025-09-12,2026-07-07,Escalated,35.6,
+WO-1007,TANK-FRW-01,Predictive,Vibration exceeding threshold,HW-2207,T. Rahangdale,2026-05-27,2026-06-30,Pending Parts,0.0,
+WO-1008,PIPELINE-PL-9,Emergency,Routine calibration due,CS-3108,P. Verma,2026-03-31,2026-07-05,Pending Parts,15.7,
+WO-1009,VALVE-HW-12,Preventive,Abnormal noise during operation,HW-2209,P. Verma,2026-04-27,2026-06-15,Completed,0.0,Follow-up required on VALVE-HW-12 per OISD inspection checklist
+WO-1010,HEAT-EXCH-E7,Routine Inspection,Thermal anomaly on casing,CS-3110,M. Iyer,2025-09-02,2026-07-12,Completed,19.6,
+WO-1011,VALVE-HW-12,Emergency,Bearing wear observed,HW-2211,P. Verma,2026-06-11,2026-06-14,Pending Parts,27.5,
+WO-1012,PUMP-04B,Routine Inspection,Scheduled preventive maintenance,CS-3112,T. Rahangdale,2026-03-26,2026-07-07,Completed,17.8,Follow-up required on PUMP-04B per OISD inspection checklist
+WO-1013,VALVE-HW-12,Predictive,Pressure drop beyond limit,,R. Nair,2026-02-09,2026-07-10,Completed,29.5,
+WO-1014,TANK-FRW-01,Emergency,Abnormal noise during operation,CS-3114,A. Sahay,2026-01-28,2026-06-23,Escalated,33.5,
+WO-1015,TK-103,Predictive,Thermal anomaly on casing,CS-3115,P. Verma,2026-04-12,2026-07-10,Pending Parts,0.0,
+WO-1016,PIPELINE-PL-9,Corrective,Vibration exceeding threshold,HW-2216,T. Rahangdale,2026-05-09,2026-06-15,Pending Parts,0.0,Follow-up required on PIPELINE-PL-9 per OISD inspection checklist
+WO-1017,TURBINE-T2,Preventive,Scheduled preventive maintenance,HW-2217,P. Verma,2026-02-08,2026-06-17,Escalated,0.0,Follow-up required on TURBINE-T2 per OISD inspection checklist
+WO-1018,HEAT-EXCH-E7,Emergency,Thermal anomaly on casing,HW-2218,R. Nair,2025-07-13,2026-07-09,Completed,12.5,
+WO-1019,TK-103,Routine Inspection,Thermal anomaly on casing,HW-2219,A. Sahay,2025-11-08,2026-06-28,In Progress,3.2,
+WO-1020,TANK-FRW-01,Routine Inspection,Vibration exceeding threshold,HW-2220,S. Chavan,2026-02-11,2026-06-27,Escalated,0.0,
+WO-1021,PUMP-04A,Corrective,Routine calibration due,HW-2221,M. Iyer,2025-10-23,2026-06-20,Escalated,0.0,
+WO-1022,PUMP-04A,Predictive,Vibration exceeding threshold,,R. Nair,2025-08-17,2026-06-13,In Progress,0.0,
+WO-1023,TK-102,Corrective,Pressure drop beyond limit,HW-2223,J. Rao,2026-04-12,2026-06-24,In Progress,1.9,Follow-up required on TK-102 per OISD inspection checklist
+WO-1024,PIPELINE-PL-9,Predictive,Pressure drop beyond limit,CS-3124,K. Deshpande,2026-02-10,2026-07-08,Pending Parts,33.5,
+WO-1025,PUMP-04A,Corrective,Seal leakage detected,,T. Rahangdale,2025-09-26,2026-06-13,Pending Parts,31.7,
+WO-1026,TK-102,Predictive,Scheduled preventive maintenance,,R. Nair,2025-09-02,2026-06-21,Completed,5.3,Follow-up required on TK-102 per OISD inspection checklist
+WO-1027,PUMP-04B,Predictive,Scheduled preventive maintenance,CS-3127,T. Rahangdale,2025-12-19,2026-06-22,Pending Parts,9.4,
+WO-1028,PUMP-04A,Emergency,Corrosion noted on housing,HW-2228,R. Nair,2026-06-11,2026-07-08,Pending Parts,0.0,
+WO-1029,HEAT-EXCH-E7,Preventive,Abnormal noise during operation,CS-3129,R. Nair,2025-12-05,2026-07-08,Escalated,0.0,
+WO-1030,PUMP-04A,Preventive,Seal leakage detected,CS-3130,K. Deshpande,2025-08-30,2026-06-29,In Progress,8.9,Follow-up required on PUMP-04A per OISD inspection checklist
+WO-1031,TK-102,Predictive,Routine calibration due,CS-3131,T. Rahangdale,2026-01-27,2026-06-20,Completed,1.9,
+WO-1032,TK-103,Predictive,Pressure drop beyond limit,CS-3132,T. Rahangdale,2026-05-31,2026-06-30,Pending Parts,0.0,Follow-up required on TK-103 per OISD inspection checklist
+WO-1033,COMPRESSOR-C1,Routine Inspection,Routine calibration due,HW-2233,K. Deshpande,2026-05-29,,Pending Parts,0.0,
+WO-1034,COMPRESSOR-C1,Routine Inspection,Routine calibration due,HW-2234,K. Deshpande,2026-01-03,2026-06-26,Completed,21.0,
+WO-1035,HEAT-EXCH-E7,Routine Inspection,Pressure drop beyond limit,HW-2235,K. Deshpande,2025-11-04,,Pending Parts,24.1,Follow-up required on HEAT-EXCH-E7 per OISD inspection checklist
+WO-1036,COMPRESSOR-C1,Predictive,Routine calibration due,,M. Iyer,2025-09-02,,Escalated,14.0,
+WO-1037,TK-102,Routine Inspection,Vibration exceeding threshold,CS-3137,M. Iyer,2026-01-17,2026-06-17,Pending Parts,16.2,Follow-up required on TK-102 per OISD inspection checklist
+WO-1038,TURBINE-T2,Preventive,Seal leakage detected,,M. Iyer,2025-09-22,2026-06-23,Pending Parts,0.0,
+WO-1039,TK-103,Preventive,Bearing wear observed,CS-3139,R. Nair,2026-05-20,2026-06-27,Completed,32.0,
+WO-1040,HEAT-EXCH-E7,Corrective,Seal leakage detected,CS-3140,J. Rao,2026-02-20,2026-06-20,Escalated,0.0,Follow-up required on HEAT-EXCH-E7 per OISD inspection checklist
+WO-1041,TANK-01,Corrective,Level indicator LS-01 flagged low-level alarm during main water supply fill; inspected per P&ID reference near circulation pump #02,CS-4201,R. Nair,2026-06-18,2026-06-19,Completed,4.5,"Cross-checked against TANK-01 instrumentation on facility P&ID (LAL-01, LAH-01, LT-01) and prior Mycom compressor inspection SN 2053474 for supply-side pressure correlation"
