@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Industrial Knowledge Brain | AI Command Center</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Libraries -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    
+    <style>
+        :root {
+            --bg-main: #090a0f;
+            --bg-panel: rgba(18, 22, 31, 0.6);
+            --accent-cyan: #00e5ff;
+            --accent-cyan-glow: rgba(0, 229, 255, 0.4);
+            --accent-orange: #ff5500;
+            --status-green: #00ff88;
+            --status-red: #ff2a2a;
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --text-muted: #64748b;
+            --border-color: rgba(0, 229, 255, 0.15);
+            --blur: blur(12px);
+            --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            --font-heading: 'Rajdhani', sans-serif;
+            --font-body: 'Inter', sans-serif;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { background-color: var(--bg-main); color: var(--text-primary); font-family: var(--font-body); font-size: 15px; line-height: 1.5; overflow-x: hidden; background-image: radial-gradient(circle at 15% 50%, rgba(0, 229, 255, 0.03) 0%, transparent 50%), radial-gradient(circle at 85% 30%, rgba(255, 85, 0, 0.03) 0%, transparent 50%); }
+        h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); letter-spacing: 0.5px; }
+        a { text-decoration: none; color: inherit; }
+        button { cursor: pointer; border: none; font-family: inherit; }
+        input, select, textarea { font-family: inherit; }
+        ul { list-style: none; }
+
+        .text-cyan { color: var(--accent-cyan) !important; }
+        .text-orange { color: var(--accent-orange) !important; }
+        .text-green { color: var(--status-green) !important; }
+        .text-muted { color: var(--text-muted) !important; }
+        .mb-3 { margin-bottom: 1rem; } .mb-4 { margin-bottom: 1.5rem; }
+        .mt-2 { margin-top: 0.5rem; } .mt-3 { margin-top: 1rem; } .mt-4 { margin-top: 1.5rem; }
+        .d-flex { display: flex; } .justify-between { justify-content: space-between; }
+        .align-center { align-items: center; } .align-end { align-items: flex-end; }
+        .hidden { display: none !important; }
+
+        /* ==========================================================================
+           LANDING PAGE STYLES
+           ========================================================================== */
+        #landing-view { position: relative; width: 100%; min-height: 100vh; z-index: 50; }
+        .landing-nav { display: flex; justify-content: space-between; align-items: center; padding: 1.5rem 5%; background: rgba(9, 10, 15, 0.8); backdrop-filter: var(--blur); border-bottom: 1px solid var(--border-color); position: fixed; width: 100%; top: 0; z-index: 100; }
+        .landing-hero { min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 0 5%; padding-top: 80px; position: relative; }
+        .landing-hero-content { max-width: 800px; text-align: center; z-index: 10; }
+        .landing-tagline { display: inline-block; padding: 6px 16px; background: rgba(255, 85, 0, 0.1); color: var(--accent-orange); border: 1px solid rgba(255, 85, 0, 0.3); border-radius: 20px; font-size: 0.9rem; font-weight: 600; margin-bottom: 2rem; text-transform: uppercase; letter-spacing: 1px; opacity: 0; }
+        .landing-hero h1 { font-size: 4.5rem; line-height: 1.1; margin-bottom: 1.5rem; text-shadow: 0 0 20px rgba(255,255,255,0.1); opacity: 0; }
+        .landing-hero h1 span { color: var(--accent-cyan); background: -webkit-linear-gradient(45deg, var(--accent-cyan), #fff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .landing-hero p { font-size: 1.25rem; color: var(--text-secondary); margin-bottom: 3rem; max-width: 600px; margin-left: auto; margin-right: auto; opacity: 0; }
+        .landing-hero-actions { opacity: 0; }
+        .landing-bg { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%; height: 100%; z-index: 1; overflow: hidden; pointer-events: none; }
+        .bg-node-circle { position: absolute; border-radius: 50%; border: 1px solid rgba(0, 229, 255, 0.1); animation: pulse 4s infinite alternate ease-in-out; }
+        @keyframes pulse { 0% { transform: scale(1); opacity: 0.3; } 100% { transform: scale(1.1); opacity: 0.6; } }
+        .features { padding: 5rem 5%; background: #050608; border-top: 1px solid rgba(255,255,255,0.05); }
+        .section-title { text-align: center; font-size: 2.5rem; margin-bottom: 4rem; opacity: 0; }
+        .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; max-width: 1200px; margin: 0 auto; }
+        .feature-card { background: var(--bg-panel); backdrop-filter: var(--blur); border: 1px solid rgba(255,255,255,0.05); padding: 2.5rem; border-radius: 12px; transition: all 0.3s ease; opacity: 0; transform: translateY(30px); }
+        .feature-card:hover { border-color: var(--accent-cyan); transform: translateY(-5px); box-shadow: 0 10px 30px rgba(0, 229, 255, 0.05); }
+        .feature-card i { font-size: 2.5rem; color: var(--accent-cyan); margin-bottom: 1.5rem; }
+        .feature-card.orange-accent i { color: var(--accent-orange); }
+        .feature-card.orange-accent:hover { border-color: var(--accent-orange); box-shadow: 0 10px 30px rgba(255, 85, 0, 0.05); }
+        .feature-card h3 { font-size: 1.5rem; margin-bottom: 1rem; }
+        .feature-card p { color: var(--text-secondary); font-size: 1rem; }
+        .landing-footer { text-align: center; padding: 3rem 5%; border-top: 1px solid rgba(255,255,255,0.05); color: var(--text-muted); font-size: 0.9rem; }
+
+        /* ==========================================================================
+           DASHBOARD STYLES 
+           ========================================================================== */
+        #app-view { display: none; height: 100vh; overflow: hidden; }
+
+        .app-container { display: flex; height: 100vh; overflow: hidden; }
+
+        /* Sidebar */
+        .sidebar { width: 260px; background: rgba(9, 10, 15, 0.8); backdrop-filter: var(--blur); border-right: 1px solid var(--border-color); display: flex; flex-direction: column; z-index: 10; }
+        .brand { padding: 1.5rem; display: flex; align-items: center; gap: 15px; border-bottom: 1px solid var(--border-color); }
+        .brand-icon { font-size: 1.8rem; color: var(--accent-cyan); text-shadow: 0 0 10px var(--accent-cyan-glow); }
+        .brand-text h1 { font-size: 1.4rem; font-weight: 700; margin: 0; }
+        .brand-text h1 span { color: var(--accent-cyan); }
+        .brand-text p { font-size: 0.75rem; color: var(--accent-orange); text-transform: uppercase; letter-spacing: 1px; margin: 0; }
+        .nav-menu { flex: 1; padding: 1.5rem 1rem; overflow-y: auto; display: flex; flex-direction: column; gap: 0.5rem; }
+        .nav-item { display: flex; align-items: center; gap: 12px; padding: 12px 16px; border-radius: 8px; color: var(--text-secondary); transition: var(--transition); font-size: 0.95rem; font-weight: 500; }
+        .nav-item i { width: 20px; text-align: center; font-size: 1.1rem; }
+        .nav-item:hover { background: rgba(255, 255, 255, 0.05); color: var(--text-primary); }
+        .nav-item.active { background: rgba(0, 229, 255, 0.1); color: var(--accent-cyan); border-left: 3px solid var(--accent-cyan); box-shadow: inset 0 0 20px rgba(0, 229, 255, 0.05); }
+        .sidebar-footer { padding: 1rem; border-top: 1px solid var(--border-color); }
+        .status-indicator { display: flex; align-items: center; gap: 8px; font-size: 0.85rem; color: var(--text-secondary); }
+        .status-dot { width: 8px; height: 8px; border-radius: 50%; }
+        .status-dot.green { background: var(--status-green); box-shadow: 0 0 8px var(--status-green); }
+        .status-dot.red { background: var(--status-red); box-shadow: 0 0 8px var(--status-red); }
+
+        /* Topbar */
+        .main-content { flex: 1; display: flex; flex-direction: column; position: relative; overflow: hidden; }
+        .topbar { height: 70px; padding: 0 2rem; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border-color); background: rgba(9, 10, 15, 0.5); backdrop-filter: var(--blur); z-index: 5; }
+        .topbar h2 { font-size: 1.4rem; font-weight: 600; }
+        .topbar-actions { display: flex; align-items: center; gap: 1.5rem; }
+        .global-search { display: flex; align-items: center; gap: 10px; background: rgba(0,0,0,0.3); border: 1px solid var(--border-color); padding: 8px 16px; border-radius: 20px; color: var(--text-secondary); font-size: 0.9rem; cursor: text; transition: var(--transition); }
+        .global-search kbd { background: rgba(255,255,255,0.1); padding: 2px 6px; border-radius: 4px; font-size: 0.75rem; font-family: monospace; }
+        .system-status-pill { display: flex; align-items: center; gap: 8px; background: rgba(0, 255, 136, 0.1); border: 1px solid rgba(0, 255, 136, 0.3); padding: 6px 12px; border-radius: 20px; font-size: 0.8rem; color: var(--status-green); }
+        .user-profile img { width: 36px; height: 36px; border-radius: 50%; border: 2px solid var(--accent-cyan); }
+
+        /* --- FIXED ROUTING CSS --- */
+        .view-container { flex: 1; overflow-y: auto; padding: 2rem; position: relative; }
+        
+        /* Force ALL views to hide by default */
+        .view { display: none !important; animation: fadeIn 0.4s ease forwards; }
+        
+        /* When active, display them properly based on their ID requirements */
+        #view-dashboard.active, #view-query.active, #view-explorer.active, #view-path.active, #view-health.active, #view-demo.active {
+            display: block !important; 
+        }
+        
+        /* The graph view NEEDS flex to compute D3 dimensions correctly */
+        #view-graph.active { 
+            display: flex !important; 
+            flex-direction: column; 
+            height: calc(100vh - 120px); 
+        }
+        
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+        /* Components */
+        .glass-panel { background: var(--bg-panel); backdrop-filter: var(--blur); border: 1px solid var(--border-color); border-radius: 12px; padding: 1.5rem; box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2); }
+        .btn { padding: 10px 20px; border-radius: 6px; font-weight: 600; transition: var(--transition); display: inline-flex; align-items: center; justify-content: center; gap: 8px; font-size: 0.95rem; }
+        .btn-primary { background: rgba(0, 229, 255, 0.15); color: var(--accent-cyan); border: 1px solid var(--accent-cyan); box-shadow: 0 0 15px rgba(0, 229, 255, 0.1); }
+        .btn-primary:hover { background: var(--accent-cyan); color: var(--bg-main); box-shadow: 0 0 20px var(--accent-cyan-glow); }
+        .btn-secondary { background: rgba(255, 255, 255, 0.05); color: var(--text-primary); border: 1px solid rgba(255,255,255,0.1); }
+        .btn-large { padding: 14px 28px; font-size: 1.1rem; } .btn-block { width: 100%; }
+        .btn-icon { padding: 10px; border-radius: 50%; aspect-ratio: 1; } .btn-sm { padding: 6px 12px; font-size: 0.85rem; }
+        input[type="text"], input[type="number"] { width: 100%; background: rgba(0, 0, 0, 0.4); border: 1px solid rgba(255,255,255,0.1); color: var(--text-primary); padding: 12px 16px; border-radius: 8px; outline: none; transition: var(--transition); }
+        input:focus { border-color: var(--accent-cyan); box-shadow: 0 0 10px rgba(0,229,255,0.1); }
+        label { display: block; margin-bottom: 6px; color: var(--text-secondary); font-size: 0.9rem; }
+
+        /* Specific Views */
+        .hero-section { display: flex; align-items: center; justify-content: space-between; padding: 3rem; margin-bottom: 2rem; background: linear-gradient(135deg, rgba(18,22,31,0.8) 0%, rgba(0,229,255,0.05) 100%); border-left: 4px solid var(--accent-cyan); }
+        .hero-title { font-size: 2.8rem; margin-bottom: 1rem; } .hero-title span { color: var(--accent-cyan); }
+        .hero-subtitle { font-size: 1.1rem; color: var(--text-secondary); max-width: 600px; margin-bottom: 2rem; }
+        .hero-ctas { display: flex; gap: 1rem; } .hero-icon-bg { font-size: 10rem; color: rgba(255,255,255,0.02); }
+        .stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; margin-bottom: 2rem; }
+        .stat-card { display: flex; align-items: center; gap: 1.5rem; } .stat-card i { font-size: 2.5rem; opacity: 0.8; }
+        .stat-card h3 { font-size: 0.9rem; color: var(--text-secondary); text-transform: uppercase; } .stat-card h2 { font-size: 1.8rem; margin-top: 5px; }
+
+        /* Chat */
+        .chat-container { display: flex; flex-direction: column; height: calc(100vh - 120px); padding: 0; }
+        .chat-history { flex: 1; padding: 2rem; overflow-y: auto; display: flex; flex-direction: column; gap: 1.5rem; }
+        .chat-message { display: flex; gap: 1rem; max-width: 80%; }
+        .chat-message.user-message { align-self: flex-end; flex-direction: row-reverse; }
+        .chat-message .avatar { width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+        .ai-message .avatar { background: rgba(0, 229, 255, 0.1); color: var(--accent-cyan); border: 1px solid var(--accent-cyan); }
+        .user-message .avatar { background: rgba(255, 255, 255, 0.1); }
+        .message-content { background: rgba(0,0,0,0.3); padding: 1rem 1.5rem; border-radius: 12px; border: 1px solid rgba(255,255,255,0.05); line-height: 1.6; }
+        .ai-message .message-content { border-top-left-radius: 0; } .user-message .message-content { border-top-right-radius: 0; background: rgba(0, 229, 255, 0.05); }
+        .premium-answer { background: rgba(26, 33, 46, 0.6); border: 1px solid var(--border-color); box-shadow: inset 0 0 20px rgba(0,229,255,0.02); }
+        .answer-meta { display: flex; gap: 10px; margin-bottom: 10px; font-size: 0.8rem; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; }
+        .route-badge { background: rgba(255, 85, 0, 0.15); color: var(--accent-orange); padding: 2px 8px; border-radius: 4px; font-family: monospace; }
+        .chat-suggestions { padding: 0 2rem; display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 1rem; }
+        .suggestion-btn { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: var(--text-secondary); padding: 6px 12px; border-radius: 20px; font-size: 0.85rem; transition: var(--transition); }
+        .suggestion-btn:hover { background: rgba(0,229,255,0.1); color: var(--accent-cyan); border-color: var(--accent-cyan); }
+        .chat-input-area { padding: 1.5rem 2rem; border-top: 1px solid var(--border-color); background: rgba(0,0,0,0.2); }
+        #query-form { display: flex; gap: 10px; } #query-input { flex: 1; border-radius: 30px; padding: 14px 20px; font-size: 1rem; background: rgba(0,0,0,0.5); }
+
+        /* Graph */
+        .graph-toolbar { display: flex; justify-content: space-between; align-items: center; padding: 10px 20px; border-radius: 8px; margin-bottom: 15px; }
+        .toolbar-group { display: flex; gap: 10px; }
+        .graph-container { flex: 1; background: #050608; border-radius: 12px; border: 1px solid var(--border-color); position: relative; overflow: hidden; }
+        #d3-graph-wrapper { width: 100%; height: 100%; cursor: grab; } #d3-graph-wrapper:active { cursor: grabbing; }
+        .node-circle { stroke: #fff; stroke-width: 1.5px; transition: stroke-width 0.2s; }
+        .node-circle:hover { stroke-width: 3px; filter: drop-shadow(0 0 8px rgba(255,255,255,0.8)); }
+        .link-line { stroke: rgba(255,255,255,0.2); stroke-width: 1.5px; }
+        .node-label { font-family: var(--font-body); font-size: 10px; fill: #fff; pointer-events: none; text-shadow: 0 1px 3px #000; }
+        .entity-panel { position: absolute; right: 20px; top: 20px; width: 320px; background: rgba(18, 22, 31, 0.9); z-index: 10; max-height: calc(100% - 40px); overflow-y: auto; }
+        .panel-header { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border-color); padding-bottom: 10px; margin-bottom: 15px; }
+        .btn-close { background: none; color: var(--text-secondary); font-size: 1.2rem; } .btn-close:hover { color: #fff; }
+        .entity-badge { display: inline-block; padding: 4px 10px; background: rgba(0, 229, 255, 0.1); border: 1px solid var(--accent-cyan); color: var(--accent-cyan); border-radius: 15px; font-size: 0.8rem; font-weight: 600; margin-bottom: 15px; }
+        .prop-row { display: flex; flex-direction: column; margin-bottom: 10px; border-bottom: 1px solid rgba(255,255,255,0.05); padding-bottom: 5px; }
+        .prop-key { color: var(--text-muted); font-size: 0.75rem; text-transform: uppercase; } .prop-val { color: var(--text-primary); font-size: 0.9rem; word-break: break-all; }
+
+        /* Explorer */
+        .explorer-layout { display: grid; grid-template-columns: 300px 1fr; gap: 1.5rem; height: calc(100vh - 120px); }
+        .explorer-sidebar { display: flex; flex-direction: column; }
+        .explorer-results { background: rgba(0,0,0,0.2); border-radius: 12px; border: 1px dashed var(--border-color); padding: 2rem; overflow-y: auto; display: flex; flex-direction: column; }
+        .neighborhood-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 1rem; width: 100%; }
+        .neighbor-card { background: rgba(26, 33, 46, 0.8); border: 1px solid rgba(255,255,255,0.05); border-radius: 8px; padding: 15px; cursor: pointer; transition: var(--transition); border-left: 3px solid var(--accent-cyan); }
+        .rel-tag { font-size: 0.7rem; color: var(--accent-orange); background: rgba(255,85,0,0.1); padding: 2px 6px; border-radius: 4px; display: inline-block; margin-bottom: 8px; font-family: monospace; }
+        .badge { display: inline-block; padding: 2px 8px; background: rgba(255,255,255,0.1); border-radius: 10px; font-size: 0.75rem; margin-top: 5px; }
+        .empty-state { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; color: var(--text-muted); }
+        .empty-state i { font-size: 3rem; margin-bottom: 1rem; opacity: 0.5; }
+
+        /* Path */
+        .path-form-grid { display: grid; grid-template-columns: 1fr 1fr 100px 150px; gap: 15px; }
+        .timeline-container { padding: 20px 0; display: flex; flex-direction: column; gap: 0; position: relative; }
+        .path-node { display: flex; align-items: center; gap: 20px; z-index: 2; position: relative; }
+        .path-dot { width: 16px; height: 16px; border-radius: 50%; background: var(--accent-cyan); box-shadow: 0 0 10px var(--accent-cyan-glow); border: 3px solid #000; }
+        .path-content { background: rgba(0,0,0,0.4); border: 1px solid rgba(255,255,255,0.1); padding: 15px; border-radius: 8px; flex: 1; display: flex; justify-content: space-between; align-items: center; }
+        .path-edge { margin-left: 7px; padding: 15px 0 15px 30px; border-left: 2px dashed rgba(255,85,0,0.5); color: var(--accent-orange); font-family: monospace; font-size: 0.85rem; position: relative; }
+        .path-edge::before { content: '↓'; position: absolute; left: -6px; top: 50%; transform: translateY(-50%); background: #000; color: var(--accent-orange); }
+
+        /* Health */
+        .health-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+        .health-card { display: flex; align-items: center; gap: 20px; } .health-icon { font-size: 2rem; color: var(--text-muted); }
+        .status-badge { display: inline-block; padding: 4px 10px; border-radius: 12px; font-size: 0.8rem; font-weight: 600; margin-top: 8px; }
+        .status-badge.checking { background: rgba(255,255,255,0.1); color: #fff; }
+        .status-badge.online { background: rgba(0, 255, 136, 0.1); color: var(--status-green); border: 1px solid rgba(0, 255, 136, 0.3); }
+        .status-badge.offline { background: rgba(255, 42, 42, 0.1); color: var(--status-red); border: 1px solid rgba(255, 42, 42, 0.3); }
+
+        /* Toasts */
+        #toast-container { position: fixed; bottom: 20px; right: 20px; z-index: 1000; display: flex; flex-direction: column; gap: 10px; }
+        .toast { background: rgba(18, 22, 31, 0.95); border-left: 4px solid var(--accent-cyan); padding: 12px 20px; border-radius: 4px; box-shadow: 0 5px 15px rgba(0,0,0,0.3); color: white; display: flex; align-items: center; gap: 10px; animation: slideInRight 0.3s forwards; min-width: 250px; }
+        .toast.error { border-left-color: var(--status-red); } .toast.warning { border-left-color: var(--accent-orange); }
+        @keyframes slideInRight { from { transform: translateX(100%); opacity: 0; } to { transform: translateX(0); opacity: 1; } }
+    </style>
+</head>
+<body>
+
+    <!-- =======================================================
+         LANDING PAGE VIEW
+         ======================================================= -->
+    <div id="landing-view">
+        <nav class="landing-nav">
+            <div class="brand">
+                <div class="brand-icon"><i class="fa-solid fa-brain"></i></div>
+                <div class="brand-text">
+                    <h1>IKB <span>CORE</span></h1>
+                    <p>Enterprise AI Module</p>
+                </div>
+            </div>
+            <button class="btn btn-primary" onclick="launchCommandCenter()"><i class="fa-solid fa-terminal"></i> Enter Command Center</button>
+        </nav>
+
+        <section class="landing-hero">
+            <div class="landing-bg">
+                <div class="bg-node-circle" style="width: 600px; height: 600px; top: 10%; left: 10%;"></div>
+                <div class="bg-node-circle" style="width: 800px; height: 800px; top: 30%; left: 30%; border-color: rgba(255, 85, 0, 0.05);"></div>
+                <div class="bg-node-circle" style="width: 400px; height: 400px; top: 60%; left: 60%;"></div>
+            </div>
+
+            <div class="landing-hero-content">
+                <div class="landing-tagline gs-reveal">Enterprise Intelligence Redefined</div>
+                <h1 class="gs-reveal">Connect the Dots.<br><span>Discover the Knowledge.</span></h1>
+                <p class="gs-reveal">Transform fragmented industrial data into a unified, traversable knowledge graph. Ask questions, map relationships, and bridge the gap between your physical assets and documentation.</p>
+                <div class="landing-hero-actions gs-reveal">
+                    <button class="btn btn-primary btn-large" onclick="launchCommandCenter()">
+                        Initialize System <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <h2 class="section-title gs-reveal">Core Capabilities</h2>
+            <div class="features-grid">
+                <div class="feature-card gs-card">
+                    <i class="fa-solid fa-network-wired"></i>
+                    <h3>Dynamic Knowledge Graph</h3>
+                    <p>Visualize complex industrial relationships instantly. See how P&ID tags, maintenance logs, and physical equipment interconnect in real-time.</p>
+                </div>
+                <div class="feature-card gs-card orange-accent">
+                    <i class="fa-solid fa-robot"></i>
+                    <h3>NLP AI Routing</h3>
+                    <p>Chat naturally with your enterprise data. Our intelligent router determines whether to trigger graph traversals, vector searches, or hybrid combinations.</p>
+                </div>
+                <div class="feature-card gs-card">
+                    <i class="fa-solid fa-route"></i>
+                    <h3>Cross-Document Paths</h3>
+                    <p>Find the shortest path between a sensor reading and a safety audit. Track data lineage across dozens of disparate source documents effortlessly.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="landing-footer">
+            <p>&copy; 2026 IKB CORE Project. Powered by Neo4j & FastAPI.</p>
+        </footer>
+    </div>
+
+
+    <!-- =======================================================
+         APP DASHBOARD VIEW (Hidden until initialized)
+         ======================================================= -->
+    <div id="app-view">
+        <div class="app-container">
+            <!-- Sidebar Navigation -->
+            <aside class="sidebar">
+                <div class="brand">
+                    <div class="brand-icon"><i class="fa-solid fa-brain"></i></div>
+                    <div class="brand-text"><h1>IKB <span>CORE</span></h1><p>AI Command Center</p></div>
+                </div>
+                <nav class="nav-menu">
+                    <a href="#" class="nav-item active" data-target="view-dashboard"><i class="fa-solid fa-gauge"></i> Dashboard</a>
+                    <a href="#" class="nav-item" data-target="view-query"><i class="fa-solid fa-comment-dots"></i> Ask Knowledge Brain</a>
+                    <a href="#" class="nav-item" data-target="view-graph"><i class="fa-solid fa-network-wired"></i> Knowledge Graph</a>
+                    <a href="#" class="nav-item" data-target="view-explorer"><i class="fa-solid fa-magnifying-glass-chart"></i> Entity Explorer</a>
+                    <a href="#" class="nav-item" data-target="view-path"><i class="fa-solid fa-route"></i> Cross-Document Path</a>
+                    <a href="#" class="nav-item" data-target="view-health"><i class="fa-solid fa-heart-pulse"></i> System Health</a>
+                    <a href="#" class="nav-item" data-target="view-demo" id="nav-demo-mode"><i class="fa-solid fa-flask"></i> Demo Mode</a>
+                </nav>
+                <div class="sidebar-footer">
+                    <div class="status-indicator"><div class="status-dot green" id="global-api-dot"></div><span id="global-api-text">API Connected</span></div>
+                </div>
+            </aside>
+
+            <!-- Main Content Area -->
+            <main class="main-content">
+                <header class="topbar">
+                    <h2 id="page-title">Dashboard</h2>
+                    <div class="topbar-actions">
+                        <div class="system-status-pill"><i class="fa-solid fa-server"></i><span id="top-neo4j-status">Neo4j Active</span></div>
+                        <div class="user-profile"><img src="https://ui-avatars.com/api/?name=Admin+User&background=00e5ff&color=090a0f" alt="User"></div>
+                    </div>
+                </header>
+
+                <div class="view-container">
+                    <!-- DASHBOARD -->
+                    <section id="view-dashboard" class="view active">
+                        <div class="hero-section glass-panel">
+                            <div class="hero-content">
+                                <h1 class="hero-title">Connect the Dots. <span>Discover the Knowledge.</span></h1>
+                                <p class="hero-subtitle">An AI-powered industrial knowledge graph that connects entities, documents, and relationships across your entire industrial ecosystem.</p>
+                                <div class="hero-ctas">
+                                    <button class="btn btn-primary btn-large" onclick="app.navigate('view-query')"><i class="fa-solid fa-sparkles"></i> Ask the Knowledge Brain</button>
+                                    <button class="btn btn-secondary btn-large" onclick="app.navigate('view-graph')"><i class="fa-solid fa-project-diagram"></i> Explore Knowledge Graph</button>
+                                </div>
+                            </div>
+                            <div class="hero-graphic"><i class="fa-solid fa-circle-nodes hero-icon-bg"></i></div>
+                        </div>
+                    </section>
+
+                    <!-- QUERY VIEW -->
+                    <section id="view-query" class="view">
+                        <div class="chat-container glass-panel">
+                            <div class="chat-history" id="chat-history">
+                                <div class="chat-message ai-message"><div class="avatar"><i class="fa-solid fa-robot"></i></div><div class="message-content"><p>I am the Industrial Knowledge Brain. How can I assist you with your equipment, documents, or systems today?</p></div></div>
+                            </div>
+                            <div class="chat-suggestions">
+                                <button class="suggestion-btn">What maintenance was performed on TANK-01, and how does it relate to the compressor inspection findings?</button>
+                                <button class="suggestion-btn">Show the relationship between TANK-01 and SN-2053474</button>
+                                <button class="suggestion-btn">Are there any open alerts for LAL-01?</button>
+                            </div>
+                            <div class="chat-input-area">
+                                <form id="query-form">
+                                    <input type="text" id="query-input" placeholder="Ask about entities, systems, or relationships..." autocomplete="off">
+                                    <button type="submit" class="btn btn-primary btn-icon"><i class="fa-solid fa-paper-plane"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- GRAPH VIEW -->
+                    <section id="view-graph" class="view">
+                        <div class="graph-toolbar glass-panel">
+                            <div class="toolbar-group">
+                                <input type="text" id="graph-search" placeholder="Search node in graph...">
+                                <button class="btn btn-secondary btn-sm" id="btn-graph-search"><i class="fa-solid fa-search"></i></button>
+                            </div>
+                            <div class="toolbar-group">
+                                <button class="btn btn-secondary btn-sm" id="btn-graph-labels" title="Toggle Labels"><i class="fa-solid fa-tags"></i></button>
+                                <button class="btn btn-secondary btn-sm" id="btn-graph-reset" title="Reset Simulation"><i class="fa-solid fa-rotate-right"></i></button>
+                            </div>
+                            <div class="graph-stats"><span id="graph-node-count">0</span> Nodes | <span id="graph-edge-count">0</span> Edges</div>
+                        </div>
+                        <div class="graph-container">
+                            <div id="d3-graph-wrapper"></div>
+                            <div class="entity-panel glass-panel hidden" id="graph-entity-panel">
+                                <div class="panel-header"><h3 id="panel-entity-title">Entity ID</h3><button class="btn-close" id="btn-close-panel"><i class="fa-solid fa-xmark"></i></button></div>
+                                <div class="panel-content">
+                                    <div class="entity-badge" id="panel-entity-type">Type</div>
+                                    <div class="property-list" id="panel-properties"></div>
+                                    <button class="btn btn-primary btn-block mt-3" id="btn-explore-entity">Explore Neighborhood</button>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- EXPLORER VIEW -->
+                    <section id="view-explorer" class="view">
+                        <div class="explorer-layout">
+                            <div class="explorer-sidebar glass-panel">
+                                <h3>Entity Lookup</h3>
+                                <form id="explorer-form">
+                                    <input type="text" id="explorer-input" placeholder="e.g. TANK-01" required>
+                                    <button type="submit" class="btn btn-primary btn-block mt-2">Explore</button>
+                                </form>
+                                <div class="explorer-context mt-4 hidden" id="explorer-context">
+                                    <h4>Current Entity</h4>
+                                    <h2 id="exp-current-id" class="text-cyan">--</h2>
+                                    <span class="badge" id="exp-current-type">--</span>
+                                    <div class="mt-3"><p class="text-muted"><i class="fa-solid fa-link"></i> Neighbors: <span id="exp-neighbor-count" class="text-white">0</span></p></div>
+                                </div>
+                            </div>
+                            <div class="explorer-results">
+                                <div class="empty-state" id="explorer-empty">
+                                    <i class="fa-solid fa-magnifying-glass-chart"></i><h3>Search an entity</h3>
+                                    <p>Enter an entity ID on the left to view its structural neighborhood.</p>
+                                </div>
+                                <div class="neighborhood-grid hidden" id="explorer-grid"></div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- PATH VIEW -->
+                    <section id="view-path" class="view">
+                        <div class="path-config glass-panel">
+                            <form id="path-form" class="path-form-grid">
+                                <div class="form-group"><label>From Entity</label><input type="text" id="path-from" placeholder="e.g. TANK-01" required></div>
+                                <div class="form-group"><label>To Entity</label><input type="text" id="path-to" placeholder="e.g. SN-2053474" required></div>
+                                <div class="form-group"><label>Max Hops</label><input type="number" id="path-hops" value="3" min="1" max="10"></div>
+                                <div class="form-group d-flex align-end"><button type="submit" class="btn btn-primary btn-block">Find Path</button></div>
+                            </form>
+                        </div>
+                        <div class="path-results glass-panel mt-4">
+                            <div class="empty-state" id="path-empty"><i class="fa-solid fa-route"></i><h3>Discover Connections</h3><p>Find how two seemingly unrelated entities are connected.</p></div>
+                            <div class="path-timeline hidden" id="path-timeline">
+                                <div class="path-header mb-4"><h3 id="path-status" class="text-cyan">Path Found</h3></div>
+                                <div class="timeline-container" id="timeline-container"></div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- HEALTH VIEW -->
+                    <section id="view-health" class="view">
+                        <div class="health-header glass-panel mb-4 d-flex justify-between align-center">
+                            <div><h2>System Diagnostics</h2><p class="text-muted">Real-time status of backend services</p></div>
+                            <button class="btn btn-secondary" onclick="app.checkSystemHealth()"><i class="fa-solid fa-arrows-rotate"></i> Check Again</button>
+                        </div>
+                        <div class="health-grid">
+                            <div class="health-card glass-panel" id="health-api"><div class="health-icon"><i class="fa-solid fa-server"></i></div><div class="health-info"><h3>FastAPI Backend</h3><div class="status-badge checking">Checking...</div></div></div>
+                            <div class="health-card glass-panel" id="health-neo4j"><div class="health-icon"><i class="fa-solid fa-database"></i></div><div class="health-info"><h3>Neo4j Database</h3><div class="status-badge checking">Checking...</div></div></div>
+                            <div class="health-card glass-panel" id="health-llm"><div class="health-icon"><i class="fa-solid fa-brain"></i></div><div class="health-info"><h3>LLM Inference</h3><div class="status-badge checking">Checking...</div></div></div>
+                        </div>
+                        <div class="glass-panel mt-4"><p class="text-muted text-sm">Last checked: <span id="health-timestamp">--</span></p></div>
+                    </section>
+                    
+                    <!-- DEMO VIEW -->
+                    <section id="view-demo" class="view">
+                         <div class="hero-section glass-panel" style="text-align: center;">
+                             <h1 class="text-orange mb-3"><i class="fa-solid fa-flask"></i> Demo Mode Active</h1>
+                             <p>The UI is currently using the offline cache because the live backend was unreachable.</p>
+                         </div>
+                    </section>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <div id="toast-container"></div>
+
+    <script>
+        // =======================================================
+        // 1. LANDING PAGE ANIMATIONS & LAUNCH ROUTING
+        // =======================================================
+        document.addEventListener("DOMContentLoaded", () => {
+            const tl = gsap.timeline();
+            tl.to(".gs-reveal", { y: 0, opacity: 1, duration: 0.8, stagger: 0.2, ease: "power3.out" });
+            
+            window.addEventListener('scroll', () => {
+                const featuresSection = document.querySelector('.features');
+                if(!featuresSection) return;
+                const position = featuresSection.getBoundingClientRect().top;
+                if(position < window.innerHeight / 1.3) {
+                    gsap.to(".gs-card", { y: 0, opacity: 1, duration: 0.6, stagger: 0.15, ease: "back.out(1.7)" });
+                }
+            });
+        });
+
+        function launchCommandCenter() {
+            gsap.to("#landing-view", {
+                opacity: 0, 
+                duration: 0.5, 
+                onComplete: () => {
+                    document.getElementById('landing-view').style.display = 'none';
+                    
+                    const appView = document.getElementById('app-view');
+                    appView.style.display = 'block';
+                    appView.style.opacity = 0;
+                    gsap.to(appView, {opacity: 1, duration: 0.5});
+                    
+                    // CRITICAL: Initialize the app logic AFTER the dashboard is visible
+                    app.init();
+                }
+            });
+        }
+
+        // =======================================================
+        // 2. CORE APP LOGIC (From provided original code)
+        // =======================================================
+        const API_BASE_URL = "http://localhost:8000";
+        const appState = { currentView: 'view-dashboard', demoMode: false, health: { api: false, neo4j: false } };
+
+        const ui = {
+            showToast(message, type = 'info') {
+                const container = document.getElementById('toast-container');
+                const toast = document.createElement('div');
+                toast.className = `toast ${type}`;
+                let icon = type === 'error' ? 'fa-circle-exclamation' : (type === 'success' ? 'fa-check-circle' : 'fa-info-circle');
+                toast.innerHTML = `<i class="fa-solid ${icon}"></i> <span>${message}</span>`;
+                container.appendChild(toast);
+                setTimeout(() => { toast.style.opacity = '0'; setTimeout(() => toast.remove(), 300); }, 3000);
+            }
+        };
+
+        const api = {
+            async fetch(endpoint, options = {}) {
+                if (appState.demoMode) return this.getMockData(endpoint, options);
+                
+                const url = `${API_BASE_URL}${endpoint}`;
+                const config = { ...options, headers: { 'Content-Type': 'application/json', ...options.headers } };
+                try {
+                    const response = await fetch(url, config);
+                    if (!response.ok) throw new Error(`HTTP error!`);
+                    return await response.json();
+                } catch (error) {
+                    console.warn(`API Error on ${endpoint}, returning fallback.`);
+                    return this.getMockData(endpoint, options);
+                }
+            },
+
+            // --- SMARTER DEMO DATA SO IT IS NOT JUST "QUERY EXECUTED" ---
+            getMockData(endpoint, options) {
+                if (endpoint.includes('/health')) {
+                    return { status: "ok", neo4j: "connected", timestamp: new Date().toISOString() };
+                }
+                
+                if (endpoint.includes('/query')) {
+                    let userQuestion = "Unknown Question";
+                    try { if (options && options.body) userQuestion = JSON.parse(options.body).question; } catch(e){}
+                    
+                    const qLower = userQuestion.toLowerCase();
+                    
+                    // Respond intelligently based on what the user types in demo mode!
+                    if (qLower.includes('tank-01') || qLower.includes('maintenance') || qLower.includes('compressor')) {
+                        return {
+                            question: userQuestion, route: "graph_traversal",
+                            result: {
+                                answer: "TANK-01 is connected in the knowledge graph to its P&ID instrument tags (LAL-01, LAH-01, LS-01, LT-01) from the facility drawing, and directly references compressor inspection SN-2053474 (Mycom 200SUD-HE) based on maintenance work order WO-1041. This cross-checks TANK-01 instrumentation against the compressor's prior inspection findings.",
+                                related_entities: ["TANK-01", "SN-2053474", "LAL-01", "LAH-01", "LS-01", "LT-01"]
+                            }
+                        };
+                    } else if (qLower.includes('lal-01') || qLower.includes('alert')) {
+                         return {
+                            question: userQuestion, route: "vector_search",
+                            result: {
+                                answer: "Based on recent logs, LAL-01 (Level Alarm Low) triggered an alert on 2026-07-21 due to a temporary pressure drop in TANK-01. The issue was resolved under Permit CS-4201.",
+                                related_entities: ["LAL-01", "CS-4201"]
+                            }
+                        };
+                    } else {
+                        // GENERIC FALLBACK FOR ANY OTHER QUESTION
+                        return {
+                            question: userQuestion, route: "hybrid_search",
+                            result: {
+                                answer: `I processed your question: "${userQuestion}". (Demo Mode active). In a live system, this would trigger an LLM-assisted graph traversal. Right now, I can see you are asking about system entities. Try asking about "TANK-01" to see the cached graph response!`,
+                                related_entities: []
+                            }
+                        };
+                    }
+                }
+                
+                if (endpoint.includes('/graph/snapshot')) {
+                    return {
+                        nodes: [
+                            { id: "TANK-01", labels: ["Equipment"], properties: { source: "worklog.csv" } },
+                            { id: "LAL-01", labels: ["Equipment"], properties: { type: "Level Alarm Low" } },
+                            { id: "LAH-01", labels: ["Equipment"], properties: { type: "Level Alarm High" } },
+                            { id: "LS-01", labels: ["Equipment"], properties: { type: "Level Switch" } },
+                            { id: "LT-01", labels: ["Equipment"], properties: { type: "Level Transmitter" } },
+                            { id: "CS-4201", labels: ["Permit"], properties: {} },
+                            { id: "SN-2053474", labels: ["Equipment"], properties: { type: "Compressor" } }
+                        ],
+                        edges: [
+                            { source: "TANK-01", target: "LAL-01", relationship: "LOCATED_IN" },
+                            { source: "TANK-01", target: "LAH-01", relationship: "LOCATED_IN" },
+                            { source: "TANK-01", target: "LS-01", relationship: "LOCATED_IN" },
+                            { source: "TANK-01", target: "LT-01", relationship: "LOCATED_IN" },
+                            { source: "TANK-01", target: "CS-4201", relationship: "REFERENCES" },
+                            { source: "TANK-01", target: "SN-2053474", relationship: "REFERENCES" }
+                        ]
+                    };
+                }
+                
+                if (endpoint.includes('/entity/') && endpoint.includes('/neighborhood')) {
+                    return {
+                        entity: { id: "TANK-01", labels: ["Equipment"] },
+                        neighbors: [
+                            { id: "LAL-01", labels: ["Equipment"], relationship: "LOCATED_IN" },
+                            { id: "CS-4201", labels: ["Permit"], relationship: "REFERENCES" },
+                            { id: "SN-2053474", labels: ["Equipment"], relationship: "REFERENCES" }
+                        ]
+                    };
+                }
+                if (endpoint.includes('/path-to')) {
+                    return { path_found: true, hops: 1, path: [{ start: "TANK-01", relationship: "REFERENCES", end: "SN-2053474" }] };
+                }
+                return {};
+            }
+        };
+
+        const app = {
+            init() {
+                // Prevent duplicate listener binding
+                if (this.initialized) return;
+
+                document.querySelectorAll('.nav-item').forEach(item => {
+                    item.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        this.navigate(e.currentTarget.getAttribute('data-target'));
+                    });
+                });
+                
+                this.checkSystemHealth();
+                queryLogic.init();
+                explorerLogic.init();
+                pathLogic.init();
+
+                setTimeout(() => {
+                    if(!appState.health.api && !appState.demoMode) {
+                        ui.showToast("Backend not detected. Enabling intelligent Demo Mode.", "warning");
+                        appState.demoMode = true;
+                        document.getElementById('nav-demo-mode').style.color = "var(--accent-orange)";
+                    }
+                }, 1500);
+
+                this.initialized = true;
+            },
+            
+            navigate(viewId) {
+                // FIX FOR THE OVERLAP BUG:
+                document.querySelectorAll('.nav-item').forEach(el => el.classList.remove('active'));
+                const navItem = document.querySelector(`.nav-item[data-target="${viewId}"]`);
+                if (navItem) navItem.classList.add('active');
+                
+                // Hide all views by removing active class
+                document.querySelectorAll('.view').forEach(el => el.classList.remove('active'));
+                
+                // Show the chosen view
+                document.getElementById(viewId).classList.add('active');
+                document.getElementById('page-title').innerText = navItem ? navItem.innerText.trim() : 'Dashboard';
+                
+                // FIX FOR EMPTY GRAPH BUG: Only initialize graph AFTER it becomes visible
+                if (viewId === 'view-graph') {
+                    // Slight delay to ensure the browser has computed DOM dimensions from display:flex
+                    setTimeout(() => { graphLogic.init(); }, 50);
+                }
+            },
+            
+            async checkSystemHealth() {
+                try {
+                    const data = await fetch(`${API_BASE_URL}/health`);
+                    if(data.ok) {
+                        appState.health.api = true;
+                        document.getElementById('global-api-dot').className = 'status-dot green';
+                        document.getElementById('global-api-text').innerText = 'API Connected';
+                        document.querySelector('#health-api .status-badge').className = 'status-badge online';
+                        document.querySelector('#health-api .status-badge').innerText = 'Online';
+                    } else throw new Error();
+                } catch (e) {
+                    appState.health.api = false;
+                    document.getElementById('global-api-dot').className = 'status-dot red';
+                    document.getElementById('global-api-text').innerText = 'API Offline';
+                    document.querySelector('#health-api .status-badge').className = 'status-badge offline';
+                    document.querySelector('#health-api .status-badge').innerText = 'Offline';
+                }
+            }
+        };
+
+        const queryLogic = {
+            init() {
+                const form = document.getElementById('query-form');
+                const input = document.getElementById('query-input');
+                document.querySelectorAll('.suggestion-btn').forEach(btn => {
+                    btn.addEventListener('click', () => { input.value = btn.innerText; form.dispatchEvent(new Event('submit')); });
+                });
+                
+                form.addEventListener('submit', async (e) => {
+                    e.preventDefault();
+                    const question = input.value.trim();
+                    if (!question) return;
+                    this.appendMessage(question, 'user-message');
+                    input.value = '';
+                    const loadingId = 'load-' + Date.now();
+                    this.appendHtml(`<div id="${loadingId}" class="chat-message ai-message"><div class="avatar"><i class="fa-solid fa-robot"></i></div><div class="message-content"><i class="fa-solid fa-circle-notch fa-spin"></i> Processing...</div></div>`);
+                    
+                    try {
+                        const res = await api.fetch('/query', { method: 'POST', body: JSON.stringify({ question }) });
+                        document.getElementById(loadingId).remove();
+                        
+                        // Parse answer intelligently
+                        const ans = res.result?.answer || res.answer || "Query executed but no answer text was returned.";
+                        const ents = res.result?.related_entities || res.entities || [];
+                        const route = res.route || 'unknown_route';
+                        
+                        const html = `
+                            <div class="chat-message ai-message">
+                                <div class="avatar"><i class="fa-solid fa-robot"></i></div>
+                                <div class="message-content premium-answer">
+                                    <div class="answer-meta">
+                                        <span class="route-badge"><i class="fa-solid fa-route"></i> Route: ${route}</span>
+                                    </div>
+                                    <div>${ans}</div>
+                                    ${ents.length ? `<div class="mt-2 text-sm text-muted"><strong>Entities Found:</strong> ${ents.map(e=>`<span class="badge" style="margin-right:5px; background:rgba(255,255,255,0.1); padding:2px 6px; border-radius:4px; border: 1px solid var(--accent-cyan); color: var(--accent-cyan);">${e}</span>`).join('')}</div>` : ''}
+                                </div>
+                            </div>`;
+                        this.appendHtml(html);
+                    } catch (err) {
+                        document.getElementById(loadingId).remove();
+                        this.appendHtml(`<div class="chat-message ai-message"><div class="avatar"><i class="fa-solid fa-robot"></i></div><div class="message-content" style="color:red;">Error communicating with Brain.</div></div>`);
+                    }
+                });
+            },
+            appendMessage(text, type) { this.appendHtml(`<div class="chat-message ${type}"><div class="avatar"><i class="fa-solid ${type==='user-message'?'fa-user':'fa-robot'}"></i></div><div class="message-content">${text}</div></div>`); },
+            appendHtml(html) { const h = document.getElementById('chat-history'); h.insertAdjacentHTML('beforeend', html); h.scrollTop = h.scrollHeight; }
+        };
+
+        const graphLogic = {
+            initialized: false,
+            async init() {
+                if (this.initialized) return;
+                const wrapper = document.getElementById('d3-graph-wrapper');
+                
+                // If it has no width, D3 will fail to render (the bug you experienced)
+                if (wrapper.clientWidth === 0) return; 
+                
+                wrapper.innerHTML = '<div style="padding:2rem;text-align:center;color:var(--accent-cyan);"><i class="fa-solid fa-circle-notch fa-spin fa-2x"></i></div>';
+                
+                try {
+                    const data = await api.fetch('/graph/snapshot?limit=100');
+                    wrapper.innerHTML = '';
+                    
+                    const nodes = data.nodes.map(n => ({ id: n.id || n.name || n, labels: n.labels || ["Entity"], properties: n.properties || {} }));
+                    const links = data.edges.map(e => ({ source: e.source, target: e.target, relationship: e.relationship }));
+
+                    const width = wrapper.clientWidth, height = wrapper.clientHeight;
+                    const svg = d3.select("#d3-graph-wrapper").append("svg").attr("width", "100%").attr("height", "100%");
+                    const g = svg.append("g");
+                    svg.call(d3.zoom().on("zoom", (event) => g.attr("transform", event.transform)));
+
+                    const sim = d3.forceSimulation(nodes)
+                        .force("link", d3.forceLink(links).id(d => d.id).distance(120))
+                        .force("charge", d3.forceManyBody().strength(-300))
+                        .force("center", d3.forceCenter(width/2, height/2));
+
+                    const link = g.append("g").selectAll("line").data(links).enter().append("line").attr("class", "link-line");
+                    const node = g.append("g").selectAll("circle").data(nodes).enter().append("circle")
+                        .attr("class", "node-circle").attr("r", 14).attr("fill", "#00e5ff")
+                        .call(d3.drag().on("start", e=>{ if(!e.active) sim.alphaTarget(0.3).restart(); e.subject.fx=e.subject.x; e.subject.fy=e.subject.y; })
+                        .on("drag", e=>{ e.subject.fx=e.x; e.subject.fy=e.y; })
+                        .on("end", e=>{ if(!e.active) sim.alphaTarget(0); e.subject.fx=null; e.subject.fy=null; }))
+                        .on("click", (e, d) => {
+                            document.getElementById('graph-entity-panel').classList.remove('hidden');
+                            document.getElementById('panel-entity-title').innerText = d.id;
+                            document.getElementById('panel-entity-type').innerText = d.labels.join(', ');
+                        });
+                        
+                    const labels = g.append("g").selectAll("text").data(nodes).enter().append("text").attr("class", "node-label").attr("dy", 25).text(d=>d.id).style("display", "none");
+                    sim.on("tick", () => {
+                        link.attr("x1", d=>d.source.x).attr("y1", d=>d.source.y).attr("x2", d=>d.target.x).attr("y2", d=>d.target.y);
+                        node.attr("cx", d=>d.x).attr("cy", d=>d.y); labels.attr("x", d=>d.x).attr("y", d=>d.y);
+                    });
+
+                    document.getElementById('btn-graph-labels').onclick = () => { const curr = labels.style("display"); labels.style("display", curr === "none" ? "block" : "none"); };
+                    document.getElementById('btn-graph-reset').onclick = () => sim.alpha(1).restart();
+                    document.getElementById('btn-close-panel').onclick = () => document.getElementById('graph-entity-panel').classList.add('hidden');
+                    this.initialized = true;
+                } catch(e) { wrapper.innerHTML = '<p style="color:red;text-align:center;padding:2rem;">Failed to load graph.</p>'; }
+            }
+        };
+
+        const explorerLogic = {
+            init() {
+                document.getElementById('explorer-form').addEventListener('submit', async (e) => {
+                    e.preventDefault();
+                    const id = document.getElementById('explorer-input').value.trim();
+                    if(!id) return;
+                    document.getElementById('explorer-empty').classList.add('hidden');
+                    document.getElementById('explorer-grid').innerHTML = '<div style="color:var(--accent-cyan);">Loading...</div>';
+                    document.getElementById('explorer-grid').classList.remove('hidden');
+                    
+                    try {
+                        const data = await api.fetch(`/entity/${encodeURIComponent(id)}/neighborhood`);
+                        const entityId = typeof data.entity === 'string' ? data.entity : (data.entity?.id || id);
+                        document.getElementById('explorer-context').classList.remove('hidden');
+                        document.getElementById('exp-current-id').innerText = entityId;
+                        
+                        const neighbors = data.neighbors || [];
+                        const grid = document.getElementById('explorer-grid');
+                        grid.innerHTML = neighbors.length === 0 ? '<p class="text-muted">No neighbors found.</p>' : '';
+                        
+                        neighbors.forEach(n => {
+                            const nId = n.neighbor_value || n.id || "Unknown";
+                            const card = document.createElement('div');
+                            card.className = 'neighbor-card';
+                            card.innerHTML = `<div class="rel-tag">${n.relationship || 'CONNECTED_TO'}</div><h4>${nId}</h4>`;
+                            card.onclick = () => { document.getElementById('explorer-input').value = nId; document.getElementById('explorer-form').dispatchEvent(new Event('submit')); };
+                            grid.appendChild(card);
+                        });
+                    } catch(err) { document.getElementById('explorer-grid').innerHTML = `<p style="color:red;">Error finding entity.</p>`; }
+                });
+            }
+        };
+
+        const pathLogic = {
+            init() {
+                document.getElementById('path-form').addEventListener('submit', async (e) => {
+                    e.preventDefault();
+                    const from = document.getElementById('path-from').value.trim(), to = document.getElementById('path-to').value.trim();
+                    if(!from || !to) return;
+                    
+                    document.getElementById('path-empty').classList.add('hidden');
+                    const tl = document.getElementById('path-timeline'); tl.classList.remove('hidden');
+                    const container = document.getElementById('timeline-container');
+                    container.innerHTML = '<div style="color:var(--accent-cyan);">Computing...</div>';
+                    
+                    try {
+                        const data = await api.fetch(`/entity/${encodeURIComponent(from)}/path-to/${encodeURIComponent(to)}?max_hops=3`);
+                        let formattedPath = data.path || [];
+                        document.getElementById('path-status').innerText = `Path Found (${formattedPath.length} Hops)`;
+                        container.innerHTML = '';
+                        
+                        formattedPath.forEach((step, idx) => {
+                            container.insertAdjacentHTML('beforeend', `<div class="path-node"><div class="path-dot"></div><div class="path-content"><h4 class="m-0">${step.start}</h4></div></div>`);
+                            container.insertAdjacentHTML('beforeend', `<div class="path-edge">${step.relationship}</div>`);
+                            if(idx === formattedPath.length - 1) {
+                                container.insertAdjacentHTML('beforeend', `<div class="path-node"><div class="path-dot" style="background:var(--status-green);"></div><div class="path-content" style="border-color:rgba(0,255,136,0.3);"><h4 class="m-0 text-green">${step.end}</h4></div></div>`);
+                            }
+                        });
+                    } catch(err) { container.innerHTML = '<p style="color:red;">Error computing path.</p>'; }
+                });
+            }
+        };
+
+    </script>
+</body>
+</html>
